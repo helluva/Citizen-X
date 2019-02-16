@@ -7,7 +7,23 @@
 //
 
 import XCTest
+@testable import CitizenKit
 
 class CitizenKitTests: XCTestCase {
 
+    func testFetchLegislators() {
+        let expectation = XCTestExpectation(description: "Fetch Legislators")
+        let address = "888 Brannan Street, San Francisco, California"
+        
+        Phone2Action.fetchLegislators(for: address).then { legislatorsResponse in
+            XCTAssertNotNil(legislatorsResponse)
+            expectation.fulfill()
+        }.catch { error in
+            XCTAssertNil(error)
+            expectation.fulfill()
+        }
+        
+        wait(for: [expectation], timeout: 10)
+    }
+    
 }
