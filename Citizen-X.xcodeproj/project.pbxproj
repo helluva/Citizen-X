@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0F6BF82218852200640A9E /* HoundifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BF62218851A00640A9E /* HoundifySDK.framework */; };
+		2E0F6BF92218852300640A9E /* HoundifySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BF62218851A00640A9E /* HoundifySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* ViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -14,7 +16,22 @@
 		91D55BE02218822700250936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDE2218822700250936 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2E0F6BF4221884F000640A9E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E0F6BF92218852300640A9E /* HoundifySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2E0F6BF62218851A00640A9E /* HoundifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HoundifySDK.framework; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,16 +46,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0F6BF82218852200640A9E /* HoundifySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0F6BF52218851A00640A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F6BF62218851A00640A9E /* HoundifySDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		91D55BC92218822500250936 = {
 			isa = PBXGroup;
 			children = (
 				91D55BD42218822500250936 /* Citizen-X */,
+				2E0F6BF52218851A00640A9E /* Frameworks */,
 				91D55BD32218822500250936 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +101,7 @@
 				91D55BCE2218822500250936 /* Sources */,
 				91D55BCF2218822500250936 /* Frameworks */,
 				91D55BD02218822500250936 /* Resources */,
+				2E0F6BF4221884F000640A9E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,7 +312,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7HL83ZN6U;
-				INFOPLIST_FILE = "$(SRCROOT)/Citizen X/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Citizen-X/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +335,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7HL83ZN6U;
-				INFOPLIST_FILE = "$(SRCROOT)/Citizen X/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Citizen-X/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
