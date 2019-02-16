@@ -51,6 +51,7 @@
 		91D55C2E22188ACC00250936 /* ModernNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C2622188ACC00250936 /* ModernNavigationBar.swift */; };
 		91D55C2F22188ACC00250936 /* ModernGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C2722188ACC00250936 /* ModernGradientView.swift */; };
 		91D55C322218A01100250936 /* UIColor+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C312218A01100250936 /* UIColor+Application.swift */; };
+		91D55C342218A2CD00250936 /* ModernUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C332218A2CD00250936 /* ModernUIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +148,7 @@
 		91D55C2622188ACC00250936 /* ModernNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernNavigationBar.swift; sourceTree = "<group>"; };
 		91D55C2722188ACC00250936 /* ModernGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernGradientView.swift; sourceTree = "<group>"; };
 		91D55C312218A01100250936 /* UIColor+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Application.swift"; sourceTree = "<group>"; };
+		91D55C332218A2CD00250936 /* ModernUIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernUIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +308,7 @@
 			children = (
 				91D55BF422188A8600250936 /* ModernUIKit.h */,
 				91D55BF522188A8600250936 /* Info.plist */,
+				91D55C332218A2CD00250936 /* ModernUIConstants.swift */,
 				91D55C1A22188AC300250936 /* Model */,
 				91D55C1F22188ACC00250936 /* View */,
 				91D55BFE22188AAD00250936 /* Extensions */,
@@ -596,6 +599,7 @@
 				91D55C1122188AAD00250936 /* IndexPath+Grid.swift in Sources */,
 				91D55C2822188ACC00250936 /* ModernGridView.swift in Sources */,
 				91D55C1022188AAD00250936 /* CGRect+Math.swift in Sources */,
+				91D55C342218A2CD00250936 /* ModernUIConstants.swift in Sources */,
 				91D55C1322188AAD00250936 /* EdgeInsets.swift in Sources */,
 				91D55C0D22188AAD00250936 /* UIViewController+Core.swift in Sources */,
 				91D55C2B22188ACC00250936 /* ModernContinuousContourView.swift in Sources */,
