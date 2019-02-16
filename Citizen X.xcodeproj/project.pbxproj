@@ -38,7 +38,7 @@
 		91D55BC92218822500250936 = {
 			isa = PBXGroup;
 			children = (
-				91D55BD42218822500250936 /* Citizen-X */,
+				91D55BD42218822500250936 /* Citizen X */,
 				91D55BD32218822500250936 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91D55BD42218822500250936 /* Citizen-X */ = {
+		91D55BD42218822500250936 /* Citizen X */ = {
 			isa = PBXGroup;
 			children = (
 				91D55BD52218822500250936 /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				91D55BDE2218822700250936 /* LaunchScreen.storyboard */,
 				91D55BE12218822700250936 /* Info.plist */,
 			);
-			path = "Citizen-X";
+			path = "Citizen X";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91D55BCD2218822500250936 /* Build configuration list for PBXProject "Citizen-X" */;
+			buildConfigurationList = 91D55BCD2218822500250936 /* Build configuration list for PBXProject "Citizen X" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,7 +284,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7HL83ZN6U;
-				INFOPLIST_FILE = "Citizen-X/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Citizen X/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +303,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7HL83ZN6U;
-				INFOPLIST_FILE = "Citizen-X/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Citizen X/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91D55BCD2218822500250936 /* Build configuration list for PBXProject "Citizen-X" */ = {
+		91D55BCD2218822500250936 /* Build configuration list for PBXProject "Citizen X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D55BE22218822700250936 /* Debug */,
