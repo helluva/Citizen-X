@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2E0F6BF82218852200640A9E /* HoundifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BF62218851A00640A9E /* HoundifySDK.framework */; };
 		2E0F6BF92218852300640A9E /* HoundifySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BF62218851A00640A9E /* HoundifySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E0F6C082218896700640A9E /* CitizenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BFF2218896700640A9E /* CitizenKit.framework */; };
+		2E0F6C0F2218896700640A9E /* CitizenKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C0E2218896700640A9E /* CitizenKitTests.swift */; };
+		2E0F6C142218896700640A9E /* CitizenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BFF2218896700640A9E /* CitizenKit.framework */; };
+		2E0F6C152218896700640A9E /* CitizenKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6BFF2218896700640A9E /* CitizenKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* ViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -17,6 +21,30 @@
 		91D55BEA221884CE00250936 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BE9221884CE00250936 /* Core.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2E0F6C092218896700640A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D55BCA2218822500250936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0F6BFE2218896700640A9E;
+			remoteInfo = CitizenKit;
+		};
+		2E0F6C0B2218896700640A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D55BCA2218822500250936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D55BD12218822500250936;
+			remoteInfo = "Citizen-X";
+		};
+		2E0F6C122218896700640A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D55BCA2218822500250936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0F6BFE2218896700640A9E;
+			remoteInfo = CitizenKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		2E0F6BF4221884F000640A9E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,6 +52,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2E0F6C152218896700640A9E /* CitizenKit.framework in Embed Frameworks */,
 				2E0F6BF92218852300640A9E /* HoundifySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -33,6 +62,11 @@
 
 /* Begin PBXFileReference section */
 		2E0F6BF62218851A00640A9E /* HoundifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HoundifySDK.framework; sourceTree = "<group>"; };
+		2E0F6BFF2218896700640A9E /* CitizenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CitizenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0F6C022218896700640A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0F6C072218896700640A9E /* CitizenKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitizenKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0F6C0E2218896700640A9E /* CitizenKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenKitTests.swift; sourceTree = "<group>"; };
+		2E0F6C102218896700640A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +78,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E0F6BFC2218896700640A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F6C042218896700640A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F6C082218896700640A9E /* CitizenKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91D55BCF2218822500250936 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0F6C142218896700640A9E /* CitizenKit.framework in Frameworks */,
 				2E0F6BF82218852200640A9E /* HoundifySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,10 +113,29 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		2E0F6C002218896700640A9E /* CitizenKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F6C022218896700640A9E /* Info.plist */,
+				2E0F6C0D2218896700640A9E /* CitizenKitTests */,
+			);
+			path = CitizenKit;
+			sourceTree = "<group>";
+		};
+		2E0F6C0D2218896700640A9E /* CitizenKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F6C0E2218896700640A9E /* CitizenKitTests.swift */,
+				2E0F6C102218896700640A9E /* Info.plist */,
+			);
+			path = CitizenKitTests;
+			sourceTree = "<group>";
+		};
 		91D55BC92218822500250936 = {
 			isa = PBXGroup;
 			children = (
 				91D55BD42218822500250936 /* Citizen-X */,
+				2E0F6C002218896700640A9E /* CitizenKit */,
 				2E0F6BF52218851A00640A9E /* Frameworks */,
 				91D55BD32218822500250936 /* Products */,
 			);
@@ -76,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				91D55BD22218822500250936 /* Citizen-X.app */,
+				2E0F6BFF2218896700640A9E /* CitizenKit.framework */,
+				2E0F6C072218896700640A9E /* CitizenKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,7 +199,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2E0F6BFA2218896700640A9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2E0F6BFE2218896700640A9E /* CitizenKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0F6C1A2218896700640A9E /* Build configuration list for PBXNativeTarget "CitizenKit" */;
+			buildPhases = (
+				2E0F6BFA2218896700640A9E /* Headers */,
+				2E0F6BFB2218896700640A9E /* Sources */,
+				2E0F6BFC2218896700640A9E /* Frameworks */,
+				2E0F6BFD2218896700640A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitizenKit;
+			productName = CitizenKit;
+			productReference = 2E0F6BFF2218896700640A9E /* CitizenKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E0F6C062218896700640A9E /* CitizenKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0F6C1B2218896700640A9E /* Build configuration list for PBXNativeTarget "CitizenKitTests" */;
+			buildPhases = (
+				2E0F6C032218896700640A9E /* Sources */,
+				2E0F6C042218896700640A9E /* Frameworks */,
+				2E0F6C052218896700640A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0F6C0A2218896700640A9E /* PBXTargetDependency */,
+				2E0F6C0C2218896700640A9E /* PBXTargetDependency */,
+			);
+			name = CitizenKitTests;
+			productName = CitizenKitTests;
+			productReference = 2E0F6C072218896700640A9E /* CitizenKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		91D55BD12218822500250936 /* Citizen-X */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91D55BE42218822700250936 /* Build configuration list for PBXNativeTarget "Citizen-X" */;
@@ -141,6 +259,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2E0F6C132218896700640A9E /* PBXTargetDependency */,
 			);
 			name = "Citizen-X";
 			productName = "Citizen-X";
@@ -157,6 +276,13 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Clifford Panos";
 				TargetAttributes = {
+					2E0F6BFE2218896700640A9E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2E0F6C062218896700640A9E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 91D55BD12218822500250936;
+					};
 					91D55BD12218822500250936 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -176,11 +302,27 @@
 			projectRoot = "";
 			targets = (
 				91D55BD12218822500250936 /* Citizen-X */,
+				2E0F6BFE2218896700640A9E /* CitizenKit */,
+				2E0F6C062218896700640A9E /* CitizenKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E0F6BFD2218896700640A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F6C052218896700640A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91D55BD02218822500250936 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +336,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E0F6BFB2218896700640A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F6C032218896700640A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F6C0F2218896700640A9E /* CitizenKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91D55BCE2218822500250936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,6 +362,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E0F6C0A2218896700640A9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0F6BFE2218896700640A9E /* CitizenKit */;
+			targetProxy = 2E0F6C092218896700640A9E /* PBXContainerItemProxy */;
+		};
+		2E0F6C0C2218896700640A9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D55BD12218822500250936 /* Citizen-X */;
+			targetProxy = 2E0F6C0B2218896700640A9E /* PBXContainerItemProxy */;
+		};
+		2E0F6C132218896700640A9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0F6BFE2218896700640A9E /* CitizenKit */;
+			targetProxy = 2E0F6C122218896700640A9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		91D55BD92218822500250936 /* Main.storyboard */ = {
@@ -226,6 +401,102 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2E0F6C162218896700640A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V7HL83ZN6U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CitizenKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cliffpanos.Citizen-X.CitizenKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E0F6C172218896700640A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V7HL83ZN6U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CitizenKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cliffpanos.Citizen-X.CitizenKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E0F6C182218896700640A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7HL83ZN6U;
+				INFOPLIST_FILE = CitizenKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cliffpanos.Citizen-X.CitizenKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citizen-X.app/Citizen-X";
+			};
+			name = Debug;
+		};
+		2E0F6C192218896700640A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7HL83ZN6U;
+				INFOPLIST_FILE = CitizenKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cliffpanos.Citizen-X.CitizenKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citizen-X.app/Citizen-X";
+			};
+			name = Release;
+		};
 		91D55BE22218822700250936 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,6 +662,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E0F6C1A2218896700640A9E /* Build configuration list for PBXNativeTarget "CitizenKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0F6C162218896700640A9E /* Debug */,
+				2E0F6C172218896700640A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0F6C1B2218896700640A9E /* Build configuration list for PBXNativeTarget "CitizenKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0F6C182218896700640A9E /* Debug */,
+				2E0F6C192218896700640A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		91D55BCD2218822500250936 /* Build configuration list for PBXProject "Citizen-X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
