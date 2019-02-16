@@ -14,6 +14,7 @@
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
 		91D55BDD2218822700250936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDC2218822700250936 /* Assets.xcassets */; };
 		91D55BE02218822700250936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDE2218822700250936 /* LaunchScreen.storyboard */; };
+		91D55BEA221884CE00250936 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BE9221884CE00250936 /* Core.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		91D55BDC2218822700250936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D55BDF2218822700250936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D55BE12218822700250936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D55BE9221884CE00250936 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +83,47 @@
 		91D55BD42218822500250936 /* Citizen-X */ = {
 			isa = PBXGroup;
 			children = (
-				91D55BD52218822500250936 /* AppDelegate.swift */,
-				91D55BD72218822500250936 /* ViewController.swift */,
+				91D55BE7221884B700250936 /* App */,
+				91D55BE8221884C100250936 /* Core */,
+				91D55BEB221886F400250936 /* Model */,
+				91D55BEC221886FF00250936 /* Controller */,
 				91D55BD92218822500250936 /* Main.storyboard */,
 				91D55BDC2218822700250936 /* Assets.xcassets */,
 				91D55BDE2218822700250936 /* LaunchScreen.storyboard */,
 				91D55BE12218822700250936 /* Info.plist */,
 			);
 			path = "Citizen-X";
+			sourceTree = "<group>";
+		};
+		91D55BE7221884B700250936 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				91D55BD52218822500250936 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		91D55BE8221884C100250936 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				91D55BE9221884CE00250936 /* Core.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		91D55BEB221886F400250936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91D55BEC221886FF00250936 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91D55BD72218822500250936 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D55BEA221884CE00250936 /* Core.swift in Sources */,
 				91D55BD82218822500250936 /* ViewController.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
 			);
