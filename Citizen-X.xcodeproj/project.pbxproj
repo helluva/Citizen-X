@@ -18,6 +18,7 @@
 		2E0F6C2622188C7700640A9E /* LegislatorsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2522188C7700640A9E /* LegislatorsResponse.swift */; };
 		2E0F6C2922188EFA00640A9E /* Phone2Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2822188EFA00640A9E /* Phone2Action.swift */; };
 		2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2A2218908300640A9E /* AnyDecoder.swift */; };
+		2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2D2218B6AA00640A9E /* State.swift */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* ViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -113,6 +114,7 @@
 		2E0F6C2522188C7700640A9E /* LegislatorsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorsResponse.swift; sourceTree = "<group>"; };
 		2E0F6C2822188EFA00640A9E /* Phone2Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone2Action.swift; sourceTree = "<group>"; };
 		2E0F6C2A2218908300640A9E /* AnyDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecoder.swift; sourceTree = "<group>"; };
+		2E0F6C2D2218B6AA00640A9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				2E0F6C2322188B5F00640A9E /* Legislator.swift */,
+				2E0F6C2D2218B6AA00640A9E /* State.swift */,
 				2E0F6C2722188EE900640A9E /* Phone2Action API */,
 				2E0F6C2222188B3700640A9E /* Core */,
 				2E0F6C0D2218896700640A9E /* CitizenKitTests */,
@@ -563,6 +566,7 @@
 				2E0F6C1F22188AF300640A9E /* Promise.swift in Sources */,
 				2E0F6C2622188C7700640A9E /* LegislatorsResponse.swift in Sources */,
 				2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */,
+				2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,7 +819,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -870,7 +874,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
