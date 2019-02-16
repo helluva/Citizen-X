@@ -11,11 +11,11 @@ import UIKit
 extension UIColor {
     
     class var applicationPrimary: UIColor {
-        return UIColor(named: "Primary")
+        return UIColor(named: "Primary")!
     }
     
     class var applicationSecondary: UIColor {
-        return UIColor(named: "Secondary")
+        return UIColor(named: "Secondary")!
     }
     
 }
