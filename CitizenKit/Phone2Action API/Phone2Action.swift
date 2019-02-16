@@ -8,12 +8,12 @@
 
 import Foundation
 
-enum Phone2Action {
+public enum Phone2Action {
     
     private static let endpointURL = URL(string: "")!
     
-    static func fetchLegislators(for address: String) -> Promise<LegislatorsResponse> {
-        let promise = Promise<LegislatorsResponse>()
+    public static func fetchLegislators(for address: String) -> Promise<[Legislator]> {
+        let promise = Promise<[Legislator]>()
         
         // build the request query
         var urlComponents = URLComponents(
@@ -46,7 +46,8 @@ enum Phone2Action {
             }
             
             do {
-                promise.fulfill(try LegislatorsResponse.preferredDecoder.decode(LegislatorsResponse.self, from: data))
+                let legislators = try LegislatorsResponse.preferredDecoder.decode(LegislatorsResponse.self, from: data)
+                promise.fulfill(legislators.officials.map(Legislator.init(from:)))
             } catch {
                 promise.reject(error)
             }

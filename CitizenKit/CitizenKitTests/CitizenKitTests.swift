@@ -15,8 +15,8 @@ class CitizenKitTests: XCTestCase {
         let expectation = XCTestExpectation(description: "Fetch Legislators")
         let address = "888 Brannan Street, San Francisco, California"
         
-        Phone2Action.fetchLegislators(for: address).then { legislatorsResponse in
-            XCTAssertNotNil(legislatorsResponse)
+        Phone2Action.fetchLegislators(for: address).then { legislators in
+            XCTAssertNotNil(legislators)
             expectation.fulfill()
         }.catch { error in
             XCTAssertNil(error)

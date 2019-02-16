@@ -11,8 +11,70 @@ import Foundation
 
 // MARK: - Legislator
 
-public struct Legislator {
+public class Legislator {
     
+    let name: String
+    let office: Office
+    let party: Party
+    let imageURL: URL
+    let website: URL?
+    let email: String?
     
+    public enum Party: String {
+        case republican = "Republican"
+        case democrat = "Democrat"
+        case independent = "Independent"
+        case unknown = "Unknown"
+    }
+    
+    public enum Office {
+        // national
+        case executive(title: String)
+        case senator(for: USState)
+        case houseRepresentative(for: USState, district: Int)
+        
+        // state
+        case stateExecutive(title: String, of: USState)
+        case stateSenator(of: USState, district: Int)
+        case stateRepresentative(of: USState, district: Int)
+        
+        // local
+        case localExecutive(title: String, city: String, state: USState)
+        
+        public var displayString: String {
+            switch self {
+            case .executive(let title):
+                return "United States \(title)"
+                
+            case .senator(let state):
+                return "US Senator for \(state.rawValue)"
+                
+            case .houseRepresentative(let state, let district):
+                return "US Representative for \(state.abbreviation)-\(district)"
+                
+            case .stateExecutive(let position, let state):
+                return "\(position) of \(state.rawValue)"
+                
+            case .stateSenator(let state, let district):
+                return "\(state.rawValue) Senator for \(state.abbreviation)-\(district)"
+                
+            case .stateRepresentative(let state, let district):
+                return "\(state.rawValue) Representative for \(state.abbreviation)-\(district)"
+                
+            case .localExecutive(let title, let city, let state):
+                return "\(title) of \(city), \(state.abbreviation)"
+            }
+        }
+        
+    }
+    
+    public init(name: String, office: Office, party: Party, imageURL: URL, website: URL?, email: String?) {
+        self.name = name
+        self.office = office
+        self.party = party
+        self.imageURL = imageURL
+        self.website = website
+        self.email = email
+    }
     
 }
