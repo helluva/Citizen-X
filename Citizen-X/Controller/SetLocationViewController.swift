@@ -60,6 +60,8 @@ class SetLocationViewController: UIViewController {
         completion: @escaping (Location) -> Void)
     {
         let navigationController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Set Location Navigation Controller") as! UINavigationController
+        navigationController.modalPresentationStyle = .formSheet
+        
         let viewController = navigationController.viewControllers.first! as! SetLocationViewController
         
         viewController.location = viewpointLocation.coordinate

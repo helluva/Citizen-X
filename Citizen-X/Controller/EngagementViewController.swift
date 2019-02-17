@@ -15,7 +15,7 @@ import CoreLocation
 ///
 class EngagementViewController: UIViewController {
     
-    let contentController = ContentController(for: .sanFrancisco)
+    let contentController = CivicInteractionsController(for: .sanFrancisco)
     
     
     // MARK: - UIViewController
@@ -27,7 +27,7 @@ class EngagementViewController: UIViewController {
         self.tableView.delegate = self
         self.contentController.delegate = self
         
-        self.tableView.contentInset.bottom = 202    // sound hound view
+        self.tableView.contentInset.bottom = 130    // sound hound view
         
         let locationImage = self.navigationItem.leftBarButtonItem!.image
         self.navigationItem.leftBarButtonItem!.image = locationImage?.withRenderingMode(.alwaysOriginal)
@@ -73,13 +73,20 @@ extension EngagementViewController: UITableViewDelegate {
 extension EngagementViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return contentController.interactions.count
+        return max(1, contentController.interactions.count)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: EngagementTableViewCell.reuseIdentifier, for: indexPath) as! EngagementTableViewCell
-        let interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
+        
+        let interaction: CivicInteraction
+        
+        if contentController.interactions.count == 0 {
+            interaction = CivicInteraction(responseContent: GetStartedCardContent.default)
+        } else {
+            interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
+        }
         
         let container: UIView! = cell.contentContainer
         container.translatesAutoresizingMaskIntoConstraints = false
@@ -111,8 +118,8 @@ extension EngagementViewController: UITableViewDataSource {
         contentView.backgroundColor = .clear
         cell.content = content
         
-        let query = interaction.queryText
-        if query.count > 1 {
+        
+        if let query = interaction.queryText, query.count > 1 {
             cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst() + "?"
         } else {
             cell.titleLabel.text = nil
@@ -123,11 +130,15 @@ extension EngagementViewController: UITableViewDataSource {
     
 }
 
-extension EngagementViewController: ContentControllerDelegate {
+extension EngagementViewController: CivicInteractionsControllerDelegate {
     
     func addedNewInteraction(_ interaction: CivicInteraction) {
-        let lastIndexPath: IndexPath = .zero
-        tableView.insertRows(at: [lastIndexPath], with: .fade)
+        if contentController.interactions.count == 1 {
+            // replace the onboarding card
+            tableView.reloadRows(at: [.zero], with: .top)
+        } else {
+            tableView.insertRows(at: [.zero], with: .fade)
+        }
     }
     
     func errorFetchingLegislators(_ error: Error) {

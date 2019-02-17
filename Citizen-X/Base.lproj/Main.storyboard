@@ -21,18 +21,18 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zLl-YQ-SRX">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" name="Off White"/>
                                 <constraints>
                                     <constraint firstAttribute="width" priority="998" constant="650" id="1E8-PK-XqH"/>
                                 </constraints>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="oNA-Z8-Lgb" userLabel="Header">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="8"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="backgroundColor" name="Off White"/>
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EngagementCell" rowHeight="156" id="ms0-wb-PVI" customClass="EngagementTableViewCell" customModule="Citizen_X" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="36" width="375" height="156"/>
+                                        <rect key="frame" x="0.0" y="48" width="375" height="156"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ms0-wb-PVI" id="KYm-8e-Ad5">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="156"/>
@@ -60,7 +60,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="0yQ-fe-HP5" secondAttribute="bottom" constant="6" id="vRq-Fx-oiz"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="backgroundColor" name="Off White"/>
                                         <connections>
                                             <outlet property="contentContainer" destination="0yQ-fe-HP5" id="SGv-qH-Ged"/>
                                             <outlet property="titleLabel" destination="xtL-gN-FlY" id="DqF-9E-xYc"/>
@@ -68,38 +68,52 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mjk-wb-KI1">
-                                <rect key="frame" x="0.0" y="610" width="375" height="202"/>
-                                <subviews>
-                                    <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd3-Js-adV">
-                                        <rect key="frame" x="152.66666666666666" y="40" width="70" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="TpG-LL-2Mb"/>
-                                            <constraint firstAttribute="width" constant="70" id="eXz-se-k0B"/>
-                                        </constraints>
-                                        <state key="normal" image="microphone"/>
-                                        <connections>
-                                            <action selector="microphoneButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="4WD-Gk-tco"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" name="Secondary"/>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MR-U5-HKS">
+                                <rect key="frame" x="0.0" y="668" width="375" height="144"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1DN-F0-SHc">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N9h-JR-ToL" userLabel="hairline">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="0.33333333333333331"/>
+                                            <color key="backgroundColor" white="0.85999999999999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="0.33000000000000002" id="Wsp-2d-UKh"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="N9h-JR-ToL" firstAttribute="top" secondItem="1DN-F0-SHc" secondAttribute="top" id="3ww-Ae-VJT"/>
+                                        <constraint firstItem="N9h-JR-ToL" firstAttribute="leading" secondItem="1DN-F0-SHc" secondAttribute="leading" id="AYW-R8-4kY"/>
+                                        <constraint firstAttribute="trailing" secondItem="N9h-JR-ToL" secondAttribute="trailing" id="Qgq-oV-kdd"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd3-Js-adV">
+                                <rect key="frame" x="147.66666666666666" y="683" width="80" height="80"/>
                                 <constraints>
-                                    <constraint firstItem="xd3-Js-adV" firstAttribute="top" secondItem="mjk-wb-KI1" secondAttribute="top" constant="40" id="LM5-pt-odQ"/>
-                                    <constraint firstItem="xd3-Js-adV" firstAttribute="centerX" secondItem="mjk-wb-KI1" secondAttribute="centerX" id="e8H-Li-NBG"/>
-                                    <constraint firstAttribute="height" constant="202" id="qFh-Ja-WgU"/>
+                                    <constraint firstAttribute="height" constant="80" id="TpG-LL-2Mb"/>
+                                    <constraint firstAttribute="width" constant="80" id="eXz-se-k0B"/>
                                 </constraints>
-                            </view>
+                                <state key="normal" image="microphone"/>
+                                <connections>
+                                    <action selector="microphoneButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="4WD-Gk-tco"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" name="Off White"/>
                         <constraints>
+                            <constraint firstItem="xd3-Js-adV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1A8-Iw-NV9"/>
                             <constraint firstAttribute="bottom" secondItem="zLl-YQ-SRX" secondAttribute="bottom" id="1al-o9-0J6"/>
-                            <constraint firstAttribute="bottom" secondItem="mjk-wb-KI1" secondAttribute="bottom" id="2Pr-cb-n2J"/>
+                            <constraint firstItem="3MR-U5-HKS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4iy-wM-DaI"/>
+                            <constraint firstAttribute="bottom" secondItem="3MR-U5-HKS" secondAttribute="bottom" id="CiK-wK-TVT"/>
+                            <constraint firstItem="3MR-U5-HKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HGd-JJ-85x"/>
                             <constraint firstItem="zLl-YQ-SRX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HZf-Su-Odl"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zLl-YQ-SRX" secondAttribute="trailing" priority="999" id="OhB-g0-2Le"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xd3-Js-adV" secondAttribute="bottom" constant="15" id="Op6-7P-saL"/>
+                            <constraint firstItem="3MR-U5-HKS" firstAttribute="top" secondItem="xd3-Js-adV" secondAttribute="top" constant="-15" id="adP-ee-p6x"/>
                             <constraint firstItem="zLl-YQ-SRX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="di3-05-6Jg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mjk-wb-KI1" secondAttribute="trailing" id="kzW-8M-0iA"/>
-                            <constraint firstItem="mjk-wb-KI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qwn-ap-iKD"/>
                             <constraint firstItem="zLl-YQ-SRX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" priority="999" id="tsR-7K-MSC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -114,15 +128,14 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Icon" image="Contact" id="eoA-5h-lNI"/>
                     </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="soundHoundView" destination="mjk-wb-KI1" id="RcG-IW-OrS"/>
                         <outlet property="tableView" destination="zLl-YQ-SRX" id="fLo-eR-WsW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.6956521739131" y="780.80357142857144"/>
+            <point key="canvasLocation" x="1007.2" y="780.29556650246309"/>
         </scene>
         <!--Legislator List View Controller-->
         <scene sceneID="8bq-r0-qZs">
@@ -247,7 +260,7 @@
         <!--Location-->
         <scene sceneID="gTy-6g-ZKr">
             <objects>
-                <viewController id="PA9-Ws-vdf" customClass="SetLocationViewController" customModule="AR_Planes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PA9-Ws-vdf" customClass="SetLocationViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="33e-8K-Luc"/>
                         <viewControllerLayoutGuide type="bottom" id="Nd7-ed-dBB"/>
@@ -323,6 +336,9 @@
         <image name="Contact" width="30" height="30.333333969116211"/>
         <image name="Location" width="30" height="30"/>
         <image name="microphone" width="200" height="200"/>
+        <namedColor name="Off White">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="Primary">
             <color red="0.0" green="0.8784313725490196" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

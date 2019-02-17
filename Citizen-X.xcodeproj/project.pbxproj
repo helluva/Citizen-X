@@ -19,7 +19,7 @@
 		2E0F6C2922188EFA00640A9E /* Phone2Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2822188EFA00640A9E /* Phone2Action.swift */; };
 		2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2A2218908300640A9E /* AnyDecoder.swift */; };
 		2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2D2218B6AA00640A9E /* State.swift */; };
-		2E0F6C342218F82100640A9E /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C332218F82100640A9E /* ContentController.swift */; };
+		2E0F6C342218F82100640A9E /* CivicInteractionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C332218F82100640A9E /* CivicInteractionsController.swift */; };
 		2E0F6C362218FC6700640A9E /* CivicInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C352218FC6700640A9E /* CivicInteraction.swift */; };
 		2E0F6C3822192A9E00640A9E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3722192A9E00640A9E /* OverlayView.swift */; };
 		2E0F6C3A22192ABB00640A9E /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */; };
@@ -129,7 +129,7 @@
 		2E0F6C2822188EFA00640A9E /* Phone2Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone2Action.swift; sourceTree = "<group>"; };
 		2E0F6C2A2218908300640A9E /* AnyDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecoder.swift; sourceTree = "<group>"; };
 		2E0F6C2D2218B6AA00640A9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		2E0F6C332218F82100640A9E /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		2E0F6C332218F82100640A9E /* CivicInteractionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicInteractionsController.swift; sourceTree = "<group>"; };
 		2E0F6C352218FC6700640A9E /* CivicInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicInteraction.swift; sourceTree = "<group>"; };
 		2E0F6C3722192A9E00640A9E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
@@ -335,12 +335,11 @@
 		91D55BEC221886FF00250936 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2E0F6C332218F82100640A9E /* ContentController.swift */,
 				91D55BD72218822500250936 /* EngagementViewController.swift */,
 				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
 				91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */,
 				91D55C47221923C300250936 /* GetStartedViewController.swift */,
-				2E0F6C332218F82100640A9E /* ContentController.swift */,
+				2E0F6C332218F82100640A9E /* CivicInteractionsController.swift */,
 				2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */,
 			);
 			path = Controller;
@@ -644,7 +643,7 @@
 				91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */,
 				91D55C3E2218C80C00250936 /* LegislatorsViewContent.swift in Sources */,
 				91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */,
-				2E0F6C342218F82100640A9E /* ContentController.swift in Sources */,
+				2E0F6C342218F82100640A9E /* CivicInteractionsController.swift in Sources */,
 				91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
 				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,

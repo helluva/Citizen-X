@@ -37,7 +37,7 @@ class EngagementTableViewCell: UITableViewCell {
         super.layoutSubviews()
         
         self.contentContainer.shadow()
-        self.contentContainer.layer.shadowOpacity = 0.3
+        self.contentContainer.layer.shadowOpacity = 0.225
         self.clipsToBounds = false
         self.contentView.clipsToBounds = false
     }

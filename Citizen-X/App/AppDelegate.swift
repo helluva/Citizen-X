@@ -9,6 +9,7 @@
 import UIKit
 import HoundifySDK
 import AVFoundation
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -36,6 +37,53 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Could not configure the audio session: \(error)")
             }
         }
+        
+        return true
+    }
+    
+    private var _notificationToken: Any? = nil
+    
+    func application(
+        _ app: UIApplication,
+        open url: URL,
+        options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool
+    {
+        let components = URLComponents(url: url, resolvingAgainstBaseURL: true)!
+        
+        if components.host == "query",
+            let city = components.queryItems?.first(where: { $0.name == "city" })?.value,
+            let queryText = components.queryItems?.first(where: { $0.name == "q" })?.value,
+            let queryJsonText = components.queryItems?.first(where: { $0.name == "json" })?.value,
+            let queryJson = try? JSONSerialization.jsonObject(with: Data(queryJsonText.utf8), options: []) as? [String: Any]
+        {
+            CLGeocoder().geocodeAddressString(city, completionHandler: { placemarks, error in
+                guard let placemark = placemarks?.first,
+                    let coordinates = placemark.location else
+                {
+                    return
+                }
+                
+                let contentController = ((self.window?.rootViewController as? UINavigationController)?
+                    .viewControllers.first as? EngagementViewController)?
+                    .contentController
+                
+                contentController?.location = Location(city: city, coordinate: coordinates)
+                
+                self._notificationToken = NotificationCenter.default.addObserver(
+                    forName: .interactionsControllerDidFetchNewLegislators,
+                    object: city,
+                    queue: .main,
+                    using: { _ in
+                        contentController?.handleQueryResult(queryJson, for: queryText)
+                        
+                        if let notificationToken = self._notificationToken {
+                            NotificationCenter.default.removeObserver(notificationToken)
+                        }
+                })
+            })
+        }
+        
+        
         
         return true
     }
