@@ -59,4 +59,16 @@ class EngagementTableViewCell: UITableViewCell {
         shareHandler?(shareButton)
     }
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        if let existingContent = content,
+            existingContent.view.superview == contentContainer
+        {
+            existingContent.willMove(toParent: nil)
+            existingContent.view.removeFromSuperview()
+            existingContent.removeFromParent()
+        }
+    }
+    
 }

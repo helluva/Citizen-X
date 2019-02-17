@@ -85,13 +85,6 @@ extension EngagementViewController: UITableViewDataSource {
         let container: UIView! = cell.contentContainer
         container.translatesAutoresizingMaskIntoConstraints = false
         
-        // Remove the old child view controller if necessary
-        if let existingContent = cell.content {
-            existingContent.willMove(toParent: nil)
-            existingContent.view.removeFromSuperview()
-            existingContent.removeFromParent()
-        }
-        
         // Add the new content
         let content = interaction.responseContent
         let contentViewController = content.cardContent
@@ -140,6 +133,12 @@ extension EngagementViewController: UITableViewDataSource {
         } else {
             cell.shareHandler = nil
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
+            if container.subviews.isEmpty {
+                fatalError("something hath gone wrong")
+            }
+        })
         
         return cell
     }
