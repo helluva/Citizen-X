@@ -73,20 +73,14 @@ extension EngagementViewController: UITableViewDelegate {
 extension EngagementViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return max(1, contentController.interactions.count)
+        return contentController.interactions.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: EngagementTableViewCell.reuseIdentifier, for: indexPath) as! EngagementTableViewCell
         
-        let interaction: CivicInteraction
-        
-        if contentController.interactions.count == 0 {
-            interaction = CivicInteraction(responseContent: GetStartedCardContent.default)
-        } else {
-            interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
-        }
+        let interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
         
         let container: UIView! = cell.contentContainer
         container.translatesAutoresizingMaskIntoConstraints = false
@@ -153,12 +147,7 @@ extension EngagementViewController: UITableViewDataSource {
 extension EngagementViewController: CivicInteractionsControllerDelegate {
     
     func addedNewInteraction(_ interaction: CivicInteraction) {
-        if contentController.interactions.count == 1 {
-            // replace the onboarding card
-            tableView.reloadRows(at: [.zero], with: .top)
-        } else {
-            tableView.insertRows(at: [.zero], with: .fade)
-        }
+        tableView.insertRows(at: [.zero], with: .fade)
     }
     
     func errorFetchingLegislators(_ error: Error) {

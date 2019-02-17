@@ -28,13 +28,13 @@ class SimpleLocationViewController: UIViewController {
         self.view = mapView
         self.view.cornerRadius = 12
         self.view.layer.masksToBounds = true
-        self.view.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        self.view.heightAnchor.constraint(equalToConstant: 160).isActive = true
         self.view.isUserInteractionEnabled = false
         
         mapView.region = MKCoordinateRegion(
             center: location.coordinate.coordinate,
-            latitudinalMeters: 15_000,
-            longitudinalMeters: 15_000)
+            latitudinalMeters: 25_000,
+            longitudinalMeters: 25_000)
     }
     
 }

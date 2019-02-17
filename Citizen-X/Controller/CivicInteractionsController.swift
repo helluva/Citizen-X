@@ -25,7 +25,7 @@ protocol CivicInteractionsControllerDelegate: class {
 class CivicInteractionsController {
     
     weak var delegate: CivicInteractionsControllerDelegate?
-    var interactions: [CivicInteraction] = []
+    var interactions: [CivicInteraction] = [CivicInteraction(responseContent: GetStartedCardContent.default)]
     
     var location: Location {
         didSet {
@@ -44,6 +44,11 @@ class CivicInteractionsController {
     private func updateLegislators() {
         // specifically capture `city` at this moment
         let city = location.city
+        
+        self.addNewInteraction(CivicInteraction(
+            queryText: city,
+            shareableUrl: nil,
+            responseContent: LocationViewContent(location: location)))
         
         Phone2Action.fetchLegislators(for: city).then { legislators in
             self.allLegislators = legislators
@@ -71,6 +76,90 @@ class CivicInteractionsController {
         
         let clientMatchOptions: [[String: Any]] = allLegislators.flatMap { legislator in
             return [
+                ["Expression": "Show me my local representatives",
+                    "Result": ["representatives": "local"],
+                    "SpokenResponse": "",
+                    "SpokenResponseLong": "",
+                    "WrittenResponse": "",
+                    "WrittenResponseLong": ""],
+                
+                ["Expression": "Who are my local representatives",
+                 "Result": ["representatives": "local"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Tell me about my local representatives",
+                 "Result": ["representatives": "local"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Show me my state representatives",
+                 "Result": ["representatives": "state"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Who are my state representatives",
+                 "Result": ["representatives": "state"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Tell me about my state representatives",
+                 "Result": ["representatives": "state"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Show me my national representatives",
+                 "Result": ["representatives": "national"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Who are my national representatives",
+                 "Result": ["representatives": "national"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Tell me about my national representatives",
+                 "Result": ["representatives": "national"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Show me my representatives",
+                 "Result": ["representatives": "all"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Who are my representatives",
+                 "Result": ["representatives": "all"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Tell me about my representatives",
+                 "Result": ["representatives": "all"],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
+                
                 ["Expression": "Tell me more about \(legislator.name)",
                  "Result": ["representative": legislator.name],
                 "SpokenResponse": "",
@@ -142,8 +231,6 @@ class CivicInteractionsController {
         print("Handling query: \(String(describing: spokenQuery))")
         
         var responseContent: CardContentProviding? = nil
-        var responseIsQuestion = true
-        var customQueryTitle: String? = nil
         var isShareable = true
         
         // "Who are my local/state/national representatives?"
@@ -175,7 +262,6 @@ class CivicInteractionsController {
             })
             if let singleLegislator = match {
                 responseContent = LegislatorsViewContent(legislators: [singleLegislator])
-                responseIsQuestion = false
                 print("Matched single legislator interaction for \(singleLegislator.name)")
             }
         }
@@ -196,10 +282,7 @@ class CivicInteractionsController {
                     longitude: CLLocationDegrees(longitude)))
             
             self.location = location
-            customQueryTitle = location.city
-            isShareable = false
-            responseIsQuestion = false
-            responseContent = LocationViewContent(location: location)
+            return
         }
         
         if let responseContent = responseContent {
@@ -219,10 +302,11 @@ class CivicInteractionsController {
                 shareableUrl = nil
             }
             
+            let responseIsQuestion = spokenQuery?.lowercased().contains("who ") == true
+            
             self.feedbackGenerator.notificationOccurred(.success)
             self.addNewInteraction(CivicInteraction(
-                queryText: customQueryTitle
-                    ?? spokenQuery?.replacingOccurrences(of: "\"", with: "").appending(responseIsQuestion ? "?" : ""),
+                queryText: spokenQuery?.replacingOccurrences(of: "\"", with: "").appending(responseIsQuestion ? "?" : ""),
                 shareableUrl: shareableUrl,
                 responseContent: responseContent))
         } else {
