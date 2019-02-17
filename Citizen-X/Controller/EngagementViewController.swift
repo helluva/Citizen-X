@@ -8,13 +8,14 @@
 
 import CitizenKit
 import ModernUIKit
+import CoreLocation
 
 ///
 /// The primary view controller for speech interaction and displaying content cards
 ///
 class EngagementViewController: UIViewController {
     
-    let contentController = ContentController(for: "San Francisco, CA")
+    let contentController = ContentController(for: .sanFrancisco)
     
     
     // MARK: - UIViewController
@@ -46,6 +47,16 @@ class EngagementViewController: UIViewController {
     
     @IBAction private func microphoneButtonTapped() {
         contentController.presentListeningViewController(in: self)
+    }
+    
+    @IBAction private func setLocationButtonTapped() {
+        SetLocationViewController.present(
+            at: contentController.location,
+            userLocation: .sanFrancisco,
+            over: self,
+            completion: { location in
+                self.contentController.location = location
+        })
     }
 
 }
@@ -117,6 +128,12 @@ extension EngagementViewController: ContentControllerDelegate {
     func addedNewInteraction(_ interaction: CivicInteraction) {
         let lastIndexPath: IndexPath = .zero
         tableView.insertRows(at: [lastIndexPath], with: .fade)
+    }
+    
+    func errorFetchingLegislators(_ error: Error) {
+        presentAlert(
+            "Couldn't fetch legislators for \(contentController.location.city)",
+            message: error.localizedDescription)
     }
     
 }

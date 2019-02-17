@@ -21,6 +21,9 @@
 		2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2D2218B6AA00640A9E /* State.swift */; };
 		2E0F6C342218F82100640A9E /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C332218F82100640A9E /* ContentController.swift */; };
 		2E0F6C362218FC6700640A9E /* CivicInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C352218FC6700640A9E /* CivicInteraction.swift */; };
+		2E0F6C3822192A9E00640A9E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3722192A9E00640A9E /* OverlayView.swift */; };
+		2E0F6C3A22192ABB00640A9E /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */; };
+		2E0F6C3C22192AC800640A9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6C3B22192AC800640A9E /* MapKit.framework */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* EngagementViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -128,6 +131,9 @@
 		2E0F6C2D2218B6AA00640A9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		2E0F6C332218F82100640A9E /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
 		2E0F6C352218FC6700640A9E /* CivicInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicInteraction.swift; sourceTree = "<group>"; };
+		2E0F6C3722192A9E00640A9E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
+		2E0F6C3B22192AC800640A9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +203,7 @@
 			files = (
 				2E0F6C142218896700640A9E /* CitizenKit.framework in Frameworks */,
 				91D55BF922188A8600250936 /* ModernUIKit.framework in Frameworks */,
+				2E0F6C3C22192AC800640A9E /* MapKit.framework in Frameworks */,
 				2E0F6BF82218852200640A9E /* HoundifySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +221,7 @@
 		2E0F6BF52218851A00640A9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F6C3B22192AC800640A9E /* MapKit.framework */,
 				2E0F6BF62218851A00640A9E /* HoundifySDK.framework */,
 			);
 			path = Frameworks;
@@ -332,6 +340,8 @@
 				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
 				91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */,
 				91D55C47221923C300250936 /* GetStartedViewController.swift */,
+				2E0F6C332218F82100640A9E /* ContentController.swift */,
+				2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -416,6 +426,7 @@
 			children = (
 				91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */,
 				91D55C412218E89400250936 /* LegislatorSummaryView.swift */,
+				2E0F6C3722192A9E00640A9E /* OverlayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -536,6 +547,11 @@
 					};
 					91D55BD12218822500250936 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					91D55BF122188A8600250936 = {
 						CreatedOnToolsVersion = 10.2;
@@ -634,6 +650,8 @@
 				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,
 				91D55BD82218822500250936 /* EngagementViewController.swift in Sources */,
 				91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */,
+				2E0F6C3822192A9E00640A9E /* OverlayView.swift in Sources */,
+				2E0F6C3A22192ABB00640A9E /* SetLocationViewController.swift in Sources */,
 				91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
 				2E0F6C362218FC6700640A9E /* CivicInteraction.swift in Sources */,

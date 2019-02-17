@@ -15,6 +15,7 @@ import HoundifySDK
 
 protocol ContentControllerDelegate: class {
     func addedNewInteraction(_ interaction: CivicInteraction)
+    func errorFetchingLegislators(_ error: Error)
 }
 
 
@@ -25,7 +26,7 @@ class ContentController {
     weak var delegate: ContentControllerDelegate?
     var interactions: [CivicInteraction] = []
     
-    var location: String {
+    var location: Location {
         didSet {
             updateLegislators()
         }
@@ -33,7 +34,7 @@ class ContentController {
     
     private var allLegislators = [Legislator]()
     
-    init(for location: String) {
+    init(for location: Location) {
         self.location = location
         updateLegislators()
         
@@ -42,10 +43,11 @@ class ContentController {
     }
     
     private func updateLegislators() {
-        Phone2Action.fetchLegislators(for: location).then { legislators in
+        Phone2Action.fetchLegislators(for: location.city).then { legislators in
             self.allLegislators = legislators
         }.catch { error in
             print("Error fetching legislators: \(error)")
+            self.delegate?.errorFetchingLegislators(error)
         }
     }
     

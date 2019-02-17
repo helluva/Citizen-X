@@ -17,7 +17,7 @@ struct OfficialResponse: Codable {
     let firstName: String
     let lastName: String
     let termStart: Date
-    let termEnd: Date
+    let termEnd: Date?
     let party: String
     let photo: String
     let websites: [String]?

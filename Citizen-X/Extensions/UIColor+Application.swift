@@ -14,6 +14,10 @@ extension UIColor {
         return UIColor(named: "Primary")!
     }
     
+    class var applicationPrimary2: UIColor {
+        return UIColor(named: "Primary2")!
+    }
+    
     class var applicationSecondary: UIColor {
         return UIColor(named: "Secondary")!
     }
