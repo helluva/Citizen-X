@@ -53,19 +53,19 @@ class LegislatorSummaryView: UIView {
         
         let nameLabel = UILabel(frame: .zero)
         nameLabel.text = legislator.name
-        nameLabel.font = UIFont.systemFont(ofSize: 20.0, weight: .semibold)
+        nameLabel.font = UIFont.systemFont(ofSize: 18.0, weight: .semibold)
         nameLabel.numberOfLines = 1
         
         let officeLabel = UILabel(frame: .zero)
         officeLabel.text = legislator.office.displayString
-        officeLabel.font = UIFont.systemFont(ofSize: 18.0, weight: .regular)
+        officeLabel.font = UIFont.systemFont(ofSize: 15.0, weight: .regular)
         officeLabel.numberOfLines = 1
         
         let partyLabel = UILabel(frame: .zero)
         partyLabel.text = " \(legislator.party.displayString) "
         partyLabel.textColor = .white
         partyLabel.backgroundColor = legislator.party.tintColor.brightened()
-        partyLabel.font = UIFont.systemFont(ofSize: 14.0, weight: .semibold)
+        partyLabel.font = UIFont.systemFont(ofSize: 12.0, weight: .semibold)
         partyLabel.cornerRadius = 5.0
         partyLabel.layer.masksToBounds = true
         if legislator.party == .unknown { partyLabel.alpha = 0.0 }
@@ -78,7 +78,7 @@ class LegislatorSummaryView: UIView {
         
         stackView.addArrangedSubview(namePartyStackView)
         stackView.addArrangedSubview(officeLabel)
-        stackView.spacing = -8
+        stackView.spacing = -25
         
         // GET THE IMAGE
         self.imageView.configureWithImage(for: legislator.imageURL)
