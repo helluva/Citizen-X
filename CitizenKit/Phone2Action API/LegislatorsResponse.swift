@@ -32,6 +32,18 @@ struct OfficeDetailResponse: Codable {
     let state: String?
     let city: String?
     let district: DistrictResponse
+    
+    var officeLocationString: String? {
+        if let state = state, !state.isEmpty {
+            if let city = city, !city.isEmpty {
+                return "\(city), \(state)"
+            } else {
+                return state
+            }
+        } else {
+            return nil
+        }
+    }
 }
 
 struct DistrictResponse: Codable {
@@ -46,8 +58,20 @@ struct DistrictResponse: Codable {
 }
 
 struct OfficeLocationResponse: Codable {
-    let city: String
-    let state: String
+    let city: String?
+    let state: String?
+    
+    var string: String? {
+        if let state = state, !state.isEmpty {
+            if let city = city, !city.isEmpty {
+                return "\(city), \(state)"
+            } else {
+                return state
+            }
+        } else {
+            return nil
+        }
+    }
 }
 
 struct SocialResponse: Codable {
@@ -152,8 +176,9 @@ extension Legislator {
                 ?? URL(string: "https://t4.ftcdn.net/jpg/02/15/84/43/240_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg")!,
             website: website,
             email: response.emails?.first,
-            
-            officeLocation: "\(response.officeLocation.city), \(response.officeLocation.state)",
+            officeLocation: response.officeLocation.string
+                ?? response.officeDetails.officeLocationString
+                ?? "Unknown City",
             termStart: response.termStart,
             termEnd: response.termEnd
         )

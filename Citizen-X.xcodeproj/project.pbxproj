@@ -139,6 +139,8 @@
 		2E0F6C3B22192AC800640A9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2E0F6C3D221968E500640A9E /* SimpleLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLocationViewController.swift; sourceTree = "<group>"; };
 		2E0F6C3F2219694400640A9E /* LocationViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewContent.swift; sourceTree = "<group>"; };
+		2E0F6C412219BAF000640A9E /* UIScrollView+ScrollToTop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollToTop.h"; sourceTree = "<group>"; };
+		2E0F6C422219BB0000640A9E /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
@@ -425,6 +427,8 @@
 				91D55C312218A01100250936 /* UIColor+Application.swift */,
 				91D55C452219192B00250936 /* UIImage+Application.swift */,
 				91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */,
+				2E0F6C412219BAF000640A9E /* UIScrollView+ScrollToTop.h */,
+				2E0F6C422219BB0000640A9E /* BridgingHeader.h */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -981,6 +985,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cliffpanos.Citizen-X";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Citizen-X/Extensions/BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1004,6 +1009,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cliffpanos.Citizen-X";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Citizen-X/Extensions/BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

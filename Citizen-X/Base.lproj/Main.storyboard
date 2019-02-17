@@ -144,6 +144,7 @@
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="microphoneButton" destination="xd3-Js-adV" id="7nI-Md-ZpK"/>
                         <outlet property="tableView" destination="zLl-YQ-SRX" id="fLo-eR-WsW"/>
                     </connections>
                 </viewController>

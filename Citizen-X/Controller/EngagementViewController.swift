@@ -43,10 +43,10 @@ class EngagementViewController: UIViewController {
     // MARK: - Private
     
     @IBOutlet private weak var tableView: UITableView!
-    @IBOutlet private weak var soundHoundView: UIView!
+    @IBOutlet private weak var microphoneButton: UIButton!
     
     @IBAction private func microphoneButtonTapped() {
-        contentController.presentListeningViewController(in: self)
+        contentController.presentListeningViewController(in: self, from: microphoneButton)
     }
     
     @IBAction private func setLocationButtonTapped() {
@@ -150,6 +150,10 @@ extension EngagementViewController: CivicInteractionsControllerDelegate {
     
     func addedNewInteraction(_ interaction: CivicInteraction) {
         tableView.insertRows(at: [.zero], with: .fade)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15, execute: {
+            self.tableView._scrollToTopIfPossible(true)
+        })
     }
     
     func errorFetchingLegislators(_ error: Error) {

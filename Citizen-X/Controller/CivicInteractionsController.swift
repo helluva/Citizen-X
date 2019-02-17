@@ -65,7 +65,10 @@ class CivicInteractionsController {
         delegate?.addedNewInteraction(interaction)
     }
     
-    func presentListeningViewController(in viewController: UIViewController) {
+    func presentListeningViewController(
+        in viewController: UIViewController,
+        from view: UIView)
+    {
         let style = HoundifyStyle()
         style.backgroundColor = .applicationPrimary
         style.buttonTintColor = .applicationPrimary
@@ -74,140 +77,142 @@ class CivicInteractionsController {
         
         HoundVoiceSearch.instance().enableHotPhraseDetection = false
         
-        let clientMatchOptions: [[String: Any]] = allLegislators.flatMap { legislator in
+        var clientMatchOptions: [[String: Any]] = [
+            ["Expression": "Show me my local representatives",
+             "Result": ["representatives": "local"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Who are my local representatives",
+             "Result": ["representatives": "local"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Tell me about my local representatives",
+             "Result": ["representatives": "local"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Show me my state representatives",
+             "Result": ["representatives": "state"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Who are my state representatives",
+             "Result": ["representatives": "state"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Tell me about my state representatives",
+             "Result": ["representatives": "state"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Show me my national representatives",
+             "Result": ["representatives": "national"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Who are my national representatives",
+             "Result": ["representatives": "national"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Tell me about my national representatives",
+             "Result": ["representatives": "national"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Show me my representatives",
+             "Result": ["representatives": "all"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Who are my representatives",
+             "Result": ["representatives": "all"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""],
+            
+            ["Expression": "Tell me about my representatives",
+             "Result": ["representatives": "all"],
+             "SpokenResponse": "",
+             "SpokenResponseLong": "",
+             "WrittenResponse": "",
+             "WrittenResponseLong": ""]]
+        
+        clientMatchOptions += allLegislators.flatMap { legislator -> [[String: Any]] in
+            let legislatorName = legislator.name.folding(options: .diacriticInsensitive, locale: .current)
+            
             return [
-                ["Expression": "Show me my local representatives",
-                    "Result": ["representatives": "local"],
-                    "SpokenResponse": "",
-                    "SpokenResponseLong": "",
-                    "WrittenResponse": "",
-                    "WrittenResponseLong": ""],
-                
-                ["Expression": "Who are my local representatives",
-                 "Result": ["representatives": "local"],
+                ["Expression": "Tell me more about \(legislatorName)",
+                 "Result": ["representative": legislatorName],
                  "SpokenResponse": "",
                  "SpokenResponseLong": "",
                  "WrittenResponse": "",
                  "WrittenResponseLong": ""],
                 
-                ["Expression": "Tell me about my local representatives",
-                 "Result": ["representatives": "local"],
+                ["Expression": "More about \(legislatorName)",
+                 "Result": ["representative": legislatorName],
                  "SpokenResponse": "",
                  "SpokenResponseLong": "",
                  "WrittenResponse": "",
                  "WrittenResponseLong": ""],
                 
-                ["Expression": "Show me my state representatives",
-                 "Result": ["representatives": "state"],
+                ["Expression": "Information about \(legislatorName)",
+                 "Result": ["representative": legislatorName],
                  "SpokenResponse": "",
                  "SpokenResponseLong": "",
                  "WrittenResponse": "",
                  "WrittenResponseLong": ""],
                 
-                ["Expression": "Who are my state representatives",
-                 "Result": ["representatives": "state"],
+                ["Expression": "Tell me about \(legislatorName)",
+                 "Result": ["representative": legislatorName],
                  "SpokenResponse": "",
                  "SpokenResponseLong": "",
                  "WrittenResponse": "",
                  "WrittenResponseLong": ""],
                 
-                ["Expression": "Tell me about my state representatives",
-                 "Result": ["representatives": "state"],
+                ["Expression": "Teach me about \(legislatorName)",
+                 "Result": ["representative": legislatorName],
                  "SpokenResponse": "",
                  "SpokenResponseLong": "",
                  "WrittenResponse": "",
                  "WrittenResponseLong": ""],
-                
-                ["Expression": "Show me my national representatives",
-                 "Result": ["representatives": "national"],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Who are my national representatives",
-                 "Result": ["representatives": "national"],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Tell me about my national representatives",
-                 "Result": ["representatives": "national"],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Show me my representatives",
-                 "Result": ["representatives": "all"],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Who are my representatives",
-                 "Result": ["representatives": "all"],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Tell me about my representatives",
-                 "Result": ["representatives": "all"],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Tell me more about \(legislator.name)",
-                 "Result": ["representative": legislator.name],
-                "SpokenResponse": "",
-                "SpokenResponseLong": "",
-                "WrittenResponse": "",
-                "WrittenResponseLong": ""],
-                
-                ["Expression": "More about \(legislator.name)",
-                    "Result": ["representative": legislator.name],
-                    "SpokenResponse": "",
-                    "SpokenResponseLong": "",
-                    "WrittenResponse": "",
-                    "WrittenResponseLong": ""],
-                
-                ["Expression": "Information about \(legislator.name)",
-                    "Result": ["representative": legislator.name],
-                    "SpokenResponse": "",
-                    "SpokenResponseLong": "",
-                    "WrittenResponse": "",
-                    "WrittenResponseLong": ""],
-                
-                ["Expression": "Tell me about \(legislator.name)",
-                 "Result": ["representative": legislator.name],
-                 "SpokenResponse": "",
-                 "SpokenResponseLong": "",
-                 "WrittenResponse": "",
-                 "WrittenResponseLong": ""],
-                
-                ["Expression": "Teach me about \(legislator.name)",
-                    "Result": ["representative": legislator.name],
-                    "SpokenResponse": "",
-                    "SpokenResponseLong": "",
-                    "WrittenResponse": "",
-                    "WrittenResponseLong": ""],
             
-                ["Expression": "Engage me with \(legislator.name)",
-                    "Result": ["representative": legislator.name],
-                    "SpokenResponse": "",
-                    "SpokenResponseLong": "",
-                    "WrittenResponse": "",
-                    "WrittenResponseLong": ""],
+                ["Expression": "Engage me with \(legislatorName)",
+                 "Result": ["representative": legislatorName],
+                 "SpokenResponse": "",
+                 "SpokenResponseLong": "",
+                 "WrittenResponse": "",
+                 "WrittenResponseLong": ""],
             ]
-            
         }
         
         Houndify.instance().presentListeningViewController(
             in: viewController,
-            from: viewController.view,
+            from: viewController.view.convert(view.center, to: viewController.view),
             style: style,
             requestInfo: ["ClientMatches": clientMatchOptions],
             responseHandler:
@@ -215,7 +220,20 @@ class CivicInteractionsController {
             { (error: Error?, response: Any?, dictionary: [String : Any]?, requestInfo: [String : Any]?) in
                 
                 defer {
-                    Houndify.instance().dismissListeningViewController(animated: true, completionHandler: nil)
+                    switch HoundVoiceSearch.instance().state {
+                    case .recording:
+                        HoundVoiceSearch.instance().stopListening(completionHandler: nil)
+                        
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25, execute: {
+                            Houndify.instance().dismissListeningViewController(animated: true, completionHandler: nil)
+                        })
+
+                    case .none, .ready, .searching, .speaking:
+                        Houndify.instance().dismissListeningViewController(animated: true, completionHandler: nil)
+                        
+                    @unknown default:
+                        fatalError()
+                    }
                 }
                 
                 guard let dictionary = dictionary,
@@ -239,6 +257,8 @@ class CivicInteractionsController {
                     self.handleQueryResult(nativeData, for: nil)
                 }
             })
+        
+        
     }
     
     func handleQueryResult(_ queryResult: [String: Any], for spokenQuery: String?) {
@@ -272,7 +292,7 @@ class CivicInteractionsController {
         // "Tell me more about Nancy Pelosi"
         if let representativeNameQuery = queryResult["representative"] as? String {
             let match = self.allLegislators.first(where: {
-                $0.name.lowercased() == representativeNameQuery.lowercased()
+                representativeNameQuery.lowercased() == $0.name.lowercased().folding(options: .diacriticInsensitive, locale: .current)
             })
             if let singleLegislator = match {
                 responseContent = LegislatorsViewContent(legislators: [singleLegislator])

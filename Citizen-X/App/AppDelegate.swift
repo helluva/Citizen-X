@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Hound.setClientID("tVd_3zbhwcUeKiPtpMYYNQ==")
         Hound.setClientKey("EuajQg4D6KR1DZmLhGg4vYmbM75JK_P68nJ_6PkSjMx-zbIGNDB4HNq_XGTyLC4wpH-lOiQR6JfNIbSm3fozzw==")
         
+        HoundVoiceSearch.instance().enableSpeech = false
+        
         // prepare the audio session
         AVAudioSession.sharedInstance().requestRecordPermission { permission in
             guard permission else {
