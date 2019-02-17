@@ -67,6 +67,7 @@
 		91D55C462219192B00250936 /* UIImage+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C452219192B00250936 /* UIImage+Application.swift */; };
 		91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C47221923C300250936 /* GetStartedViewController.swift */; };
 		91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */; };
+		91D55C4E2219442E00250936 /* SocialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4D2219442E00250936 /* SocialService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 		91D55C452219192B00250936 /* UIImage+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Application.swift"; sourceTree = "<group>"; };
 		91D55C47221923C300250936 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 		91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorDetailViewController.swift; sourceTree = "<group>"; };
+		91D55C4D2219442E00250936 /* SocialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,8 +232,9 @@
 		2E0F6C002218896700640A9E /* CitizenKit */ = {
 			isa = PBXGroup;
 			children = (
-				2E0F6C2322188B5F00640A9E /* Legislator.swift */,
 				2E0F6C2D2218B6AA00640A9E /* State.swift */,
+				2E0F6C2322188B5F00640A9E /* Legislator.swift */,
+				91D55C4D2219442E00250936 /* SocialService.swift */,
 				2E0F6C2722188EE900640A9E /* Phone2Action API */,
 				2E0F6C2222188B3700640A9E /* Core */,
 				2E0F6C0D2218896700640A9E /* CitizenKitTests */,
@@ -619,6 +622,7 @@
 			files = (
 				2E0F6C2422188B5F00640A9E /* Legislator.swift in Sources */,
 				2E0F6C2922188EFA00640A9E /* Phone2Action.swift in Sources */,
+				91D55C4E2219442E00250936 /* SocialService.swift in Sources */,
 				2E0F6C1F22188AF300640A9E /* Promise.swift in Sources */,
 				2E0F6C2622188C7700640A9E /* LegislatorsResponse.swift in Sources */,
 				2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */,

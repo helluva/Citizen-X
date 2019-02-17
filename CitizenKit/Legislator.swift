@@ -20,6 +20,13 @@ public class Legislator {
     public let website: URL?
     public let email: String?
     
+    public let officeLocation: String
+    public let termStart: Date
+    public let termEnd: Date?
+    
+    public var socialServices: [SocialService] = []
+    
+    
     public enum Party: String {
         case republican = "Republican"
         case democrat = "Democrat"
@@ -103,13 +110,18 @@ public class Legislator {
         
     }
     
-    public init(name: String, office: Office, party: Party, imageURL: URL, website: URL?, email: String?) {
+    public init(name: String, office: Office, party: Party, imageURL: URL, website: URL?, email: String?,
+                officeLocation: String, termStart: Date, termEnd: Date?) {
         self.name = name
         self.office = office
         self.party = party
         self.imageURL = imageURL
         self.website = website
         self.email = email
+        
+        self.officeLocation = officeLocation
+        self.termStart = termStart
+        self.termEnd = termEnd
     }
     
 }

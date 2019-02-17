@@ -119,7 +119,7 @@ extension EngagementViewController: UITableViewDataSource {
         cell.content = content
         
         if let query = interaction.queryText, query.count > 1 {
-            cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst() + "?"
+            cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst()
         } else {
             cell.titleLabel.text = nil
         }

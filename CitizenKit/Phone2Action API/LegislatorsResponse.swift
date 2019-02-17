@@ -23,6 +23,8 @@ struct OfficialResponse: Codable {
     let websites: [String]?
     let emails: [String]?
     let officeDetails: OfficeDetailResponse
+    let officeLocation: OfficeLocationResponse
+    let socials: [SocialResponse]
 }
 
 struct OfficeDetailResponse: Codable {
@@ -41,6 +43,16 @@ struct DistrictResponse: Codable {
         guard let id = id else { return nil }
         return Int(id)
     }
+}
+
+struct OfficeLocationResponse: Codable {
+    let city: String
+    let state: String
+}
+
+struct SocialResponse: Codable {
+    let identifierType: String
+    let identifierValue: String
 }
 
 enum DistrictTypeResponse: String, Codable {
@@ -139,7 +151,20 @@ extension Legislator {
             imageURL: imageURLOverride ?? URL(string: response.photo)
                 ?? URL(string: "https://t4.ftcdn.net/jpg/02/15/84/43/240_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg")!,
             website: website,
-            email: response.emails?.first)
+            email: response.emails?.first,
+            
+            officeLocation: "\(response.officeLocation.city), \(response.officeLocation.state)",
+            termStart: response.termStart,
+            termEnd: response.termEnd
+        )
+        
+        for socialResponse in response.socials {
+            if let provider = SocialService.Provider(rawValue: socialResponse.identifierType) {
+                let existing = self.socialServices.filter({ $0.provider == provider }).count > 0
+                if existing { continue }
+                self.socialServices.append(SocialService(provider: provider, value: socialResponse.identifierValue))
+            }
+        }
         
     }
     

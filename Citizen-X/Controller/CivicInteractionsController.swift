@@ -128,6 +128,7 @@ class CivicInteractionsController {
         print("Handling query: \(spokenQuery)")
         
         var responseContent: CardContentProviding? = nil
+        var responseIsQuestion = true
         
         // "Who are my local/state/national representatives?"
         if let representativesQueryScope = queryResult["representatives"] as? String {
@@ -158,6 +159,7 @@ class CivicInteractionsController {
             })
             if let singleLegislator = match {
                 responseContent = LegislatorsViewContent(legislators: [singleLegislator])
+                responseIsQuestion = false
                 print("Matched single legislator interaction for \(singleLegislator.name)")
             }
         }
@@ -173,7 +175,7 @@ class CivicInteractionsController {
                     encoding: .utf8))]
             
             self.addNewInteraction(CivicInteraction(
-                queryText: spokenQuery.replacingOccurrences(of: "\"", with: ""),
+                queryText: spokenQuery.replacingOccurrences(of: "\"", with: "") + (responseIsQuestion ? "?" : ""),
                 shareableUrl: shareableUrlComponents.url,
                 responseContent: responseContent))
         }
