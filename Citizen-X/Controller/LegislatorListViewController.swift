@@ -19,9 +19,8 @@ class LegislatorListViewController: UIViewController {
         stackView.translatesAutoresizingMaskIntoConstraints = false
 
         for legislator in legislators {
-            let summaryView = LegislatorSummaryView(frame: .zero)
+            let summaryView = LegislatorSummaryView(frame: .zero, legislator: legislator)
             summaryView.translatesAutoresizingMaskIntoConstraints = false
-            summaryView.legislator = legislator
             stackView.addArrangedSubview(summaryView)
         }
     }

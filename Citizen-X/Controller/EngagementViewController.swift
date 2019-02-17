@@ -30,7 +30,7 @@ class EngagementViewController: UIViewController {
             self.contentProviders.insert(legislatorContent, at: 0)
             
             let insertionPath = IndexPath.zero
-            self.tableView.insertRows(at: [insertionPath], with: .automatic)
+            self.tableView.insertRows(at: [insertionPath], with: .fade)
         }.catch { error in
             self.presentAlert("Legislators Unavailable", message: error.localizedDescription)
         }
@@ -47,7 +47,7 @@ class EngagementViewController: UIViewController {
 extension EngagementViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 400//UITableView.automaticDimension
+        return UITableView.automaticDimension
     }
     
 }
@@ -64,6 +64,7 @@ extension EngagementViewController: UITableViewDataSource {
         let contentProvider = contentProviders[indexPath.row]
         
         let container: UIView! = cell.contentContainer
+        container.translatesAutoresizingMaskIntoConstraints = false
         
         // Remove the old child view controller if necessary
         if let existingContent = cell.content {
@@ -81,13 +82,16 @@ extension EngagementViewController: UITableViewDataSource {
         container.addSubview(contentView)
         content.didMove(toParent: self)
         
+        let margin: CGFloat = 14
         NSLayoutConstraint.activate([
-            contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor),
-            contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor),
-            contentView.topAnchor.constraint(equalTo: container.topAnchor),
-            contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor),
+            contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: margin),
+            contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -margin),
+            contentView.topAnchor.constraint(equalTo: container.topAnchor, constant: margin),
+            contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -margin),
         ])
         
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        contentView.backgroundColor = .clear
         cell.content = content
         
         return cell

@@ -79,7 +79,7 @@ extension Legislator {
     convenience init(from response: OfficialResponse) {
         
         let position = response.officeDetails.position
-        let state = USState(rawValue: response.officeDetails.state ?? "Unknown") ?? .unknown
+        let state = USState.from(response.officeDetails.state ?? "Unknown")
         let office: Legislator.Office
         
         switch response.officeDetails.district.type {

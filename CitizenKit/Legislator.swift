@@ -6,7 +6,7 @@
 //  Copyright © 2019 Clifford Panos. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 // MARK: - Legislator
@@ -25,6 +25,24 @@ public class Legislator {
         case democrat = "Democrat"
         case independent = "Independent"
         case unknown = "Unknown"
+        
+        public var tintColor: UIColor {
+            switch self {
+            case .republican: return .red
+            case .democrat: return .blue
+            case .independent: return .green
+            case .unknown: return .gray
+            }
+        }
+        
+        public var displayString: String {
+            switch self {
+            case .republican: return "REP"
+            case .democrat: return "DEM"
+            case .independent: return "IND"
+            case .unknown: return "---"
+            }
+        }
     }
     
     public enum Office {
