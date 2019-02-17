@@ -41,6 +41,12 @@ public class Legislator {
         // local
         case localExecutive(title: String, city: String, state: USState)
         
+        public enum Level {
+            case national
+            case state
+            case local
+        }
+        
         public var displayString: String {
             switch self {
             case .executive(let title):
@@ -63,6 +69,17 @@ public class Legislator {
                 
             case .localExecutive(let title, let city, let state):
                 return "\(title) of \(city), \(state.abbreviation)"
+            }
+        }
+        
+        public var level: Level {
+            switch self {
+            case .executive, .senator, .houseRepresentative:
+                return .national
+            case .stateExecutive, .stateSenator, .stateRepresentative:
+                return .state
+            case .localExecutive:
+                return .local
             }
         }
         
