@@ -14,5 +14,5 @@ We wanted to design an innovative way to make the sharing political information 
 <br></br>
 
 <p align="center">
-    <img src="Assets/Screenshots/London Breed.png" width=300px> <img src="Assets/Screenshots/National Query.png" width=300px> <img src="Assets/Screenshots/Set Location.png" width=300px>
+    <img src="Assets/Screenshots/London Breed.png" width=290px> <img src="Assets/Screenshots/National Query.png" width=290px> <img src="Assets/Screenshots/Set Location.png" width=290px>
 </p>
