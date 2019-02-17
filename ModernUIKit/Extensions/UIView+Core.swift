@@ -38,7 +38,7 @@ extension UIView {
         layer.shadowOpacity = 1.0
         
         if let shapeLayer = layer as? CAShapeLayer {
-            layer.shadowPath = shapeLayer.path
+//            layer.shadowPath = shapeLayer.path
         } else {
             layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: layer.cornerRadius).cgPath // Set a shadow path to improve performance
         }

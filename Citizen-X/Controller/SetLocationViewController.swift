@@ -28,6 +28,7 @@ struct Location {
 class SetLocationViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
+    private let feedbackGenerator = UISelectionFeedbackGenerator()
     var resetOverlay: OverlayView!
     var cityOverlay: OverlayView!
     
@@ -228,6 +229,7 @@ class SetLocationViewController: UIViewController {
         mapView.addAnnotation(newAnnotation)
         mapView.removeAnnotation(existingAnnotation)
         
+        self.feedbackGenerator.selectionChanged()
         mapView.selectAnnotation(newAnnotation, animated: false)
         mapView.setCenter(location.coordinate, animated: true)
         updateCityOverlayContent(withHapticBounce: true)

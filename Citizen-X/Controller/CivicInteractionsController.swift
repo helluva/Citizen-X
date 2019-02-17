@@ -33,6 +33,7 @@ class CivicInteractionsController {
     }
     
     private var allLegislators = [Legislator]()
+    private let feedbackGenerator = UINotificationFeedbackGenerator()
     
     init(for location: Location) {
         self.location = location
@@ -81,7 +82,23 @@ class CivicInteractionsController {
                  "SpokenResponse": "",
                  "SpokenResponseLong": "",
                  "WrittenResponse": "",
-                 "WrittenResponseLong": ""]]
+                 "WrittenResponseLong": ""],
+                
+                ["Expression": "Teach me about \(legislator.name)",
+                    "Result": ["representative": legislator.name],
+                    "SpokenResponse": "",
+                    "SpokenResponseLong": "",
+                    "WrittenResponse": "",
+                    "WrittenResponseLong": ""],
+            
+                ["Expression": "Engage me with \(legislator.name)",
+                    "Result": ["representative": legislator.name],
+                    "SpokenResponse": "",
+                    "SpokenResponseLong": "",
+                    "WrittenResponse": "",
+                    "WrittenResponseLong": ""],
+            ]
+            
         }
         
         Houndify.instance().presentListeningViewController(
@@ -174,10 +191,13 @@ class CivicInteractionsController {
                     data: (try? JSONSerialization.data(withJSONObject: queryResult, options: [])) ?? Data(),
                     encoding: .utf8))]
             
+            self.feedbackGenerator.notificationOccurred(.success)
             self.addNewInteraction(CivicInteraction(
                 queryText: spokenQuery.replacingOccurrences(of: "\"", with: "") + (responseIsQuestion ? "?" : ""),
                 shareableUrl: shareableUrlComponents.url,
                 responseContent: responseContent))
+        } else {
+            feedbackGenerator.notificationOccurred(.warning)
         }
     }
     
