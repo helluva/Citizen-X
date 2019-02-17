@@ -13,12 +13,12 @@ import Foundation
 
 public class Legislator {
     
-    let name: String
-    let office: Office
-    let party: Party
-    let imageURL: URL
-    let website: URL?
-    let email: String?
+    public let name: String
+    public let office: Office
+    public let party: Party
+    public let imageURL: URL
+    public let website: URL?
+    public let email: String?
     
     public enum Party: String {
         case republican = "Republican"

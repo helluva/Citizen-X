@@ -20,7 +20,7 @@
 		2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2A2218908300640A9E /* AnyDecoder.swift */; };
 		2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2D2218B6AA00640A9E /* State.swift */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
-		91D55BD82218822500250936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* ViewController.swift */; };
+		91D55BD82218822500250936 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* EngagementViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
 		91D55BDD2218822700250936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDC2218822700250936 /* Assets.xcassets */; };
 		91D55BE02218822700250936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDE2218822700250936 /* LaunchScreen.storyboard */; };
@@ -53,6 +53,11 @@
 		91D55C2F22188ACC00250936 /* ModernGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C2722188ACC00250936 /* ModernGradientView.swift */; };
 		91D55C322218A01100250936 /* UIColor+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C312218A01100250936 /* UIColor+Application.swift */; };
 		91D55C342218A2CD00250936 /* ModernUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C332218A2CD00250936 /* ModernUIConstants.swift */; };
+		91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C352218BA2800250936 /* CardContentProviding.swift */; };
+		91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */; };
+		91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */; };
+		91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */; };
+		91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C412218E89400250936 /* LegislatorSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,7 +122,7 @@
 		2E0F6C2D2218B6AA00640A9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91D55BD72218822500250936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
 		91D55BDA2218822500250936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91D55BDC2218822700250936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D55BDF2218822700250936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -151,6 +156,11 @@
 		91D55C2722188ACC00250936 /* ModernGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernGradientView.swift; sourceTree = "<group>"; };
 		91D55C312218A01100250936 /* UIColor+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Application.swift"; sourceTree = "<group>"; };
 		91D55C332218A2CD00250936 /* ModernUIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernUIConstants.swift; sourceTree = "<group>"; };
+		91D55C352218BA2800250936 /* CardContentProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentProviding.swift; sourceTree = "<group>"; };
+		91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementTableViewCell.swift; sourceTree = "<group>"; };
+		91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorViewContent.swift; sourceTree = "<group>"; };
+		91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorListViewController.swift; sourceTree = "<group>"; };
+		91D55C412218E89400250936 /* LegislatorSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +275,7 @@
 				91D55BE7221884B700250936 /* App */,
 				91D55BE8221884C100250936 /* Core */,
 				91D55BEB221886F400250936 /* Model */,
+				91D55C392218BDE900250936 /* View */,
 				91D55BEC221886FF00250936 /* Controller */,
 				91D55C3022189FFA00250936 /* Extensions */,
 				91D55BD92218822500250936 /* Main.storyboard */,
@@ -294,6 +305,8 @@
 		91D55BEB221886F400250936 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				91D55C352218BA2800250936 /* CardContentProviding.swift */,
+				91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,7 +314,8 @@
 		91D55BEC221886FF00250936 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				91D55BD72218822500250936 /* ViewController.swift */,
+				91D55BD72218822500250936 /* EngagementViewController.swift */,
+				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +391,15 @@
 				91D55C312218A01100250936 /* UIColor+Application.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91D55C392218BDE900250936 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */,
+				91D55C412218E89400250936 /* LegislatorSummaryView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,9 +605,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */,
 				91D55C322218A01100250936 /* UIColor+Application.swift in Sources */,
+				91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
-				91D55BD82218822500250936 /* ViewController.swift in Sources */,
+				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,
+				91D55BD82218822500250936 /* EngagementViewController.swift in Sources */,
+				91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */,
+				91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,7 +707,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CitizenKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -710,7 +737,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CitizenKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -819,7 +845,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -874,7 +900,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

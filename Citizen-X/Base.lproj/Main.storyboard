@@ -14,11 +14,65 @@
         <!--Citizen X-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="EngagementViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zLl-YQ-SRX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="oNA-Z8-Lgb" userLabel="Header">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="8"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EngagementCell" id="ms0-wb-PVI" customClass="EngagementTableViewCell" customModule="Citizen_X" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="36" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ms0-wb-PVI" id="KYm-8e-Ad5">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who are my legislators?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtL-gN-FlY">
+                                                    <rect key="frame" x="20" y="11" width="374" height="6"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                    <color key="textColor" name="Secondary"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yQ-fe-HP5" customClass="ModernContinuousContourView" customModule="ModernUIKit">
+                                                    <rect key="frame" x="20" y="27" width="374" height="0.0"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="0yQ-fe-HP5" firstAttribute="top" secondItem="xtL-gN-FlY" secondAttribute="bottom" constant="10" id="3xy-PD-wmh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="xtL-gN-FlY" secondAttribute="trailing" id="D9Y-sf-wFm"/>
+                                                <constraint firstItem="xtL-gN-FlY" firstAttribute="leading" secondItem="KYm-8e-Ad5" secondAttribute="leadingMargin" id="OOg-aI-VJ3"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="0yQ-fe-HP5" secondAttribute="trailing" id="PcG-OI-eNj"/>
+                                                <constraint firstItem="0yQ-fe-HP5" firstAttribute="leading" secondItem="KYm-8e-Ad5" secondAttribute="leadingMargin" id="Y42-Mx-0Ls"/>
+                                                <constraint firstItem="xtL-gN-FlY" firstAttribute="top" secondItem="KYm-8e-Ad5" secondAttribute="topMargin" id="Zto-BC-C7c"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="0yQ-fe-HP5" secondAttribute="bottom" constant="6" id="vRq-Fx-oiz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <connections>
+                                            <outlet property="contentContainer" destination="0yQ-fe-HP5" id="SGv-qH-Ged"/>
+                                            <outlet property="titleLabel" destination="xtL-gN-FlY" id="DqF-9E-xYc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zLl-YQ-SRX" secondAttribute="bottom" id="1al-o9-0J6"/>
+                            <constraint firstAttribute="trailing" secondItem="zLl-YQ-SRX" secondAttribute="trailing" id="OhB-g0-2Le"/>
+                            <constraint firstItem="zLl-YQ-SRX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="di3-05-6Jg"/>
+                            <constraint firstItem="zLl-YQ-SRX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tsR-7K-MSC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Citizen X" id="a0J-3I-Bz5">
@@ -26,17 +80,51 @@
                             <color key="tintColor" name="Primary"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="zLl-YQ-SRX" id="fLo-eR-WsW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1010" y="781"/>
+            <point key="canvasLocation" x="1008.6956521739131" y="780.80357142857144"/>
+        </scene>
+        <!--Legislator List View Controller-->
+        <scene sceneID="8bq-r0-qZs">
+            <objects>
+                <viewController storyboardIdentifier="LegislatorListViewController" id="ttT-rc-Ayk" customClass="LegislatorListViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e9Z-Ej-o7n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3en-ZB-ZcA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3en-ZB-ZcA" firstAttribute="top" secondItem="e9Z-Ej-o7n" secondAttribute="top" id="5Ek-Gw-pKL"/>
+                            <constraint firstAttribute="trailing" secondItem="3en-ZB-ZcA" secondAttribute="trailing" id="AmH-xt-Lv2"/>
+                            <constraint firstItem="3en-ZB-ZcA" firstAttribute="leading" secondItem="e9Z-Ej-o7n" secondAttribute="leading" id="YFr-mY-rBd"/>
+                            <constraint firstAttribute="bottom" secondItem="3en-ZB-ZcA" secondAttribute="bottom" id="s8M-kg-SBp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NBn-0A-O0o"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="stackView" destination="3en-ZB-ZcA" id="B0b-XG-Zqe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kma-Ig-0EP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1864" y="781"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uYK-N8-vcb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BIq-TS-7hA" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="edh-pt-dhl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="edh-pt-dhl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -53,6 +141,9 @@
     <resources>
         <namedColor name="Primary">
             <color red="0.0" green="0.88200002908706665" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary">
+            <color red="0.41200000047683716" green="0.4309999942779541" blue="0.46299999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
