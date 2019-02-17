@@ -31,9 +31,9 @@ class LegislatorSummaryView: UIView {
         addSubview(imageView)
         
         let imageViewDimension: CGFloat = 60
-        imageView.backgroundColor = .lightGray
+        imageView.backgroundColor = .groupTableViewBackground
         imageView.cornerRadius = imageViewDimension / 2.0
-        imageView.layer.borderColor = UIColor.groupTableViewBackground.cgColor
+        imageView.layer.borderColor = UIColor.lightGray.cgColor
         imageView.layer.borderWidth = 1.0 / UIScreen.main.scale
         
         NSLayoutConstraint.activate([
