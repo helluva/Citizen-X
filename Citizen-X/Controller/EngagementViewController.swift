@@ -99,24 +99,34 @@ extension EngagementViewController: UITableViewDataSource {
         }
         
         // Add the new content
-        let content = interaction.responseContent.cardContent
-        let contentView: UIView! = content.view
-        self.addChild(content)
+        let content = interaction.responseContent
+        let contentViewController = content.cardContent
+        let contentView: UIView! = contentViewController.view
+        self.addChild(contentViewController)
         contentView.frame = container.bounds
         container.addSubview(contentView)
-        content.didMove(toParent: self)
+        contentViewController.didMove(toParent: self)
         
-        let margin: CGFloat = 14
-        NSLayoutConstraint.activate([
-            contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: margin),
-            contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -margin),
-            contentView.topAnchor.constraint(equalTo: container.topAnchor, constant: margin - 4.0),
-            contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -margin + 4.0),
-        ])
+        if !content.hasMargins {
+            NSLayoutConstraint.activate([
+                contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor),
+                contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor),
+                contentView.topAnchor.constraint(equalTo: container.topAnchor),
+                contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor),
+            ])
+        } else {
+            let margin: CGFloat = 14
+            NSLayoutConstraint.activate([
+                contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: margin),
+                contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -margin),
+                contentView.topAnchor.constraint(equalTo: container.topAnchor, constant: margin - 4.0),
+                contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -margin + 4.0),
+            ])
+        }
         
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.backgroundColor = .clear
-        cell.content = content
+        cell.content = contentViewController
         
         if let query = interaction.queryText, query.count > 1 {
             cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst()

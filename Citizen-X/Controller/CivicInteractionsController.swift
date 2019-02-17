@@ -9,6 +9,7 @@
 import Foundation
 import CitizenKit
 import HoundifySDK
+import CoreLocation
 
 
 // MARK: - CivicInteractionsControllerDelegate
@@ -117,35 +118,33 @@ class CivicInteractionsController {
                 guard let dictionary = dictionary,
                     let allResults = dictionary["AllResults"] as? [[String: Any]],
                     let result = allResults.first,
-                    let matchedItem = result["MatchedItem"] as? [String: Any],
-                    let spokenQuery = matchedItem["Expression"] as? String,
-                    let nativeData = result["NativeData"] as? [String: Any],
-                    let queryResult = nativeData["Result"] as? [String: Any] else
+                    let nativeData = result["NativeData"] as? [String: Any] else
                 {
                     // TODO: error handling?
                     return
                 }
                 
-                self.handleQueryResult(queryResult, for: spokenQuery)
+                
+                // custom commands have spoken query properties
+                if let matchedItem = result["MatchedItem"] as? [String: Any],
+                    let spokenQuery = matchedItem["Expression"] as? String
+                {
+                    self.handleQueryResult(nativeData["Result"] as? [String: Any] ?? [:], for: spokenQuery)
+                }
+                
+                else {
+                    self.handleQueryResult(nativeData, for: nil)
+                }
             })
-        
-        /*DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
-         
-         // delicious
-         let buttonImageView = self
-         .children[0].view.subviews[0].subviews[0]
-         .subviews[2].subviews[6].subviews[0].subviews[0]
-         as! UIImageView
-         
-         buttonImageView.layer.filters = [CIFilter(name: "CIPhotoEffectNoir") ]
-         }*/
     }
     
-    func handleQueryResult(_ queryResult: [String: Any], for spokenQuery: String) {
-        print("Handling query: \(spokenQuery)")
+    func handleQueryResult(_ queryResult: [String: Any], for spokenQuery: String?) {
+        print("Handling query: \(String(describing: spokenQuery))")
         
         var responseContent: CardContentProviding? = nil
         var responseIsQuestion = true
+        var customQueryTitle: String? = nil
+        var isShareable = true
         
         // "Who are my local/state/national representatives?"
         if let representativesQueryScope = queryResult["representatives"] as? String {
@@ -181,20 +180,50 @@ class CivicInteractionsController {
             }
         }
         
+        // location lookup: "Show me Miami, FL"
+        if let mapLocationSpec = (queryResult["MapLocationSpecs"] as? [[String: Any]])?.first,
+            mapLocationSpec["CountryCode"] as? String == "US",
+            let city = mapLocationSpec["City"] as? String,
+            let state = mapLocationSpec["Admin1"] as? String,
+            let longitude = mapLocationSpec["Longitude"] as? Double,
+            let latitude = mapLocationSpec["Latitude"] as? Double,
+            let usState = USState(rawValue: state)
+        {
+            let location = Location(
+                city: "\(city), \(usState.abbreviation)",
+                coordinate: CLLocation(
+                    latitude: CLLocationDegrees(latitude),
+                    longitude: CLLocationDegrees(longitude)))
+            
+            self.location = location
+            customQueryTitle = location.city
+            isShareable = false
+            responseIsQuestion = false
+            responseContent = LocationViewContent(location: location)
+        }
         
         if let responseContent = responseContent {
-            var shareableUrlComponents = URLComponents(string: "representative://query")!
-            shareableUrlComponents.queryItems = [
-                URLQueryItem(name: "city", value: location.city),
-                URLQueryItem(name: "q", value: spokenQuery),
-                URLQueryItem(name: "json", value: String(
-                    data: (try? JSONSerialization.data(withJSONObject: queryResult, options: [])) ?? Data(),
-                    encoding: .utf8))]
+            
+            var shareableUrl: URL?
+            
+            if isShareable {
+                var shareableUrlComponents = URLComponents(string: "representative://query")!
+                shareableUrlComponents.queryItems = [
+                    URLQueryItem(name: "city", value: location.city),
+                    URLQueryItem(name: "q", value: spokenQuery),
+                    URLQueryItem(name: "json", value: String(
+                        data: (try? JSONSerialization.data(withJSONObject: queryResult, options: [])) ?? Data(),
+                        encoding: .utf8))]
+                shareableUrl = shareableUrlComponents.url
+            } else {
+                shareableUrl = nil
+            }
             
             self.feedbackGenerator.notificationOccurred(.success)
             self.addNewInteraction(CivicInteraction(
-                queryText: spokenQuery.replacingOccurrences(of: "\"", with: "") + (responseIsQuestion ? "?" : ""),
-                shareableUrl: shareableUrlComponents.url,
+                queryText: customQueryTitle
+                    ?? spokenQuery?.replacingOccurrences(of: "\"", with: "").appending(responseIsQuestion ? "?" : ""),
+                shareableUrl: shareableUrl,
                 responseContent: responseContent))
         } else {
             feedbackGenerator.notificationOccurred(.warning)

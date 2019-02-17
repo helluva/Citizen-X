@@ -24,6 +24,8 @@
 		2E0F6C3822192A9E00640A9E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3722192A9E00640A9E /* OverlayView.swift */; };
 		2E0F6C3A22192ABB00640A9E /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */; };
 		2E0F6C3C22192AC800640A9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0F6C3B22192AC800640A9E /* MapKit.framework */; };
+		2E0F6C3E221968E500640A9E /* SimpleLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3D221968E500640A9E /* SimpleLocationViewController.swift */; };
+		2E0F6C402219694400640A9E /* LocationViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C3F2219694400640A9E /* LocationViewContent.swift */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* EngagementViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -136,6 +138,8 @@
 		2E0F6C3722192A9E00640A9E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
 		2E0F6C3B22192AC800640A9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2E0F6C3D221968E500640A9E /* SimpleLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLocationViewController.swift; sourceTree = "<group>"; };
+		2E0F6C3F2219694400640A9E /* LocationViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewContent.swift; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
@@ -333,6 +337,7 @@
 				2E0F6C352218FC6700640A9E /* CivicInteraction.swift */,
 				91D55C352218BA2800250936 /* CardContentProviding.swift */,
 				91D55C3D2218C80C00250936 /* LegislatorsViewContent.swift */,
+				2E0F6C3F2219694400640A9E /* LocationViewContent.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,11 +346,12 @@
 			isa = PBXGroup;
 			children = (
 				91D55BD72218822500250936 /* EngagementViewController.swift */,
+				2E0F6C332218F82100640A9E /* CivicInteractionsController.swift */,
 				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
 				91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */,
 				91D55C47221923C300250936 /* GetStartedViewController.swift */,
-				2E0F6C332218F82100640A9E /* CivicInteractionsController.swift */,
 				2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */,
+				2E0F6C3D221968E500640A9E /* SimpleLocationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -652,6 +658,7 @@
 				91D55C3E2218C80C00250936 /* LegislatorsViewContent.swift in Sources */,
 				91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */,
 				2E0F6C342218F82100640A9E /* CivicInteractionsController.swift in Sources */,
+				2E0F6C402219694400640A9E /* LocationViewContent.swift in Sources */,
 				91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
 				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,
@@ -659,6 +666,7 @@
 				91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */,
 				2E0F6C3822192A9E00640A9E /* OverlayView.swift in Sources */,
 				2E0F6C3A22192ABB00640A9E /* SetLocationViewController.swift in Sources */,
+				2E0F6C3E221968E500640A9E /* SimpleLocationViewController.swift in Sources */,
 				91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
 				2E0F6C362218FC6700640A9E /* CivicInteraction.swift in Sources */,

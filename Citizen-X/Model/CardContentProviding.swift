@@ -12,6 +12,7 @@ protocol CardContentProviding: class {
     
     var cachedCardContent: UIViewController? { get set }
     var cardContent: UIViewController { get }
+    var hasMargins: Bool { get }
 
     func createCardContent() -> UIViewController
     
@@ -27,4 +28,9 @@ extension CardContentProviding {
         cachedCardContent = vc
         return vc
     }
+    
+    var hasMargins: Bool {
+        return true
+    }
+    
 }
