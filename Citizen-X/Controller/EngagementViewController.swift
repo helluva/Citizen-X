@@ -136,7 +136,7 @@ extension EngagementViewController: UITableViewDataSource {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
             if container.subviews.isEmpty {
-                fatalError("something hath gone wrong")
+//                fatalError("something hath gone wrong")
             }
         })
         

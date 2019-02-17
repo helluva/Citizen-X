@@ -106,7 +106,7 @@ class LegislatorDetailViewController: UIViewController {
     
     @objc private func websiteButtonDidTap(_ sender: UIButton) {
         let websiteURL = buttonURLMap[sender]!
-        if websiteURL.absoluteString.contains("instagram") {
+        if websiteURL.absoluteString.contains("instagram") || websiteURL.absoluteString.contains("mailto") {
             UIApplication.shared.open(websiteURL, options: [:]) { (success) in
                 // handle success or failure
             }

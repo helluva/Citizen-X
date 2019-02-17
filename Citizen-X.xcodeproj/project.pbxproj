@@ -70,6 +70,7 @@
 		91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C47221923C300250936 /* GetStartedViewController.swift */; };
 		91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */; };
 		91D55C4E2219442E00250936 /* SocialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4D2219442E00250936 /* SocialService.swift */; };
+		91D55C522219E23A00250936 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C512219E23A00250936 /* PersonalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +188,7 @@
 		91D55C47221923C300250936 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 		91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorDetailViewController.swift; sourceTree = "<group>"; };
 		91D55C4D2219442E00250936 /* SocialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialService.swift; sourceTree = "<group>"; };
+		91D55C512219E23A00250936 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,6 +354,7 @@
 				91D55C47221923C300250936 /* GetStartedViewController.swift */,
 				2E0F6C3922192ABB00640A9E /* SetLocationViewController.swift */,
 				2E0F6C3D221968E500640A9E /* SimpleLocationViewController.swift */,
+				91D55C512219E23A00250936 /* PersonalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				91D55C3E2218C80C00250936 /* LegislatorsViewContent.swift in Sources */,
 				91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */,
 				2E0F6C342218F82100640A9E /* CivicInteractionsController.swift in Sources */,
+				91D55C522219E23A00250936 /* PersonalViewController.swift in Sources */,
 				2E0F6C402219694400640A9E /* LocationViewContent.swift in Sources */,
 				91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
