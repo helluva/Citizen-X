@@ -77,6 +77,20 @@ class CivicInteractionsController {
                 "WrittenResponse": "",
                 "WrittenResponseLong": ""],
                 
+                ["Expression": "More about \(legislator.name)",
+                    "Result": ["representative": legislator.name],
+                    "SpokenResponse": "",
+                    "SpokenResponseLong": "",
+                    "WrittenResponse": "",
+                    "WrittenResponseLong": ""],
+                
+                ["Expression": "Information about \(legislator.name)",
+                    "Result": ["representative": legislator.name],
+                    "SpokenResponse": "",
+                    "SpokenResponseLong": "",
+                    "WrittenResponse": "",
+                    "WrittenResponseLong": ""],
+                
                 ["Expression": "Tell me about \(legislator.name)",
                  "Result": ["representative": legislator.name],
                  "SpokenResponse": "",

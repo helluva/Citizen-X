@@ -126,9 +126,11 @@ extension EngagementViewController: UITableViewDataSource {
         
         if let shareableUrl = interaction.shareableUrl {
             cell.shareHandler = { shareButton in
-                let actionSheet = UIActivityViewController(activityItems: [shareableUrl], applicationActivities: nil)
+                let shareString = "Get engaged with Citizen X!"
+                let actionSheet = UIActivityViewController(activityItems: [shareString, shareableUrl], applicationActivities: nil)
                 actionSheet.popoverPresentationController?.sourceView = shareButton
                 actionSheet.popoverPresentationController?.sourceRect = shareButton.bounds
+                actionSheet.popoverPresentationController?.permittedArrowDirections = [.up, .right]
                 self.present(actionSheet, animated: true)
             }
         } else {

@@ -226,7 +226,7 @@
                                     <constraint firstAttribute="height" constant="0.75" id="PGp-Fw-XNv"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2Ie-Gr-qBa">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2Ie-Gr-qBa">
                                 <rect key="frame" x="0.0" y="416" width="375" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="QqV-Y7-KhX"/>

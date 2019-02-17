@@ -97,7 +97,7 @@ class SetLocationViewController: UIViewController {
         overlay.contentBackgroundColor = navigationController?.navigationBar.barTintColor ?? .black
         
         let button = UIButton(type: .system)
-        button.setTitle("Use current location", for: .normal)
+        button.setTitle("Use Current Location", for: .normal)
         button.setTitleColor(.applicationPrimary2, for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: 14, weight: .semibold)
         button.setContentCompressionResistancePriority(.required, for: .horizontal)

@@ -68,7 +68,6 @@
 		91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C47221923C300250936 /* GetStartedViewController.swift */; };
 		91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */; };
 		91D55C4E2219442E00250936 /* SocialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4D2219442E00250936 /* SocialService.swift */; };
-		91D55C5022195CD700250936 /* WebsiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4F22195CD700250936 /* WebsiteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,7 +181,6 @@
 		91D55C47221923C300250936 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 		91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorDetailViewController.swift; sourceTree = "<group>"; };
 		91D55C4D2219442E00250936 /* SocialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialService.swift; sourceTree = "<group>"; };
-		91D55C4F22195CD700250936 /* WebsiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,7 +428,6 @@
 			children = (
 				91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */,
 				91D55C412218E89400250936 /* LegislatorSummaryView.swift */,
-				91D55C4F22195CD700250936 /* WebsiteButton.swift */,
 				2E0F6C3722192A9E00640A9E /* OverlayView.swift */,
 			);
 			path = View;
@@ -646,7 +643,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */,
-				91D55C5022195CD700250936 /* WebsiteButton.swift in Sources */,
 				91D55C322218A01100250936 /* UIColor+Application.swift in Sources */,
 				91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */,
 				91D55C3E2218C80C00250936 /* LegislatorsViewContent.swift in Sources */,
