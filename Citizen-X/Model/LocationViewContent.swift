@@ -13,6 +13,7 @@ class LocationViewContent: NSObject, CardContentProviding {
     
     let location: Location
     var cachedCardContent: UIViewController?
+    var cachedTableViewCell: UITableViewCell?
     
     var hasMargins: Bool {
         return false

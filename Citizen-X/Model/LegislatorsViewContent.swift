@@ -13,6 +13,7 @@ class LegislatorsViewContent: NSObject, CardContentProviding {
     
     let legislators: [Legislator]
     var cachedCardContent: UIViewController?
+    var cachedTableViewCell: UITableViewCell?
     
     public init(legislators: [Legislator]) {
         self.legislators = legislators

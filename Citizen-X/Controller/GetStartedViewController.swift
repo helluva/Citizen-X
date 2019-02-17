@@ -11,6 +11,7 @@ import UIKit
 class GetStartedCardContent: CardContentProviding {
     
     var cachedCardContent: UIViewController?
+    var cachedTableViewCell: UITableViewCell?
     
     func createCardContent() -> UIViewController {
         return UIStoryboard.main.instantiateViewController(withIdentifier: "GetStartedViewController")

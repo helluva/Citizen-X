@@ -11,6 +11,8 @@ import UIKit
 protocol CardContentProviding: class {
     
     var cachedCardContent: UIViewController? { get set }
+    var cachedTableViewCell: UITableViewCell? { get set }
+    
     var cardContent: UIViewController { get }
     var hasMargins: Bool { get }
 

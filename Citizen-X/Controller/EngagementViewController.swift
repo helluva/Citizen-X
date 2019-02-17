@@ -58,6 +58,21 @@ class EngagementViewController: UIViewController {
                 self.contentController.location = location
         })
     }
+    
+    /// when we're under memory pressure, toss the off-screen cached cells
+    /*override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        let visibleCells = tableView.visibleCells
+        
+        contentController.interactions[0...(contentController.interactions.count / 2)].forEach { interaction in
+            if let cachedCell = interaction.responseContent.cachedTableViewCell,
+                !visibleCells.contains(cachedCell)
+            {
+                interaction.responseContent.cachedTableViewCell = nil
+            }
+        }
+    }*/
 
 }
 
@@ -78,9 +93,13 @@ extension EngagementViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: EngagementTableViewCell.reuseIdentifier, for: indexPath) as! EngagementTableViewCell
-        
         let interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
+        
+        if let cachedTableViewCell = interaction.responseContent.cachedTableViewCell {
+            return cachedTableViewCell
+        }
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: EngagementTableViewCell.reuseIdentifier, for: indexPath) as! EngagementTableViewCell
         
         let container: UIView! = cell.contentContainer
         container.translatesAutoresizingMaskIntoConstraints = false
@@ -136,10 +155,11 @@ extension EngagementViewController: UITableViewDataSource {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
             if container.subviews.isEmpty {
-                fatalError("something hath gone wrong")
+                print("bad state")
             }
         })
         
+        interaction.responseContent.cachedTableViewCell = cell
         return cell
     }
     

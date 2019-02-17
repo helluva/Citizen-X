@@ -17,17 +17,32 @@ class EngagementTableViewCell: UITableViewCell {
 
     // MARK: - UITableViewCell
     
+    var loaded = false
+    
     override func awakeFromNib() {
         super.awakeFromNib()
 
         contentContainer.smoothCornerRadius = 12
         contentContainer.smoothBackgroundColor = .white
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
+            self.loaded = true
+        })
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    override var reuseIdentifier: String? {
+        if loaded {
+           return UUID().uuidString
+        } else {
+            return super.reuseIdentifier
+        }
     }
     
     
