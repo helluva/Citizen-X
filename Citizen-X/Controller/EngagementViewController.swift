@@ -73,20 +73,14 @@ extension EngagementViewController: UITableViewDelegate {
 extension EngagementViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return max(1, contentController.interactions.count)
+        return contentController.interactions.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: EngagementTableViewCell.reuseIdentifier, for: indexPath) as! EngagementTableViewCell
         
-        let interaction: CivicInteraction
-        
-        if contentController.interactions.count == 0 {
-            interaction = CivicInteraction(responseContent: GetStartedCardContent.default)
-        } else {
-            interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
-        }
+        let interaction = contentController.interactions[contentController.interactions.count - indexPath.row - 1]
         
         let container: UIView! = cell.contentContainer
         container.translatesAutoresizingMaskIntoConstraints = false
@@ -99,24 +93,34 @@ extension EngagementViewController: UITableViewDataSource {
         }
         
         // Add the new content
-        let content = interaction.responseContent.cardContent
-        let contentView: UIView! = content.view
-        self.addChild(content)
+        let content = interaction.responseContent
+        let contentViewController = content.cardContent
+        let contentView: UIView! = contentViewController.view
+        self.addChild(contentViewController)
         contentView.frame = container.bounds
         container.addSubview(contentView)
-        content.didMove(toParent: self)
+        contentViewController.didMove(toParent: self)
         
-        let margin: CGFloat = 14
-        NSLayoutConstraint.activate([
-            contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: margin),
-            contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -margin),
-            contentView.topAnchor.constraint(equalTo: container.topAnchor, constant: margin - 4.0),
-            contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -margin + 4.0),
-        ])
+        if !content.hasMargins {
+            NSLayoutConstraint.activate([
+                contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor),
+                contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor),
+                contentView.topAnchor.constraint(equalTo: container.topAnchor),
+                contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor),
+            ])
+        } else {
+            let margin: CGFloat = 14
+            NSLayoutConstraint.activate([
+                contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: margin),
+                contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -margin),
+                contentView.topAnchor.constraint(equalTo: container.topAnchor, constant: margin - 4.0),
+                contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: -margin + 4.0),
+            ])
+        }
         
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.backgroundColor = .clear
-        cell.content = content
+        cell.content = contentViewController
         
         if let query = interaction.queryText, query.count > 1 {
             cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst()
@@ -145,12 +149,7 @@ extension EngagementViewController: UITableViewDataSource {
 extension EngagementViewController: CivicInteractionsControllerDelegate {
     
     func addedNewInteraction(_ interaction: CivicInteraction) {
-        if contentController.interactions.count == 1 {
-            // replace the onboarding card
-            tableView.reloadRows(at: [.zero], with: .top)
-        } else {
-            tableView.insertRows(at: [.zero], with: .fade)
-        }
+        tableView.insertRows(at: [.zero], with: .fade)
     }
     
     func errorFetchingLegislators(_ error: Error) {
