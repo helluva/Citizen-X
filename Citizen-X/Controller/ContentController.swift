@@ -14,7 +14,7 @@ import HoundifySDK
 // MARK: - ContentControllerDelegate
 
 protocol ContentControllerDelegate: class {
-    func addedNewInteraction(_ interaction: Interaction)
+    func addedNewInteraction(_ interaction: CivicInteraction)
 }
 
 
@@ -23,7 +23,7 @@ protocol ContentControllerDelegate: class {
 class ContentController {
     
     weak var delegate: ContentControllerDelegate?
-    var interactions: [Interaction] = []
+    var interactions: [CivicInteraction] = []
     
     var location: String {
         didSet {
@@ -36,6 +36,9 @@ class ContentController {
     init(for location: String) {
         self.location = location
         updateLegislators()
+        
+        let defaultCard = CivicInteraction(queryText: "", responseContent: GetStartedCardContent.default)
+        self.interactions = [defaultCard]
     }
     
     private func updateLegislators() {
@@ -46,7 +49,7 @@ class ContentController {
         }
     }
     
-    private func addNewInteraction(_ interaction: Interaction) {
+    private func addNewInteraction(_ interaction: CivicInteraction) {
         interactions.append(interaction)
         delegate?.addedNewInteraction(interaction)
     }
@@ -60,14 +63,21 @@ class ContentController {
         
         HoundVoiceSearch.instance().enableHotPhraseDetection = false
         
-        let clientMatchOptions: [[String: Any]] = allLegislators.map { legislator in
+        let clientMatchOptions: [[String: Any]] = allLegislators.flatMap { legislator in
             return [
-                "Expression": "Tell me more about \(legislator.name)",
+                ["Expression": "Tell me more about \(legislator.name)",
                 "Result": ["representative": legislator.name],
                 "SpokenResponse": "",
                 "SpokenResponseLong": "",
                 "WrittenResponse": "",
-                "WrittenResponseLong": ""]
+                "WrittenResponseLong": ""],
+                ["Expression": "Tell me about \(legislator.name)",
+                    "Result": ["representative": legislator.name],
+                    "SpokenResponse": "",
+                    "SpokenResponseLong": "",
+                    "WrittenResponse": "",
+                    "WrittenResponseLong": ""],
+            ]
         }
         
         Houndify.instance().presentListeningViewController(
@@ -114,15 +124,26 @@ class ContentController {
                         fatalError("Invalid value.")
                     }
                     
-                    responseContent = LegislatorViewContent(legislators: self.allLegislators.filter {
+                    responseContent = LegislatorsViewContent(legislators: self.allLegislators.filter {
                         representativeLevels.contains($0.office.level)
                     })
                 }
                 
                 
+                if let representativeNameQuery = queryResult["representative"] as? String {
+                    let match = self.allLegislators.first(where: {
+                        $0.name.lowercased() == representativeNameQuery.lowercased()
+                    })
+                    if let singleLegislator = match {
+                        responseContent = LegislatorsViewContent(legislators: [singleLegislator])
+                        print("Matched single legislator interaction for \(singleLegislator.name)")
+                    }
+                }
+                
+                
                 if let responseContent = responseContent {
-                    self.addNewInteraction(Interaction(
-                        queryText: String(spokenQuery.dropFirst().dropLast()),
+                    self.addNewInteraction(CivicInteraction(
+                        queryText: spokenQuery.replacingOccurrences(of: "\"", with: ""),
                         responseContent: responseContent))
                 }
             })

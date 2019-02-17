@@ -66,7 +66,7 @@ class LegislatorSummaryView: UIView {
         partyLabel.textColor = .white
         partyLabel.backgroundColor = legislator.party.tintColor.brightened()
         partyLabel.font = UIFont.systemFont(ofSize: 12.0, weight: .semibold)
-        partyLabel.cornerRadius = 5.0
+        partyLabel.cornerRadius = 4.0
         partyLabel.layer.masksToBounds = true
         if legislator.party == .unknown { partyLabel.alpha = 0.0 }
         

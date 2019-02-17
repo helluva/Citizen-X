@@ -1,5 +1,5 @@
 //
-//  Interaction.swift
+//  CivicInteraction.swift
 //  Citizen-X
 //
 //  Created by Cal Stephens on 2/16/19.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Interaction {
+class CivicInteraction {
     
     let queryText: String
     let responseContent: CardContentProviding

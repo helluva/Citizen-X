@@ -126,15 +126,17 @@ extension Legislator {
         }
         
         var partyOverride: Party? = nil
+        var imageURLOverride: URL? = nil
         if response.id == 54690 /* London Breed */ {
             partyOverride = .democrat
+            imageURLOverride = URL(string: "http://sfcommunityalliance.org/wp-content/uploads/2018/04/oBMVsSAH_400x400.jpg")!
         }
         
         self.init(
             name: "\(response.firstName) \(response.lastName)",
             office: office,
             party: partyOverride ?? Party(rawValue: response.party) ?? .unknown,
-            imageURL: URL(string: response.photo)
+            imageURL: imageURLOverride ?? URL(string: response.photo)
                 ?? URL(string: "https://t4.ftcdn.net/jpg/02/15/84/43/240_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg")!,
             website: website,
             email: response.emails?.first)

@@ -101,7 +101,11 @@ extension EngagementViewController: UITableViewDataSource {
         cell.content = content
         
         let query = interaction.queryText
-        cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst() + "?"
+        if query.count > 1 {
+            cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst() + "?"
+        } else {
+            cell.titleLabel.text = nil
+        }
         
         return cell
     }
@@ -110,7 +114,7 @@ extension EngagementViewController: UITableViewDataSource {
 
 extension EngagementViewController: ContentControllerDelegate {
     
-    func addedNewInteraction(_ interaction: Interaction) {
+    func addedNewInteraction(_ interaction: CivicInteraction) {
         let lastIndexPath: IndexPath = .zero
         tableView.insertRows(at: [lastIndexPath], with: .fade)
     }

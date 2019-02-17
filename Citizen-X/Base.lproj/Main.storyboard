@@ -39,13 +39,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who are my legislators?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtL-gN-FlY">
-                                                    <rect key="frame" x="15" y="11" width="620" height="24"/>
+                                                    <rect key="frame" x="15" y="11" width="345" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                     <color key="textColor" name="Secondary"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yQ-fe-HP5" customClass="ModernContinuousContourView" customModule="ModernUIKit">
-                                                    <rect key="frame" x="15" y="45" width="620" height="94"/>
+                                                    <rect key="frame" x="15" y="45" width="345" height="94"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                             </subviews>
@@ -126,11 +126,11 @@
             <objects>
                 <viewController storyboardIdentifier="LegislatorListViewController" id="ttT-rc-Ayk" customClass="LegislatorListViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e9Z-Ej-o7n">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="3en-ZB-ZcA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -143,14 +143,82 @@
                         <viewLayoutGuide key="safeArea" id="NBn-0A-O0o"/>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="414" height="896"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="500"/>
                     <connections>
                         <outlet property="stackView" destination="3en-ZB-ZcA" id="B0b-XG-Zqe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kma-Ig-0EP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1864" y="781"/>
+            <point key="canvasLocation" x="2245" y="781"/>
+        </scene>
+        <!--Legislator Detail View Controller-->
+        <scene sceneID="gUF-4r-XMm">
+            <objects>
+                <viewController storyboardIdentifier="LegislatorDetailViewController" id="K1e-7t-ozn" customClass="LegislatorDetailViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="733-55-cOd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4xp-sX-M2j"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="txo-kE-YAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2246" y="1391"/>
+        </scene>
+        <!--Get Started View Controller-->
+        <scene sceneID="uq1-US-wvf">
+            <objects>
+                <viewController storyboardIdentifier="GetStartedViewController" id="5ih-rs-Y4Q" customClass="GetStartedViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LAP-Xh-h91">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Civic" translatesAutoresizingMaskIntoConstraints="NO" id="Ei2-7c-4C6">
+                                <rect key="frame" x="67.666666666666686" y="68" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="59L-3G-OD9"/>
+                                    <constraint firstAttribute="width" constant="240" id="w6p-Yl-K7G"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zae-cy-Dmk">
+                                <rect key="frame" x="37.666666666666657" y="220" width="300" height="106"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Citizen X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8H-b1-o8p">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="29.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join the future of civic engagement. Get started by asking, &quot;Who are my local representatives?&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opa-PE-hr4">
+                                        <rect key="frame" x="0.0" y="37.333333333333321" width="300" height="68.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Secondary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="SrN-28-DKP"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Zae-cy-Dmk" secondAttribute="bottom" constant="24" id="4nf-OP-OMg"/>
+                            <constraint firstItem="Zae-cy-Dmk" firstAttribute="centerX" secondItem="LAP-Xh-h91" secondAttribute="centerX" id="HkB-1m-KiO"/>
+                            <constraint firstItem="Ei2-7c-4C6" firstAttribute="centerX" secondItem="LAP-Xh-h91" secondAttribute="centerX" id="UF5-lG-RL5"/>
+                            <constraint firstItem="Ei2-7c-4C6" firstAttribute="top" secondItem="w4p-GV-XNK" secondAttribute="top" constant="24" id="nZf-CH-44J"/>
+                            <constraint firstItem="Zae-cy-Dmk" firstAttribute="top" secondItem="Ei2-7c-4C6" secondAttribute="bottom" constant="24" id="ydN-da-yM6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w4p-GV-XNK"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="350"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZp-sc-qKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2246" y="330"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uYK-N8-vcb">
@@ -175,6 +243,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Civic" width="1118" height="825"/>
         <image name="Contact" width="30" height="30.333333969116211"/>
         <image name="Location" width="30" height="30"/>
         <image name="microphone" width="200" height="200"/>

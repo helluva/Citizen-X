@@ -20,7 +20,7 @@
 		2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2A2218908300640A9E /* AnyDecoder.swift */; };
 		2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2D2218B6AA00640A9E /* State.swift */; };
 		2E0F6C342218F82100640A9E /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C332218F82100640A9E /* ContentController.swift */; };
-		2E0F6C362218FC6700640A9E /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C352218FC6700640A9E /* Interaction.swift */; };
+		2E0F6C362218FC6700640A9E /* CivicInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C352218FC6700640A9E /* CivicInteraction.swift */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* EngagementViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -57,11 +57,13 @@
 		91D55C342218A2CD00250936 /* ModernUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C332218A2CD00250936 /* ModernUIConstants.swift */; };
 		91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C352218BA2800250936 /* CardContentProviding.swift */; };
 		91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */; };
-		91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */; };
+		91D55C3E2218C80C00250936 /* LegislatorsViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3D2218C80C00250936 /* LegislatorsViewContent.swift */; };
 		91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */; };
 		91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C412218E89400250936 /* LegislatorSummaryView.swift */; };
 		91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */; };
 		91D55C462219192B00250936 /* UIImage+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C452219192B00250936 /* UIImage+Application.swift */; };
+		91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C47221923C300250936 /* GetStartedViewController.swift */; };
+		91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,7 +127,7 @@
 		2E0F6C2A2218908300640A9E /* AnyDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecoder.swift; sourceTree = "<group>"; };
 		2E0F6C2D2218B6AA00640A9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		2E0F6C332218F82100640A9E /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
-		2E0F6C352218FC6700640A9E /* Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interaction.swift; sourceTree = "<group>"; };
+		2E0F6C352218FC6700640A9E /* CivicInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicInteraction.swift; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
@@ -164,11 +166,13 @@
 		91D55C332218A2CD00250936 /* ModernUIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernUIConstants.swift; sourceTree = "<group>"; };
 		91D55C352218BA2800250936 /* CardContentProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentProviding.swift; sourceTree = "<group>"; };
 		91D55C3A2218BDFF00250936 /* EngagementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementTableViewCell.swift; sourceTree = "<group>"; };
-		91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorViewContent.swift; sourceTree = "<group>"; };
+		91D55C3D2218C80C00250936 /* LegislatorsViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorsViewContent.swift; sourceTree = "<group>"; };
 		91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorListViewController.swift; sourceTree = "<group>"; };
 		91D55C412218E89400250936 /* LegislatorSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorSummaryView.swift; sourceTree = "<group>"; };
 		91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+AsyncURL.swift"; sourceTree = "<group>"; };
 		91D55C452219192B00250936 /* UIImage+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Application.swift"; sourceTree = "<group>"; };
+		91D55C47221923C300250936 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,9 +317,9 @@
 		91D55BEB221886F400250936 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F6C352218FC6700640A9E /* CivicInteraction.swift */,
 				91D55C352218BA2800250936 /* CardContentProviding.swift */,
-				91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */,
-				2E0F6C352218FC6700640A9E /* Interaction.swift */,
+				91D55C3D2218C80C00250936 /* LegislatorsViewContent.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -323,9 +327,11 @@
 		91D55BEC221886FF00250936 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F6C332218F82100640A9E /* ContentController.swift */,
 				91D55BD72218822500250936 /* EngagementViewController.swift */,
 				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
-				2E0F6C332218F82100640A9E /* ContentController.swift */,
+				91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */,
+				91D55C47221923C300250936 /* GetStartedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -620,15 +626,17 @@
 				91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */,
 				91D55C322218A01100250936 /* UIColor+Application.swift in Sources */,
 				91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */,
-				91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */,
+				91D55C3E2218C80C00250936 /* LegislatorsViewContent.swift in Sources */,
+				91D55C4C2219296E00250936 /* LegislatorDetailViewController.swift in Sources */,
 				2E0F6C342218F82100640A9E /* ContentController.swift in Sources */,
+				91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
 				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,
 				91D55BD82218822500250936 /* EngagementViewController.swift in Sources */,
 				91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */,
 				91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
-				2E0F6C362218FC6700640A9E /* Interaction.swift in Sources */,
+				2E0F6C362218FC6700640A9E /* CivicInteraction.swift in Sources */,
 				91D55C462219192B00250936 /* UIImage+Application.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
