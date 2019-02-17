@@ -8,23 +8,11 @@ We wanted to design an innovative way to make the sharing political information 
 <br></br>
   
 <p align="center">
-    <img src="Assets/AppIconRounded.png" width=450em>
+    <img src="Assets/AppIconRounded.png" width=200px>
 </p>
 
 <br></br>
 
-<div id="tabBar" style="width:25%;">
-                <div>
-                    <img id="Person" src="Assets/Screenshots/London Breed.png">
-                </div>
-                <div>
-                    <img id="Sale" src="Assets/Screenshots/London Breed.png">
-                </div>
-                <div>
-                    <img id="Current" src="Assets/Screenshots/London Breed.png">
-                </div>
-                <div>
-                    <img id="Food" src="Assets/Screenshots/London Breed.png">
-                </div>
-                <span id="Stretch"></span>
-            </div>
+<p align="center">
+    <img src="Assets/Screenshots/London Breed.png" width=300px> <img src="Assets/Screenshots/National Query.png" width=300px> <img src="Assets/Screenshots/Set Location.png" width=300px>
+</p>
