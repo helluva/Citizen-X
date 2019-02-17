@@ -60,11 +60,21 @@ class ContentController {
         
         HoundVoiceSearch.instance().enableHotPhraseDetection = false
         
+        let clientMatchOptions: [[String: Any]] = allLegislators.map { legislator in
+            return [
+                "Expression": "Tell me more about \(legislator.name)",
+                "Result": ["representative": legislator.name],
+                "SpokenResponse": "",
+                "SpokenResponseLong": "",
+                "WrittenResponse": "",
+                "WrittenResponseLong": ""]
+        }
+        
         Houndify.instance().presentListeningViewController(
             in: viewController,
             from: viewController.view,
             style: style,
-            requestInfo: [:],
+            requestInfo: ["ClientMatches": clientMatchOptions],
             responseHandler:
             
             { (error: Error?, response: Any?, dictionary: [String : Any]?, requestInfo: [String : Any]?) in
