@@ -19,6 +19,8 @@
 		2E0F6C2922188EFA00640A9E /* Phone2Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2822188EFA00640A9E /* Phone2Action.swift */; };
 		2E0F6C2B2218908300640A9E /* AnyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2A2218908300640A9E /* AnyDecoder.swift */; };
 		2E0F6C2E2218B6AA00640A9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C2D2218B6AA00640A9E /* State.swift */; };
+		2E0F6C342218F82100640A9E /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C332218F82100640A9E /* ContentController.swift */; };
+		2E0F6C362218FC6700640A9E /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F6C352218FC6700640A9E /* Interaction.swift */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
 		91D55BD82218822500250936 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* EngagementViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
@@ -120,6 +122,8 @@
 		2E0F6C2822188EFA00640A9E /* Phone2Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone2Action.swift; sourceTree = "<group>"; };
 		2E0F6C2A2218908300640A9E /* AnyDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecoder.swift; sourceTree = "<group>"; };
 		2E0F6C2D2218B6AA00640A9E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		2E0F6C332218F82100640A9E /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		2E0F6C352218FC6700640A9E /* Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interaction.swift; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
@@ -307,6 +311,7 @@
 			children = (
 				91D55C352218BA2800250936 /* CardContentProviding.swift */,
 				91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */,
+				2E0F6C352218FC6700640A9E /* Interaction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			children = (
 				91D55BD72218822500250936 /* EngagementViewController.swift */,
 				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
+				2E0F6C332218F82100640A9E /* ContentController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -608,12 +614,14 @@
 				91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */,
 				91D55C322218A01100250936 /* UIColor+Application.swift in Sources */,
 				91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */,
+				2E0F6C342218F82100640A9E /* ContentController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
 				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,
 				91D55BD82218822500250936 /* EngagementViewController.swift in Sources */,
 				91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */,
 				91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
+				2E0F6C362218FC6700640A9E /* Interaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

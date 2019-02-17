@@ -14,7 +14,8 @@ import ModernUIKit
 ///
 class EngagementViewController: UIViewController {
     
-    var contentProviders: [CardContentProviding] = []
+    let contentController = ContentController(for: "Palo Alto, CA")
+    
     
     // MARK: - UIViewController
 
@@ -23,23 +24,17 @@ class EngagementViewController: UIViewController {
         
         self.tableView.dataSource = self
         self.tableView.delegate = self
-        
-        let promise = Phone2Action.fetchLegislators(for: "1151 S. Pennsylvania Avenue, Winter Park FL 32789")
-        promise.then { (legislators) in
-            let legislatorContent = LegislatorViewContent(legislators: legislators)
-            self.contentProviders.insert(legislatorContent, at: 0)
-            
-            let insertionPath = IndexPath.zero
-            self.tableView.insertRows(at: [insertionPath], with: .fade)
-        }.catch { error in
-            self.presentAlert("Legislators Unavailable", message: error.localizedDescription)
-        }
+        self.contentController.delegate = self
     }
 
     
     // MARK: - Private
     
     @IBOutlet private weak var tableView: UITableView!
+    
+    @IBAction private func microphoneButtonTapped() {
+        contentController.presentListeningViewController(in: self)
+    }
 
 }
 
@@ -55,13 +50,13 @@ extension EngagementViewController: UITableViewDelegate {
 extension EngagementViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return contentProviders.count
+        return contentController.interactions.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: EngagementTableViewCell.reuseIdentifier, for: indexPath) as! EngagementTableViewCell
-        let contentProvider = contentProviders[indexPath.row]
+        let interaction = contentController.interactions[indexPath.row]
         
         let container: UIView! = cell.contentContainer
         container.translatesAutoresizingMaskIntoConstraints = false
@@ -75,7 +70,7 @@ extension EngagementViewController: UITableViewDataSource {
         }
         
         // Add the new content
-        let content = contentProvider.cardContent
+        let content = interaction.responseContent.cardContent
         let contentView: UIView! = content.view
         self.addChild(content)
         contentView.frame = container.bounds
@@ -93,9 +88,18 @@ extension EngagementViewController: UITableViewDataSource {
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.backgroundColor = .clear
         cell.content = content
+        cell.titleLabel.text = interaction.queryText
         
         return cell
     }
     
+}
+
+extension EngagementViewController: ContentControllerDelegate {
+    
+    func addedNewInteraction(_ interaction: Interaction) {
+        let lastIndexPath = IndexPath(row: contentController.interactions.count - 1, section: 0)
+        tableView.insertRows(at: [lastIndexPath], with: .fade)
+    }
     
 }

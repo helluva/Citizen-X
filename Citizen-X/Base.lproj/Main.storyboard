@@ -65,12 +65,37 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mjk-wb-KI1">
+                                <rect key="frame" x="0.0" y="694" width="414" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd3-Js-adV">
+                                        <rect key="frame" x="172" y="40" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="TpG-LL-2Mb"/>
+                                            <constraint firstAttribute="width" constant="70" id="eXz-se-k0B"/>
+                                        </constraints>
+                                        <state key="normal" image="microphone"/>
+                                        <connections>
+                                            <action selector="microphoneButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="4WD-Gk-tco"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="Secondary"/>
+                                <constraints>
+                                    <constraint firstItem="xd3-Js-adV" firstAttribute="top" secondItem="mjk-wb-KI1" secondAttribute="top" constant="40" id="LM5-pt-odQ"/>
+                                    <constraint firstItem="xd3-Js-adV" firstAttribute="centerX" secondItem="mjk-wb-KI1" secondAttribute="centerX" id="e8H-Li-NBG"/>
+                                    <constraint firstAttribute="height" constant="202" id="qFh-Ja-WgU"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="zLl-YQ-SRX" secondAttribute="bottom" id="1al-o9-0J6"/>
+                            <constraint firstAttribute="bottom" secondItem="mjk-wb-KI1" secondAttribute="bottom" id="2Pr-cb-n2J"/>
                             <constraint firstAttribute="trailing" secondItem="zLl-YQ-SRX" secondAttribute="trailing" id="OhB-g0-2Le"/>
                             <constraint firstItem="zLl-YQ-SRX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="di3-05-6Jg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mjk-wb-KI1" secondAttribute="trailing" id="kzW-8M-0iA"/>
+                            <constraint firstItem="mjk-wb-KI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qwn-ap-iKD"/>
                             <constraint firstItem="zLl-YQ-SRX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tsR-7K-MSC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -139,11 +164,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="microphone" width="200" height="200"/>
         <namedColor name="Primary">
             <color red="0.0" green="0.88200002908706665" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Secondary">
-            <color red="0.41200000047683716" green="0.4309999942779541" blue="0.46299999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.41176470588235292" green="0.42745098039215684" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
