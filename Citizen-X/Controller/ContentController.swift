@@ -112,7 +112,7 @@ class ContentController {
                 
                 if let responseContent = responseContent {
                     self.addNewInteraction(Interaction(
-                        queryText: spokenQuery,
+                        queryText: String(spokenQuery.dropFirst().dropLast()),
                         responseContent: responseContent))
                 }
             })

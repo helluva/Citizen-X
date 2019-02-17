@@ -60,6 +60,7 @@
 		91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */; };
 		91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */; };
 		91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C412218E89400250936 /* LegislatorSummaryView.swift */; };
+		91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,7 @@
 		91D55C3D2218C80C00250936 /* LegislatorViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorViewContent.swift; sourceTree = "<group>"; };
 		91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorListViewController.swift; sourceTree = "<group>"; };
 		91D55C412218E89400250936 /* LegislatorSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorSummaryView.swift; sourceTree = "<group>"; };
+		91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+AsyncURL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				91D55C312218A01100250936 /* UIColor+Application.swift */,
+				91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -613,6 +616,7 @@
 			files = (
 				91D55C362218BA2800250936 /* CardContentProviding.swift in Sources */,
 				91D55C322218A01100250936 /* UIColor+Application.swift in Sources */,
+				91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */,
 				91D55C3E2218C80C00250936 /* LegislatorViewContent.swift in Sources */,
 				2E0F6C342218F82100640A9E /* ContentController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,

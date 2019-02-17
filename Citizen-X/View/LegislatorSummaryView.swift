@@ -33,6 +33,8 @@ class LegislatorSummaryView: UIView {
         let imageViewDimension: CGFloat = 60
         imageView.backgroundColor = .lightGray
         imageView.cornerRadius = imageViewDimension / 2.0
+        imageView.layer.borderColor = UIColor.lightGray.cgColor
+        imageView.layer.borderWidth = 1.0 / UIScreen.main.scale
         
         NSLayoutConstraint.activate([
             imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
@@ -62,7 +64,7 @@ class LegislatorSummaryView: UIView {
         let partyLabel = UILabel(frame: .zero)
         partyLabel.text = " \(legislator.party.displayString) "
         partyLabel.textColor = .white
-        partyLabel.backgroundColor = legislator.party.tintColor
+        partyLabel.backgroundColor = legislator.party.tintColor.brightened()
         partyLabel.font = UIFont.systemFont(ofSize: 14.0, weight: .semibold)
         partyLabel.cornerRadius = 5.0
         partyLabel.layer.masksToBounds = true
@@ -76,6 +78,9 @@ class LegislatorSummaryView: UIView {
         stackView.addArrangedSubview(namePartyStackView)
         stackView.addArrangedSubview(officeLabel)
         stackView.spacing = -8
+        
+        // GET THE IMAGE
+        self.imageView.configureWithImage(for: legislator.imageURL)
     }
     
     required init?(coder aDecoder: NSCoder) {

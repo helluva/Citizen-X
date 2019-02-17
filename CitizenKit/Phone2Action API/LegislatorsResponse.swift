@@ -13,6 +13,7 @@ struct LegislatorsResponse: Codable {
 }
 
 struct OfficialResponse: Codable {
+    let id: Int
     let firstName: String
     let lastName: String
     let termStart: Date
@@ -124,10 +125,15 @@ extension Legislator {
             website = nil
         }
         
+        var partyOverride: Party? = nil
+        if response.id == 54690 /* London Breed */ {
+            partyOverride = .democrat
+        }
+        
         self.init(
             name: "\(response.firstName) \(response.lastName)",
             office: office,
-            party: Party(rawValue: response.party) ?? .unknown,
+            party: partyOverride ?? Party(rawValue: response.party) ?? .unknown,
             imageURL: URL(string: response.photo)
                 ?? URL(string: "https://t4.ftcdn.net/jpg/02/15/84/43/240_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg")!,
             website: website,

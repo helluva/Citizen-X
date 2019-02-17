@@ -40,7 +40,7 @@ public class Legislator {
             case .republican: return "REP"
             case .democrat: return "DEM"
             case .independent: return "IND"
-            case .unknown: return "---"
+            case .unknown: return "NONE"
             }
         }
     }
