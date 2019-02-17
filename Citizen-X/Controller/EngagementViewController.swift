@@ -14,7 +14,7 @@ import ModernUIKit
 ///
 class EngagementViewController: UIViewController {
     
-    let contentController = ContentController(for: "Palo Alto, CA")
+    let contentController = ContentController(for: "San Francisco, CA")
     
     
     // MARK: - UIViewController
@@ -66,7 +66,6 @@ extension EngagementViewController: UITableViewDataSource {
             existingContent.willMove(toParent: nil)
             existingContent.view.removeFromSuperview()
             existingContent.removeFromParent()
-            existingContent.view.removeConstraints(existingContent.view.constraints)
         }
         
         // Add the new content
