@@ -25,7 +25,7 @@ extension UIImageView {
             
             self.image = image
             self.layer.masksToBounds = true
-
+            
             guard animated else { return }
             let transition = CATransition()
             transition.duration = 0.5
@@ -46,14 +46,45 @@ extension UIImageView {
                 let image = UIImage(data: data) else {
                     print("Failed to download image for URL: \(url)")
                     return
-                }
-            DispatchQueue.main.async() {
-                UIImageView.imageCache[url.path] = image
-                imageViewConfiguration(image, animated)
             }
-        }.resume()
+            
+            // downsample to 300x300ish
+            let newSize: CGSize
+            
+            if image.size.width >= image.size.height {
+                let ratio = image.size.height / 300.0
+                newSize = CGSize(width: image.size.width / ratio, height: 300.0)
+            } else {
+                let ratio = image.size.width / 300.0
+                newSize = CGSize(width: 300.0, height: image.size.height / ratio)
+            }
+            
+            let scaledImage = image.scaled(to: newSize)
+            
+            DispatchQueue.main.async() {
+                UIImageView.imageCache[url.path] = scaledImage
+                imageViewConfiguration(scaledImage, animated)
+            }
+            }.resume()
     }
-
+    
     private static var imageCache: [String: UIImage] = [:]
+    
+}
 
+extension UIImage {
+    
+    /// https://stackoverflow.com/questions/2658738/the-simplest-way-to-resize-an-uiimage
+    func scaled(to size: CGSize) -> UIImage {
+        let actualSize = CGSize(
+            width: size.width / UIScreen.main.scale,
+            height: size.height / UIScreen.main.scale)
+        
+        UIGraphicsBeginImageContextWithOptions(actualSize, false, 0.0)
+        defer { UIGraphicsEndImageContext() }
+        draw(in: CGRect(x: 0.0, y: 0.0, width: actualSize.width, height: actualSize.height))
+        
+        return UIGraphicsGetImageFromCurrentImageContext()!
+    }
+    
 }
