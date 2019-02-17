@@ -118,11 +118,21 @@ extension EngagementViewController: UITableViewDataSource {
         contentView.backgroundColor = .clear
         cell.content = content
         
-        
         if let query = interaction.queryText, query.count > 1 {
             cell.titleLabel.text = String(query.first!).capitalized + query.dropFirst() + "?"
         } else {
             cell.titleLabel.text = nil
+        }
+        
+        if let shareableUrl = interaction.shareableUrl {
+            cell.shareHandler = { shareButton in
+                let actionSheet = UIActivityViewController(activityItems: [shareableUrl], applicationActivities: nil)
+                actionSheet.popoverPresentationController?.sourceView = shareButton
+                actionSheet.popoverPresentationController?.sourceRect = shareButton.bounds
+                self.present(actionSheet, animated: true)
+            }
+        } else {
+            cell.shareHandler = nil
         }
         
         return cell

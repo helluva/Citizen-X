@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zLl-YQ-SRX">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zLl-YQ-SRX">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <color key="backgroundColor" name="Off White"/>
                                 <constraints>
@@ -38,31 +38,45 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="156"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who are my legislators?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtL-gN-FlY">
-                                                    <rect key="frame" x="15" y="11" width="345" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who are my local representatives?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtL-gN-FlY">
+                                                    <rect key="frame" x="20" y="16" width="335" height="21.666666666666671"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                     <color key="textColor" name="Secondary"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yQ-fe-HP5" customClass="ModernContinuousContourView" customModule="ModernUIKit">
-                                                    <rect key="frame" x="15" y="45" width="345" height="94"/>
+                                                    <rect key="frame" x="15" y="47.666666666666664" width="345" height="91.333333333333343"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugu-SZ-aAW">
+                                                    <rect key="frame" x="315" y="52.666666666666657" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="Adj-r4-whY"/>
+                                                        <constraint firstAttribute="width" constant="40" id="TTn-S4-QLz"/>
+                                                    </constraints>
+                                                    <state key="normal" image="share"/>
+                                                    <connections>
+                                                        <action selector="shareButtonTapped" destination="ms0-wb-PVI" eventType="touchUpInside" id="fJ1-hi-iuS"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="0yQ-fe-HP5" firstAttribute="top" secondItem="xtL-gN-FlY" secondAttribute="bottom" constant="10" id="3xy-PD-wmh"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="xtL-gN-FlY" secondAttribute="trailing" id="D9Y-sf-wFm"/>
-                                                <constraint firstItem="xtL-gN-FlY" firstAttribute="leading" secondItem="KYm-8e-Ad5" secondAttribute="leadingMargin" id="OOg-aI-VJ3"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="xtL-gN-FlY" secondAttribute="trailing" constant="5" id="D9Y-sf-wFm"/>
+                                                <constraint firstItem="xtL-gN-FlY" firstAttribute="leading" secondItem="KYm-8e-Ad5" secondAttribute="leadingMargin" constant="5" id="OOg-aI-VJ3"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="0yQ-fe-HP5" secondAttribute="trailing" id="PcG-OI-eNj"/>
                                                 <constraint firstItem="0yQ-fe-HP5" firstAttribute="leading" secondItem="KYm-8e-Ad5" secondAttribute="leadingMargin" id="Y42-Mx-0Ls"/>
-                                                <constraint firstItem="xtL-gN-FlY" firstAttribute="top" secondItem="KYm-8e-Ad5" secondAttribute="topMargin" id="Zto-BC-C7c"/>
+                                                <constraint firstItem="xtL-gN-FlY" firstAttribute="top" secondItem="KYm-8e-Ad5" secondAttribute="topMargin" constant="5" id="Zto-BC-C7c"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Ugu-SZ-aAW" secondAttribute="trailing" constant="5" id="fSm-hg-Llw"/>
+                                                <constraint firstItem="Ugu-SZ-aAW" firstAttribute="top" secondItem="0yQ-fe-HP5" secondAttribute="top" constant="5" id="i6q-uJ-aPp"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="0yQ-fe-HP5" secondAttribute="bottom" constant="6" id="vRq-Fx-oiz"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" name="Off White"/>
                                         <connections>
                                             <outlet property="contentContainer" destination="0yQ-fe-HP5" id="SGv-qH-Ged"/>
+                                            <outlet property="shareButton" destination="Ugu-SZ-aAW" id="FCy-tc-gUb"/>
                                             <outlet property="titleLabel" destination="xtL-gN-FlY" id="DqF-9E-xYc"/>
                                         </connections>
                                     </tableViewCell>
@@ -336,6 +350,7 @@
         <image name="Contact" width="30" height="30.333333969116211"/>
         <image name="Location" width="30" height="30"/>
         <image name="microphone" width="200" height="200"/>
+        <image name="share" width="100" height="100"/>
         <namedColor name="Off White">
             <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -47,5 +47,16 @@ class EngagementTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var contentContainer: ModernContinuousContourView!
+    @IBOutlet weak var shareButton: UIButton!
+    
+    var shareHandler: ((UIView) -> Void)? {
+        didSet {
+            shareButton.isHidden = (shareHandler == nil)
+        }
+    }
+    
+    @IBAction func shareButtonTapped() {
+        shareHandler?(shareButton)
+    }
 
 }

@@ -129,7 +129,7 @@ class CivicInteractionsController {
         
         var responseContent: CardContentProviding? = nil
         
-        //
+        // "Who are my local/state/national representatives?"
         if let representativesQueryScope = queryResult["representatives"] as? String {
             let representativeLevels: [Legislator.Office.Level]
             
@@ -151,7 +151,7 @@ class CivicInteractionsController {
             })
         }
         
-        
+        // "Tell me more about Nancy Pelosi"
         if let representativeNameQuery = queryResult["representative"] as? String {
             let match = self.allLegislators.first(where: {
                 $0.name.lowercased() == representativeNameQuery.lowercased()
@@ -164,9 +164,8 @@ class CivicInteractionsController {
         
         
         if let responseContent = responseContent {
-            
-            var sharableUrlComponents = URLComponents(string: "representative://query")!
-            sharableUrlComponents.queryItems = [
+            var shareableUrlComponents = URLComponents(string: "representative://query")!
+            shareableUrlComponents.queryItems = [
                 URLQueryItem(name: "city", value: location.city),
                 URLQueryItem(name: "q", value: spokenQuery),
                 URLQueryItem(name: "json", value: String(
@@ -175,7 +174,7 @@ class CivicInteractionsController {
             
             self.addNewInteraction(CivicInteraction(
                 queryText: spokenQuery.replacingOccurrences(of: "\"", with: ""),
-                sharableURL: sharableUrlComponents.url,
+                shareableUrl: shareableUrlComponents.url,
                 responseContent: responseContent))
         }
     }

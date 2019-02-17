@@ -11,16 +11,16 @@ import Foundation
 class CivicInteraction {
     
     let queryText: String?
-    let sharableURL: URL?
+    let shareableUrl: URL?
     let responseContent: CardContentProviding
     
     init(
         queryText: String? = nil,
-        sharableURL: URL? = nil,
+        shareableUrl: URL? = nil,
         responseContent: CardContentProviding)
     {
         self.queryText = queryText
-        self.sharableURL = sharableURL
+        self.shareableUrl = shareableUrl
         self.responseContent = responseContent
     }
     
