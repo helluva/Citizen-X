@@ -1,25 +1,95 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nHh-Kg-AjJ">
+    <device id="ipad11_0rounded" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.43"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Citizen X-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Core" translatesAutoresizingMaskIntoConstraints="NO" id="4kQ-mh-EmZ">
+                                <rect key="frame" x="367" y="472" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="OhX-fu-PfS"/>
+                                    <constraint firstAttribute="width" secondItem="4kQ-mh-EmZ" secondAttribute="height" multiplier="1:1" id="zyc-qZ-Xwr"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sm4-fX-qW2">
+                                <rect key="frame" x="0.0" y="992" width="834" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlG-De-UmR">
+                                        <rect key="frame" x="382" y="40" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="AoD-52-VTm"/>
+                                            <constraint firstAttribute="width" constant="70" id="LeA-pK-KUE"/>
+                                        </constraints>
+                                        <state key="normal" image="microphone"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="Secondary"/>
+                                <constraints>
+                                    <constraint firstItem="zlG-De-UmR" firstAttribute="centerX" secondItem="Sm4-fX-qW2" secondAttribute="centerX" id="C6k-J1-tQb"/>
+                                    <constraint firstItem="zlG-De-UmR" firstAttribute="top" secondItem="Sm4-fX-qW2" secondAttribute="top" constant="40" id="OP1-rN-xEB"/>
+                                    <constraint firstAttribute="height" constant="202" id="U61-Vk-mQA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="202" id="VRQ-hq-vjM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Sm4-fX-qW2" secondAttribute="trailing" id="0a0-1a-c1q"/>
+                            <constraint firstAttribute="bottom" secondItem="Sm4-fX-qW2" secondAttribute="bottom" id="Gul-Al-ucb"/>
+                            <constraint firstItem="4kQ-mh-EmZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-75" id="JAA-0U-0vZ"/>
+                            <constraint firstItem="4kQ-mh-EmZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="f5A-p5-18Q"/>
+                            <constraint firstItem="Sm4-fX-qW2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tPs-vC-cwi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Citizen X" id="HGI-K4-3Ad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="962.31884057971024" y="375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oGK-et-jf8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nHh-Kg-AjJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RBu-tQ-orH">
+                        <rect key="frame" x="0.0" y="24" width="834" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="17"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="3lp-cj-G5j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sYf-xO-sPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="155" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Core" width="880" height="880"/>
+        <image name="microphone" width="200" height="200"/>
+        <namedColor name="Secondary">
+            <color red="0.41176470588235292" green="0.42745098039215684" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

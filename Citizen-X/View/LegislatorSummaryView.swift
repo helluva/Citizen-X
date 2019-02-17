@@ -68,6 +68,7 @@ class LegislatorSummaryView: UIView {
         partyLabel.font = UIFont.systemFont(ofSize: 14.0, weight: .semibold)
         partyLabel.cornerRadius = 5.0
         partyLabel.layer.masksToBounds = true
+        if legislator.party == .unknown { partyLabel.alpha = 0.0 }
         
         let namePartyStackView = UIStackView(arrangedSubviews: [nameLabel, partyLabel])
         namePartyStackView.axis = .horizontal

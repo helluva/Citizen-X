@@ -27,6 +27,15 @@ class EngagementViewController: UIViewController {
         self.contentController.delegate = self
         
         self.tableView.contentInset.bottom = 202    // sound hound view
+        
+        let locationImage = self.navigationItem.leftBarButtonItem!.image
+        self.navigationItem.leftBarButtonItem!.image = locationImage?.withRenderingMode(.alwaysOriginal)
+        
+        self.navigationItem.rightBarButtonItem!.image = UIImage.appIconCoreVector30.withRenderingMode(.alwaysOriginal)
+        
+        if self.traitCollection.userInterfaceIdiom == .pad {
+            self.tableView.tableHeaderView!.frame.size.height += 16
+        }
     }
 
     

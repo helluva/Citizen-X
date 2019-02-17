@@ -61,6 +61,7 @@
 		91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */; };
 		91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C412218E89400250936 /* LegislatorSummaryView.swift */; };
 		91D55C4422190AB600250936 /* UIImageView+AsyncURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */; };
+		91D55C462219192B00250936 /* UIImage+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55C452219192B00250936 /* UIImage+Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,7 @@
 		91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorListViewController.swift; sourceTree = "<group>"; };
 		91D55C412218E89400250936 /* LegislatorSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislatorSummaryView.swift; sourceTree = "<group>"; };
 		91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+AsyncURL.swift"; sourceTree = "<group>"; };
+		91D55C452219192B00250936 /* UIImage+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Application.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				91D55C312218A01100250936 /* UIColor+Application.swift */,
+				91D55C452219192B00250936 /* UIImage+Application.swift */,
 				91D55C4322190AB600250936 /* UIImageView+AsyncURL.swift */,
 			);
 			path = Extensions;
@@ -626,6 +629,7 @@
 				91D55C422218E89400250936 /* LegislatorSummaryView.swift in Sources */,
 				91D55BD62218822500250936 /* AppDelegate.swift in Sources */,
 				2E0F6C362218FC6700640A9E /* Interaction.swift in Sources */,
+				91D55C462219192B00250936 /* UIImage+Application.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
