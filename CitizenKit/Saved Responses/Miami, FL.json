@@ -1,0 +1,1493 @@
+{
+  "number": 13,
+  "officials": [
+    {
+      "id": 33495,
+      "first_name": "Ron",
+      "last_name": "DeSantis",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Governor",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "1978-09-14"
+      ],
+      "photo": "https://www.flgov.com/wp-content/uploads/desantis/Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "32399",
+        "phone_2": "",
+        "phone_1": "(850) 488-7146",
+        "fax_1": "",
+        "city": "Tallahassee",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "Executive Office of Governor Ron DeSantis",
+        "address_2": "400 S Monroe St",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.flgov.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199139,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199139,
+          "identifier_value": "26797"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199140,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199140,
+          "identifier_value": "https://www.facebook.com/GovRonDeSantis"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199141,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199141,
+          "identifier_value": "https://www.facebook.com/RonDeSantisFlorida/"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199142,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199142,
+          "identifier_value": "rondesantisfl"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199143,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199143,
+          "identifier_value": "rondesantisfl"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199144,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199144,
+          "identifier_value": "UCm8TSZDyDUkiYu-dgd0R0Yg"
+        }
+      ]
+    },
+    {
+      "id": 133821,
+      "first_name": "Nicholas",
+      "last_name": "Duran",
+      "nickname": "Nick",
+      "salutation": "The Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida House of Representatives",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "112",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2016-11-22 00:00:00",
+      "term_end": "2020-11-17 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Nick Duran is a father of two, a husband, and a leader in the non-profit community.\\n\\nFollowing a family medical emergency in 2013 -which would have devastated his family if not for his access to health insurance- Nick became the State Director for Enroll America in Florida, managing a team of over 40 staff members to ensure that every Floridian had the protections that his family enjoyed.\\n\\nHe currently serves as the Executive Director of the Florida Association of Free and Charitable Clinics, a group dedicated to strengthening our community’s access to affordable, quality healthcare.\\n\\nPreviously, Nick worked as an organizer and advocate for the Children’s Movement of Florida, advocating for increased funding toward high-quality learning opportunities for all of Florida’s children.\\n\\nNick has a Bachelor’s degree from the University of Florida, and a law degree from New York Law School.",
+        "1981-12-28"
+      ],
+      "photo": "http://www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4650.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "32399-1300",
+        "phone_2": "",
+        "phone_1": "(850) 717-5112",
+        "fax_1": "",
+        "city": "Tallahassee",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "Florida House of Representatives",
+        "address_2": "1102 The Capitol",
+        "address_3": "402 South Monroe Street"
+      },
+      "websites": [
+        "http://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4650&LegislativeTermId=87"
+      ],
+      "emails": [
+        "nicholas.duran@myfloridahouse.gov"
+      ],
+      "socials": [
+        {
+          "official": 212114,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 143105,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2018-11-07 20:04:44.910130",
+          "id": 143105,
+          "identifier_value": "172827"
+        },
+        {
+          "official": 212114,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 143106,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2018-11-07 20:04:44.910130",
+          "id": 143106,
+          "identifier_value": "duranforflorida"
+        },
+        {
+          "official": 212114,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 143107,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2018-11-07 20:04:44.910130",
+          "id": 143107,
+          "identifier_value": "DuranForFlorida"
+        },
+        {
+          "official": 212114,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 143108,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2018-11-07 20:04:44.910130",
+          "id": 143108,
+          "identifier_value": "https://www.linkedin.com/in/nicholas-x-duran-100b8a2b"
+        },
+        {
+          "official": 212114,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 143109,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2018-11-07 20:04:44.910130",
+          "id": 143109,
+          "identifier_value": "https://www.facebook.com/DuranForFlorida/"
+        },
+        {
+          "official": 212114,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 143110,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2018-11-07 20:04:44.910130",
+          "id": 143110,
+          "identifier_value": "https://www.facebook.com/DuranForFlorida/"
+        }
+      ]
+    },
+    {
+      "id": 74907,
+      "first_name": "Carlos",
+      "last_name": "Gimenez",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "FL",
+        "city": "Miami-Dade",
+        "chamber_details": {
+          "name": "Miami-Dade County Mayor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "COUNTY",
+          "id": "MIAMI-DADE",
+          "city": "Miami-Dade",
+          "state": "FL"
+        }
+      },
+      "term_start": "2012-11-19 00:00:00",
+      "term_end": "2021-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "http://www8.miamidade.gov/biographies/images/mayor-gimenez.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "33128",
+        "phone_2": "",
+        "phone_1": "(305) 375-5071",
+        "fax_1": "",
+        "city": "Miami",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "Stephen P. Clark Center",
+        "address_2": "111 NW 1st Street",
+        "address_3": "29th Floor"
+      },
+      "websites": [
+        "http://www8.miamidade.gov/biographies/mayor.asp"
+      ],
+      "emails": [
+        "mayor@miamidade.gov"
+      ],
+      "socials": [
+        {
+          "official": 203509,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 125230,
+          "valid_from": "2012-11-19 00:00:00",
+          "last_update_date": "2018-06-25 20:10:46.060478",
+          "id": 125230,
+          "identifier_value": "MayorGimenez"
+        },
+        {
+          "official": 203509,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 125231,
+          "valid_from": "2012-11-19 00:00:00",
+          "last_update_date": "2018-06-25 20:10:46.060478",
+          "id": 125231,
+          "identifier_value": "mayorgimenez"
+        },
+        {
+          "official": 203509,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 125232,
+          "valid_from": "2012-11-19 00:00:00",
+          "last_update_date": "2018-06-25 20:10:46.060478",
+          "id": 125232,
+          "identifier_value": "https://www.facebook.com/MayorGimenez/"
+        },
+        {
+          "official": 203509,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 125233,
+          "valid_from": "2012-11-19 00:00:00",
+          "last_update_date": "2018-06-25 20:10:46.060478",
+          "id": 125233,
+          "identifier_value": "https://www.facebook.com/MayorGimenez/"
+        }
+      ]
+    },
+    {
+      "id": 200304,
+      "first_name": "Eileen",
+      "last_name": "Higgins",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Commissioner",
+        "state": "FL",
+        "city": "Miami-Dade",
+        "chamber_details": {
+          "name": "Miami-Dade Board of County Commissioners",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "COUNTY",
+          "id": "5",
+          "city": "Miami-Dade",
+          "state": "FL"
+        }
+      },
+      "term_start": "2018-06-22 00:00:00",
+      "term_end": "2021-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://www.miamidade.gov/district05/images/higgins.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "33128",
+        "phone_2": "",
+        "phone_1": "305-375-5924",
+        "fax_1": "305-375-5904",
+        "city": "Miami",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "Stephen P. Clark Center",
+        "address_2": "111 NW 1st Street",
+        "address_3": "Suite 220"
+      },
+      "websites": [
+        "https://www.miamidade.gov/district05/home.asp"
+      ],
+      "emails": [
+        "district5@miamidade.gov"
+      ],
+      "socials": [
+        {
+          "official": 235369,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 211445,
+          "valid_from": "2018-06-22 00:00:00",
+          "last_update_date": "2019-02-13 14:57:32.597042",
+          "id": 211445,
+          "identifier_value": "eyesonmyworld"
+        },
+        {
+          "official": 235369,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 211446,
+          "valid_from": "2018-06-22 00:00:00",
+          "last_update_date": "2019-02-13 14:57:32.597042",
+          "id": 211446,
+          "identifier_value": "https://www.linkedin.com/in/eileen-higgins/"
+        },
+        {
+          "official": 235369,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 211447,
+          "valid_from": "2018-06-22 00:00:00",
+          "last_update_date": "2019-02-13 14:57:32.597042",
+          "id": 211447,
+          "identifier_value": "commisheileen"
+        },
+        {
+          "official": 235369,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 211448,
+          "valid_from": "2018-06-22 00:00:00",
+          "last_update_date": "2019-02-13 14:57:32.597042",
+          "id": 211448,
+          "identifier_value": "https://www.facebook.com/commisheileen"
+        },
+        {
+          "official": 235369,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 211449,
+          "valid_from": "2018-06-22 00:00:00",
+          "last_update_date": "2019-02-13 14:57:32.597042",
+          "id": 211449,
+          "identifier_value": "https://www.facebook.com/eileenhigginsmiami"
+        }
+      ]
+    },
+    {
+      "id": 22934,
+      "first_name": "Jeanette",
+      "last_name": "Nuñez",
+      "nickname": "",
+      "salutation": "The Honorable",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Jeanette M. Nuñez, born and raised in Miami, Florida, has dedicated her entire career to public service. At present, she is Vice President of External Affairs at Kendall Regional Medical Center and Aventura Hospital and Medical Center. Among her many responsibilities, she is responsible for facilitating and improving access and developing initiatives for the surrounding communities. Before joining Kendall and Aventura, she was Vice President of Government Affairs at Jackson Health System.\\n\\nPrior to working in the hospital industry, she worked in Tallahassee as a Chief of Staff to State Senator Alex Diaz de la Portilla.\\n\\nJeanette earned her Bachelor of Arts in International Relations and Political Science, as well as her Master of Public Administration from Florida International University. She has served as an Adjunct Professor at FIU's College of Public Health's Graduate Program, as well as an advisor to the FIU College of Business, Health Care MBA Program.\\n\\nJeanette was elected to the Florida House of Representatives in 2010 to represent the 112th district. She has represented the 119th district since 2012.",
+        "1972-06-06"
+      ],
+      "photo": "",
+      "office_location": {},
+      "websites": [],
+      "emails": [],
+      "socials": [
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166371,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166371,
+          "identifier_value": "RepJNunez"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166372,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166372,
+          "identifier_value": "UCIZyzHw8NAfCN5IebL4nqGw"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166373,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166373,
+          "identifier_value": "117192"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166374,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166374,
+          "identifier_value": "https://www.facebook.com/JeanetteNunezCampaign/"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166375,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166375,
+          "identifier_value": "https://www.facebook.com/JeanetteNunezCampaign/"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 22917,
+      "first_name": "Jose",
+      "last_name": "Rodríguez",
+      "nickname": "",
+      "salutation": "The Honorable",
+      "office_details": {
+        "position": "Senator",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida Senate",
+          "type": "UPPER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "37",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2016-11-22 00:00:00",
+      "term_end": "2020-11-17 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "1978-08-08"
+      ],
+      "photo": "https://www.flsenate.gov/PublishedContent/Senators/2016-2018/Photos/s37_5202.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "32399-1100",
+        "phone_2": "",
+        "phone_1": "(850) 487-5037",
+        "fax_1": "",
+        "city": "Tallahassee",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "220 Senate Office Building",
+        "address_2": "404 South Monroe Street",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.flsenate.gov/Senators/s37"
+      ],
+      "emails": [
+        "rodriguez.jose.web@flsenate.gov"
+      ],
+      "socials": [
+        {
+          "official": 234986,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209753,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 21:31:53.491059",
+          "id": 209753,
+          "identifier_value": "138180"
+        },
+        {
+          "official": 234986,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209754,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 21:31:53.491059",
+          "id": 209754,
+          "identifier_value": "https://www.linkedin.com/in/rodriguezjosejavier"
+        },
+        {
+          "official": 234986,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209755,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 21:31:53.491059",
+          "id": 209755,
+          "identifier_value": "JoseJavierJJR"
+        },
+        {
+          "official": 234986,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209757,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 21:31:53.491059",
+          "id": 209757,
+          "identifier_value": "https://www.facebook.com/JoseJavierJJR/"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "first_name": "Marco",
+      "last_name": "Rubio",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "RUBIO, Marco, a Senator from Florida; born in Miami, Fla., May 28, 1971; graduated University of Florida, B.S., 1993; graduated University of Miami, J.D., 1996; lawyer; West Miami City Commission 1998-2000; member of the Florida house of representatives 2000-2008; majority leader 2003-2006; speaker 2006-2008; elected as a Republican to the United States Senate in 2010; reelected in 2016 for the term ending January 3, 2023; was an unsuccessful candidate for the Republican presidential nomination in 2016.",
+        "1971-05-28"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/R/R000595.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3041",
+        "fax_1": "(202) 228-0285",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "284 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.rubio.senate.gov/public/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180673,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180673,
+          "identifier_value": "R000595"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180674,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180674,
+          "identifier_value": "N00030612"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180675,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180675,
+          "identifier_value": "S0FL00338"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180676,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180676,
+          "identifier_value": "1601"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180677,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180677,
+          "identifier_value": "412491"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180679,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180679,
+          "identifier_value": "SenatorMarcoRubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180680,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180680,
+          "identifier_value": "SenRubioPress"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180681,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180681,
+          "identifier_value": "http://www.rubio.senate.gov/public/?a=rss.feed"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180682,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180682,
+          "identifier_value": "marcorubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180683,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180683,
+          "identifier_value": "https://www.facebook.com/SenatorMarcoRubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180684,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180684,
+          "identifier_value": "marcorubiofla"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180685,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180685,
+          "identifier_value": "MarcoRubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180686,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180686,
+          "identifier_value": "https://www.facebook.com/MarcoRubio/"
+        }
+      ]
+    },
+    {
+      "id": 122657,
+      "first_name": "Ken",
+      "last_name": "Russell",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Commissioner",
+        "state": "FL",
+        "city": "Miami",
+        "chamber_details": {
+          "name": "Miami City Commission",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "2",
+          "city": "Miami",
+          "state": "FL"
+        }
+      },
+      "term_start": "2016-01-01 00:00:00",
+      "term_end": "2021-11-30 00:00:00",
+      "party": "",
+      "bio": [
+        "Ken Russell is an International Business Executive and has done business in over 40 countries. He was born in Doctor's Hospital and received a Bachelor of Science Degree in Business Administration from the University of North Carolina at Chapel Hill. He lives in Coconut Grove with his wife Juliana and their three children.",
+        null
+      ],
+      "photo": "http://www.miamigov.com/District2/images/kenrussel_225x225.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "33133",
+        "phone_2": "",
+        "phone_1": "(305) 250-5333",
+        "fax_1": "",
+        "city": "Miami",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "City of Miami City Hall",
+        "address_2": "3500 Pan American Drive",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.miamigov.com/District2/"
+      ],
+      "emails": [
+        "krussell@miamigov.com",
+        "jamesjackson@miamigov.com"
+      ],
+      "socials": [
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139920,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139920,
+          "identifier_value": "kenrussellmiami"
+        },
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139921,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139921,
+          "identifier_value": "https://www.linkedin.com/in/kenrussellmiami"
+        },
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139922,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139922,
+          "identifier_value": "UCX5TRYVYXCnKdQjnxyYbZvQ"
+        },
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139923,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139923,
+          "identifier_value": "https://www.facebook.com/kenrussellmiami"
+        },
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139924,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139924,
+          "identifier_value": "kenrussellmiami"
+        },
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139925,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139925,
+          "identifier_value": "https://www.facebook.com/KenRussell1973"
+        },
+        {
+          "official": 210704,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 139926,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-10-31 20:41:57.529988",
+          "id": 139926,
+          "identifier_value": "171128"
+        }
+      ]
+    },
+    {
+      "id": 5693,
+      "first_name": "Richard",
+      "last_name": "Scott",
+      "nickname": "Rick",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2025-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "A senator from Florida; born in Bloomington, Ill., December 1, 1952; graduated North Kansas City High School, Kansas City, Mo., 1970; B.A., business administration, University of Missouri-Kansas City, 1975; J.D., Southern Methodist University, 1978; served in the United States Navy 1971-1974; co-owner of Texas Rangers baseball team; founder and investor in healthcare, manufacturing and technology companies; chief executive officer; governor of Florida 2011-2018; elected as a Republican to the United States Senate in 2018 for the term ending January 3, 2025. Senator Scott and his wife Ann have two daughters and 6 grandsons.",
+        "1952-12-01"
+      ],
+      "photo": "https://www.senate.gov/artandhistory/history/resources/graphic/medium/ScottRick.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-5274",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "B3 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.senate.gov/senators/116thCongress/ScottRick.htm"
+      ],
+      "emails": [
+        "help@rickscott.senate.gov"
+      ],
+      "socials": [
+        {
+          "official": 233537,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 205559,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-02-01 14:45:50.751938",
+          "id": 205559,
+          "identifier_value": "https://www.facebook.com/scottforflorida/"
+        },
+        {
+          "official": 233537,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 205560,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-02-01 14:45:50.751938",
+          "id": 205560,
+          "identifier_value": "https://www.facebook.com/RickScottSenOffice/"
+        }
+      ]
+    },
+    {
+      "id": 219439,
+      "first_name": "Donna",
+      "last_name": "Shalala",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "27",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-3931",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "1320 Longworth House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://shalala.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 227635,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187048,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-01-09 01:38:02.372725",
+          "id": 187048,
+          "identifier_value": "https://www.facebook.com/donnashalalaforcongress/"
+        },
+        {
+          "official": 227635,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187049,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-01-09 01:38:02.372725",
+          "id": 187049,
+          "identifier_value": "https://www.facebook.com/RepShalala/"
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "first_name": "Francis",
+      "last_name": "Suarez",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "FL",
+        "city": "Miami",
+        "chamber_details": {
+          "name": "Miami Mayor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "MIAMI",
+          "city": "Miami",
+          "state": "FL"
+        }
+      },
+      "term_start": "2017-11-30 00:00:00",
+      "term_end": "2021-11-30 00:00:00",
+      "party": "",
+      "bio": [
+        "Francis X. Suarez serves the City of Miami as Mayor, working diligently to raise the standards of the community where he was born and raised. He currently also serves as Vice-Chair of the Miami-Dade Transportation Planning Organization, tasked with approving federally required plans and transportation policies, and as President of the Miami-Dade County League of Cities.\\n\\nMayor Suarez graduated from Florida International University where he majored in finance and graduated in the top ten percent of his class. He went on to law school at the University of Florida Frederic G. Levin College of Law, graduating cum laude. Prior to running for public office, Mayor Suarez founded a successful real estate firm. He is also a practicing attorney with the law firm of Carlton Fields, specializing in real-estate and corporate transactions.\\n\\nMayor Suarez is married to Gloria M. Fonts. They have one child – Andrew Xavier – and consider themselves proud and blessed to be raising their family in the City of Miami.",
+        null
+      ],
+      "photo": "http://www.miamigov.com/mayor/images/mayor-suarez.png",
+      "office_location": {
+        "county": "",
+        "postal_code": "33133",
+        "phone_2": "",
+        "phone_1": "(305) 250-5420",
+        "fax_1": "",
+        "city": "Miami",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "3500 Pan American Drive",
+        "address_2": "",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.miamigov.com/mayor/"
+      ],
+      "emails": [
+        "fsuarez@miamigov.com"
+      ],
+      "socials": [
+        {
+          "official": 196819,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 101641,
+          "valid_from": "2017-11-30 00:00:00",
+          "last_update_date": "2018-04-17 11:31:05.411805",
+          "id": 101641,
+          "identifier_value": "https://www.facebook.com/FrancisXSuarez/"
+        },
+        {
+          "official": 196819,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 101642,
+          "valid_from": "2017-11-30 00:00:00",
+          "last_update_date": "2018-04-17 11:31:05.411805",
+          "id": 101642,
+          "identifier_value": "FrancisSuarez"
+        },
+        {
+          "official": 196819,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-11-30 00:00:00",
+          "sk": 101643,
+          "valid_from": "2017-11-30 00:00:00",
+          "last_update_date": "2018-04-17 11:31:05.411805",
+          "id": 101643,
+          "identifier_value": "https://www.linkedin.com/in/francissuarez"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    }
+  ]
+}

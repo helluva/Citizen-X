@@ -1,0 +1,1388 @@
+{
+  "number": 11,
+  "officials": [
+    {
+      "id": 137338,
+      "first_name": "Tom",
+      "last_name": "Begich",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "Alaska State Senate",
+          "type": "UPPER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "J",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2017-01-23 00:00:00",
+      "term_end": "2021-01-25 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "http://akleg.gov/images/legislators/BCH.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "99801",
+        "phone_2": "(888) 330-3704",
+        "phone_1": "(907) 465-3704",
+        "fax_1": "(907) 465-2529",
+        "city": "Juneau",
+        "fax_2": "",
+        "state": "AK",
+        "address_1": "State Capitol",
+        "address_2": "Room 419",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.akleg.gov/basis/Member/Detail/31?code=bch",
+        "https://www.aksenatedems.com/senator-tom-begich/"
+      ],
+      "emails": [
+        "Senator.Tom.Begich@akleg.gov"
+      ],
+      "socials": [
+        {
+          "official": 230793,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-25 00:00:00",
+          "sk": 197006,
+          "valid_from": "2017-01-23 00:00:00",
+          "last_update_date": "2019-01-21 21:16:07.839410",
+          "id": 197006,
+          "identifier_value": "https://www.facebook.com/tombegichforalaska/"
+        },
+        {
+          "official": 230793,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-25 00:00:00",
+          "sk": 197008,
+          "valid_from": "2017-01-23 00:00:00",
+          "last_update_date": "2019-01-21 21:16:07.839410",
+          "id": 197008,
+          "identifier_value": "https://www.facebook.com/SenatorTomBegich/"
+        },
+        {
+          "official": 230793,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-25 00:00:00",
+          "sk": 197009,
+          "valid_from": "2017-01-23 00:00:00",
+          "last_update_date": "2019-01-21 21:16:07.839410",
+          "id": 197009,
+          "identifier_value": "171468"
+        }
+      ]
+    },
+    {
+      "id": 107387,
+      "first_name": "Ethan",
+      "last_name": "Berkowitz",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "AK",
+        "city": "Anchorage",
+        "chamber_details": {
+          "name": "Anchorage Mayor",
+          "type": "EXEC",
+          "term_length": "3 years",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "ANCHORAGE",
+          "city": "Anchorage",
+          "state": "AK"
+        }
+      },
+      "term_start": "2015-07-01 00:00:00",
+      "term_end": "2021-07-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Mayor Ethan Berkowitz is proud to be an Anchorage resident since 1990. He met his wife Mara here, at the old Fly by Night Club. Now their two kids benefit from our city’s public school system and many of the other opportunities Anchorage provides.\\n\\nMayor Berkowitz earned an undergraduate degree studying Government and Economics at Harvard University, where he graduated with honors. He has received a Master’s degree from the Scott Polar Research Institute at Cambridge University, and a law degree from Hastings College of the Law. After moving to Alaska, he worked as an assistant district attorney before serving for ten years in the Alaska State Legislature. As a state legislator he supported fiscal responsibility and a more comprehensive and sustainable energy policy. After serving as Minority Leader for 8 years, Mayor Berkowitz helped jumpstart several technology and energy projects, including the installation of a sub-marine fiber optic cable from Europe to Asia through the Northwest Passage and a major geothermal project in Northwest Alaska.\\n\\nLike many Anchorage residents, Mayor Berkowitz enjoys Anchorage’s unique recreational and cultural opportunities, whether it’s skiing on the Coastal Trail or ice-skating on Westchester Lagoon. In the summer, family hikes in the Chugach range are a must. He and his family recognize how lucky they are to live in this amazing city.",
+        "1962-02-04"
+      ],
+      "photo": "https://www.muni.org/Departments/Mayor/PublishingImages/MEB-Head-Shot-300.png",
+      "office_location": {
+        "county": "",
+        "postal_code": "99501",
+        "phone_2": "",
+        "phone_1": "(907) 343-7100",
+        "fax_1": "",
+        "city": "Anchorage",
+        "fax_2": "",
+        "state": "AK",
+        "address_1": "Mayor's Office",
+        "address_2": "632 W 6th Avenue",
+        "address_3": "Suite 840"
+      },
+      "websites": [
+        "https://www.muni.org/departments/mayor/Pages/default.aspx"
+      ],
+      "emails": [
+        "mayor@muni.org"
+      ],
+      "socials": [
+        {
+          "official": 210127,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-07-01 00:00:00",
+          "sk": 138181,
+          "valid_from": "2015-07-01 00:00:00",
+          "last_update_date": "2018-10-19 13:37:47.481387",
+          "id": 138181,
+          "identifier_value": "mayorethananc"
+        },
+        {
+          "official": 210127,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-07-01 00:00:00",
+          "sk": 138182,
+          "valid_from": "2015-07-01 00:00:00",
+          "last_update_date": "2018-10-19 13:37:47.481387",
+          "id": 138182,
+          "identifier_value": "mayorethananc"
+        },
+        {
+          "official": 210127,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-07-01 00:00:00",
+          "sk": 138183,
+          "valid_from": "2015-07-01 00:00:00",
+          "last_update_date": "2018-10-19 13:37:47.481387",
+          "id": 138183,
+          "identifier_value": "https://www.facebook.com/MayorBerkowitz/"
+        },
+        {
+          "official": 210127,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-07-01 00:00:00",
+          "sk": 138184,
+          "valid_from": "2015-07-01 00:00:00",
+          "last_update_date": "2018-10-19 13:37:47.481387",
+          "id": 138184,
+          "identifier_value": "https://www.facebook.com/MayorBerkowitz/"
+        },
+        {
+          "official": 210127,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-07-01 00:00:00",
+          "sk": 138185,
+          "valid_from": "2015-07-01 00:00:00",
+          "last_update_date": "2018-10-19 13:37:47.481387",
+          "id": 138185,
+          "identifier_value": "https://www.facebook.com/ethan4anchorage/"
+        }
+      ]
+    },
+    {
+      "id": 162264,
+      "first_name": "Christopher",
+      "last_name": "Constant",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Assembly Member",
+        "state": "AK",
+        "city": "Anchorage",
+        "chamber_details": {
+          "name": "Anchorage Assembly",
+          "type": "LOWER",
+          "term_length": "3 years (2 years for AK1)",
+          "term_limit": "",
+          "election_frequency": "staggered"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "1",
+          "city": "Anchorage",
+          "state": "AK"
+        }
+      },
+      "term_start": "2017-04-18 00:00:00",
+      "term_end": "2020-04-21 00:00:00",
+      "party": "",
+      "bio": [
+        "Christopher Constant has resided in the downtown district since 1998, shortly after arriving in Anchorage. Over the past 8 years Constant has been an active participant at the Fairview Community Council, serving twice as President. During that time he led the effort to improve the public safety of the downtown by successfully protesting a liquor license ultimately closing the operation, resulting in immediate improvement to the neighborhood. He also successfully advocated for $4,000,000 in capital funds to provide intensive services to homeless people in need. Constant has also been working on improving key infrastructure and supports strong schools. Professionally, Constant is a licensed real estate professional and serves as Grants and Contracts Director for a statewide nonprofit substance abuse and behavioral health treatment provider.",
+        null
+      ],
+      "photo": "http://www.muni.org/Departments/Assembly/PublishingImages/Constant-Final%20Low%20Res.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "99501",
+        "phone_2": "",
+        "phone_1": "(907) 947-9438",
+        "fax_1": "(907) 343-4313",
+        "city": "Anchorage",
+        "fax_2": "",
+        "state": "AK",
+        "address_1": "632 West 6th Avenue",
+        "address_2": "Suite 250",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.muni.org/Departments/Assembly/Pages/About%20Us%20-%20Member%20Profiles.aspx"
+      ],
+      "emails": [
+        "ConstantC@muni.org"
+      ],
+      "socials": [
+        {
+          "official": 235496,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2020-04-21 00:00:00",
+          "sk": 211971,
+          "valid_from": "2017-04-18 00:00:00",
+          "last_update_date": "2019-02-14 17:02:20.733751",
+          "id": 211971,
+          "identifier_value": "https://www.facebook.com/ConstantforAssembly/"
+        },
+        {
+          "official": 235496,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-04-21 00:00:00",
+          "sk": 211972,
+          "valid_from": "2017-04-18 00:00:00",
+          "last_update_date": "2019-02-14 17:02:20.733751",
+          "id": 211972,
+          "identifier_value": "akartisan"
+        },
+        {
+          "official": 235496,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-04-21 00:00:00",
+          "sk": 211973,
+          "valid_from": "2017-04-18 00:00:00",
+          "last_update_date": "2019-02-14 17:02:20.733751",
+          "id": 211973,
+          "identifier_value": "https://www.linkedin.com/in/christopher-constant-2762731/"
+        },
+        {
+          "official": 235496,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2020-04-21 00:00:00",
+          "sk": 211974,
+          "valid_from": "2017-04-18 00:00:00",
+          "last_update_date": "2019-02-14 17:02:20.733751",
+          "id": 211974,
+          "identifier_value": "107759"
+        },
+        {
+          "official": 235496,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-04-21 00:00:00",
+          "sk": 211975,
+          "valid_from": "2017-04-18 00:00:00",
+          "last_update_date": "2019-02-14 17:02:20.733751",
+          "id": 211975,
+          "identifier_value": "https://www.facebook.com/akconstant"
+        }
+      ]
+    },
+    {
+      "id": 212679,
+      "first_name": "Mike",
+      "last_name": "Dunleavy",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Governor",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "Alaska Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "AK",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2018-12-01 00:00:00",
+      "term_end": "2022-12-01 00:00:00",
+      "party": "Republican",
+      "bio": [
+        null
+      ],
+      "photo": "https://gov.alaska.gov/wp-content/uploads/sites/2/mike-dunleavy-2500px.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "99811-0001",
+        "phone_2": "(907) 451-2920",
+        "phone_1": "(907) 465-3500",
+        "fax_1": "(907) 465-3532",
+        "city": "Juneau",
+        "fax_2": "(907) 451-2858",
+        "state": "AK",
+        "address_1": "Office of the Governor",
+        "address_2": "P.O. Box 110001",
+        "address_3": ""
+      },
+      "websites": [
+        "https://gov.alaska.gov/",
+        "https://alaskansfordunleavy.com/"
+      ],
+      "emails": [
+        "gov.pressoffice@alaska.gov"
+      ],
+      "socials": [
+        {
+          "official": 224134,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173699,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 17:32:14.821697",
+          "id": 173699,
+          "identifier_value": "https://www.facebook.com/GovDunleavy/"
+        },
+        {
+          "official": 224134,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173700,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 17:32:14.821697",
+          "id": 173700,
+          "identifier_value": "mikedunleavygov"
+        },
+        {
+          "official": 224134,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173701,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 17:32:14.821697",
+          "id": 173701,
+          "identifier_value": "govdunleavy"
+        },
+        {
+          "official": 224134,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173702,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 17:32:14.821697",
+          "id": 173702,
+          "identifier_value": "140395"
+        },
+        {
+          "official": 224134,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173703,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 17:32:14.821697",
+          "id": 173703,
+          "identifier_value": "160844104@N06"
+        }
+      ]
+    },
+    {
+      "id": 219204,
+      "first_name": "Zack",
+      "last_name": "Fields",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "Alaska House of Representatives",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "20",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2019-01-15 00:00:00",
+      "term_end": "2021-01-25 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "http://akleg.gov/images/legislators/FIE.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "99801",
+        "phone_2": "(888) 465-2647",
+        "phone_1": "(907) 465-2647",
+        "fax_1": "",
+        "city": "Juneau",
+        "fax_2": "",
+        "state": "AK",
+        "address_1": "State Capitol",
+        "address_2": "Room 511",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.akleg.gov/basis/Member/Detail/31?code=fie"
+      ],
+      "emails": [
+        "Representative.William.Fields@akleg.gov"
+      ],
+      "socials": [
+        {
+          "official": 231726,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-25 00:00:00",
+          "sk": 199999,
+          "valid_from": "2019-01-15 00:00:00",
+          "last_update_date": "2019-01-24 18:36:28.213507",
+          "id": 199999,
+          "identifier_value": "184151"
+        }
+      ]
+    },
+    {
+      "id": 212685,
+      "first_name": "Kevin",
+      "last_name": "Meyer",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "Alaska Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "AK",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2018-12-01 00:00:00",
+      "term_end": "2022-12-01 00:00:00",
+      "party": "Republican",
+      "bio": [
+        null
+      ],
+      "photo": "https://ltgov.alaska.gov/wp-content/uploads/sites/3/Meyer01.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "99811-0001",
+        "phone_2": "",
+        "phone_1": "(907) 465-3520",
+        "fax_1": "",
+        "city": "Juneau",
+        "fax_2": "",
+        "state": "AK",
+        "address_1": "Office of the Lt. Governor",
+        "address_2": "P.O. Box 110001",
+        "address_3": ""
+      },
+      "websites": [
+        "https://ltgov.alaska.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 224116,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173652,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 16:09:55.827118",
+          "id": 173652,
+          "identifier_value": "27210"
+        },
+        {
+          "official": 224116,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173653,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 16:09:55.827118",
+          "id": 173653,
+          "identifier_value": "senkevinmeyer"
+        },
+        {
+          "official": 224116,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2022-12-01 00:00:00",
+          "sk": 173654,
+          "valid_from": "2018-12-01 00:00:00",
+          "last_update_date": "2018-12-14 16:09:55.827118",
+          "id": 173654,
+          "identifier_value": "https://www.facebook.com/kevinmeyer2018/"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "first_name": "Lisa",
+      "last_name": "Murkowski",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "AK",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "MURKOWSKI, Lisa, (daughter of Frank Hughes Murkowski), a Senator from Alaska; born in Ketchikan, Alaska, on May 22, 1957; attended public schools in Fairbanks, AK; attended Williamette University in Salem, Oregon, 1975-1977; B.A. in Economics, Georgetown University 1980; J.D., Willamette College of Law 1985; attorney; member, Alaska Bar Association; Anchorage District Court attorney 1987-1989; private practice 1989-1996; Mayor’s Task Force on the Homeless 1990-1991; Anchorage Equal Rights Commission 1997-1998; Alaska State house of representatives 1999-2002; appointed to the U.S. Senate on December 20, 2002, to fill the vacancy caused by the resignation of her father, Frank H. Murkowski; elected to the U.S. Senate in 2004; unsuccessful candidate for renomination in 2010, but subsequently elected as a write-in candidate in the November 2, 2010, general election, for the term ending January 3, 2017; reelected in 2016 for the term ending January 3, 2023; Republican Conference vice-chair (2009-2010); chair, Committee on Energy and Natural Resources (One Hundred Fourteenth and One Hundred Fifteenth Congresses).",
+        "1957-05-22"
+      ],
+      "photo": "https://www.murkowski.senate.gov/imo/media/image/SenatorLisaMurkowski1.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-6665",
+        "fax_1": "(202) 224-5301",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "522 Hart Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.murkowski.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179959,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179959,
+          "identifier_value": "M001153"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179960,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179960,
+          "identifier_value": "N00026050"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179961,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179961,
+          "identifier_value": "15841"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179962,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179962,
+          "identifier_value": "300075"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179963,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179963,
+          "identifier_value": "S4AK00099"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179964,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179964,
+          "identifier_value": "http://www.murkowski.senate.gov/public/?a=RSS.Feed"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179965,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179965,
+          "identifier_value": "senatormurkowski"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179966,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179966,
+          "identifier_value": "lisamurkowski"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179967,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179967,
+          "identifier_value": "senlisamurkowski"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179968,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179968,
+          "identifier_value": "https://www.facebook.com/SenLisaMurkowski/"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179969,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179969,
+          "identifier_value": "https://www.facebook.com/lisaforalaska/"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179970,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179970,
+          "identifier_value": "lisaforsenate"
+        },
+        {
+          "official": 226492,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 179971,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 15:45:08.440778",
+          "id": 179971,
+          "identifier_value": "https://www.facebook.com/SenatorLisaMurkowski"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 17345,
+      "first_name": "Daniel",
+      "last_name": "Sullivan",
+      "nickname": "Dan",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "AK",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2015-01-06 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "SULLIVAN, Daniel Scott, a Senator from Alaska; born in Fairview Park, Cuyahoga County, Ohio, November 13, 1964; graduated Culver Military Academy, Culver, Ind., 1983; B.A., Harvard University, 1987; M.F.S. and J.D., Georgetown University, 1993; United States Marine Corps 1993-1997; United States Marine Corps Reserves 1997-present, attaining the rank of lieutenant colonel; lawyer; White House aide and director on the National Security Council staff during the George W. Bush administration; assistant U.S. secretary of state for economic, energy and business affairs 2006-2009; attorney general of Alaska 2009-2010; commissioner of Alaska Department of Natural Resources 2010-2013; elected as a Republican to the United States Senate in 2014 for the term ending January 3, 2021.",
+        "1964-11-13"
+      ],
+      "photo": "http://sullivan.senate.gov/imo/media/image/bio-small.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3004",
+        "fax_1": "(202) 224-6501",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "702 Hart Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.sullivan.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179993,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179993,
+          "identifier_value": "https://www.facebook.com/dan.sullivan.792197"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179994,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179994,
+          "identifier_value": "SenDanSullivan"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179995,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179995,
+          "identifier_value": "UC7tXCm8gKlAhTFo2kuf5ylw"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179996,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179996,
+          "identifier_value": "sen_dansullivan"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179997,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179997,
+          "identifier_value": "412665"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179998,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179998,
+          "identifier_value": "S001198"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 179999,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 179999,
+          "identifier_value": "https://www.facebook.com/SenDanSullivan"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180000,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 180000,
+          "identifier_value": "N00035774"
+        },
+        {
+          "official": 226498,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180001,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 15:48:03.943498",
+          "id": 180001,
+          "identifier_value": "https://www.facebook.com/DanSullivanforAlaska/"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    },
+    {
+      "id": 10947,
+      "first_name": "Donald",
+      "last_name": "Young",
+      "nickname": "Don",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "AK",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "AK",
+          "city": "",
+          "state": "AK"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "YOUNG, Donald Edwin, a Representative from Alaska; born in Meridian, Sutter County, Calif., June 9, 1933; A.A., Yuba Junior College, Marysville, Calif., 1952; B.A., California State University, Chico, Calif., 1958; United States Army, 1955-1957; teacher; Mayor of Fort Yukon, Alaska, 1960-1968; riverboat captain, 1968-1972; member of the Fort Yukon, Alaska, city council, 1960-1968; member of the Alaska state house of representatives, 1966-1970; member of the Alaska state senate, 1970-1973; delegate, Alaska state Republican conventions, 1964, 1966, 1968, and 1972; elected as a Republican to the Ninety-third Congress, by special election, to fill the vacancy caused by the death of United States Representative Nick Begich, and reelected to the twenty-one succeeding Congresses (March 6, 1973-present); chair, Committee on Resources (One Hundred Fourth through One Hundred Sixth Congresses); chair, Committee on Transportation and Infrastructure (One Hundred Seventh through One Hundred Ninth Congresses).",
+        "1933-06-09"
+      ],
+      "photo": "https://donyoung.house.gov/uploadedfiles/press_kit_official_photo.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-5765",
+        "fax_1": "(202) 225-0425",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "2314 Rayburn House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://donyoung.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181069,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181069,
+          "identifier_value": "RepDonYoung"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181070,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181070,
+          "identifier_value": "RepDonYoung"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181071,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181071,
+          "identifier_value": "https://donyoung.house.gov/news/rss.aspx"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181072,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181072,
+          "identifier_value": "https://www.facebook.com/RepDonYoung"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181073,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181073,
+          "identifier_value": "Y000033"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181074,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181074,
+          "identifier_value": "N00007999"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181075,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181075,
+          "identifier_value": "400440"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181076,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181076,
+          "identifier_value": "26717"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181077,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181077,
+          "identifier_value": "H6AK00045"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181078,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181078,
+          "identifier_value": "https://www.facebook.com/RepDonYoung/"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181079,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181079,
+          "identifier_value": "https://www.facebook.com/AkforDonYoung/"
+        },
+        {
+          "official": 226618,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 181080,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 20:06:11.519365",
+          "id": 181080,
+          "identifier_value": "donyoungak"
+        }
+      ]
+    }
+  ]
+}

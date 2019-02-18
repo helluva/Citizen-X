@@ -1,0 +1,1671 @@
+{
+  "number": 13,
+  "officials": [
+    {
+      "id": 11515,
+      "first_name": "Michael",
+      "last_name": "Bennet",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "CO",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "BENNET, Michael F., a Senator from Colorado; born in New Delhi, India, November 28, 1964; B.A., Wesleyan University, Middletown, Conn., 1987; J.D., Yale Law School, 1993, editor-in-chief of the Yale Law Journal; counsel to U.S. deputy attorney general 1995-1997; special assistant U.S. attorney, Conn., 1997; managing director, Anschutz Investment Co. 1997-2003; chief of staff to mayor of Denver, Colo., 2003-2005; superintendent, Denver Public Schools 2005-2009; appointed January 21, 2009, to the United States Senate for the term ending January 3, 2011, to fill the vacancy caused by the resignation of Kenneth L. Salazar; took the oath of office on January 22, 2009; elected as a Democrat to the U.S. Senate in 2010; reelected in 2016 for the term ending January 3, 2023; chair, Democratic Senatorial Campaign Committee (2013-2014).",
+        "1964-11-28"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/B/B001267.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-5852",
+        "fax_1": "(202) 228-5097",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "261 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.bennet.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180557,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180557,
+          "identifier_value": "SenatorBennet"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180558,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180558,
+          "identifier_value": "http://www.bennet.senate.gov/rss/feeds/"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180559,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180559,
+          "identifier_value": "110942"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180560,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180560,
+          "identifier_value": "412330"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180561,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180561,
+          "identifier_value": "B001267"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180562,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180562,
+          "identifier_value": "N00030608"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180563,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180563,
+          "identifier_value": "S0CO00211"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180564,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180564,
+          "identifier_value": "SenBennetCO"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180566,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180566,
+          "identifier_value": "https://www.facebook.com/senbennetco"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180567,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180567,
+          "identifier_value": "https://www.facebook.com/BennetForColorado/"
+        },
+        {
+          "official": 226575,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180568,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:15:20.706027",
+          "id": 180568,
+          "identifier_value": "bennetforco"
+        }
+      ]
+    },
+    {
+      "id": 8803,
+      "first_name": "Diana",
+      "last_name": "DeGette",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "1",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2013-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "DeGETTE, Diana, a Representative from Colorado; born in Tachikawa, Japan, July 29, 1957; graduated from South High School, Denver, Colo., 1975; B.A., Colorado College, Colorado Springs, Colo., 1979; J.D., New York University, New York, N.Y., 1982; member of the Colorado state house of representatives, 1992-1996; elected as a Democrat to the One Hundred Fifth and to the nine succeeding Congresses (January 3, 1997-present).",
+        "1957-07-29"
+      ],
+      "photo": "https://degette.house.gov/sites/degette.house.gov/files/wysiwyg_uploaded/Congresswoman%20Photo%20-%20High%20Res%205x7_1.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-4431",
+        "fax_1": "(202) 225-5657",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "2111 Rayburn House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://degette.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186185,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186185,
+          "identifier_value": "D000197"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186186,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186186,
+          "identifier_value": "N00006134"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186187,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186187,
+          "identifier_value": "561"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186188,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186188,
+          "identifier_value": "400101"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186189,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186189,
+          "identifier_value": "H6CO01141"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186191,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186191,
+          "identifier_value": "RepDianaDeGette"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186192,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186192,
+          "identifier_value": "RepDianaDeGette"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186193,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186193,
+          "identifier_value": "http://degette.house.gov/rss.xml"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186194,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186194,
+          "identifier_value": "https://www.facebook.com/DianaDeGette"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186195,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186195,
+          "identifier_value": "https://www.facebook.com/degette/"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186196,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186196,
+          "identifier_value": "degette5280"
+        },
+        {
+          "official": 227473,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186197,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-08 19:10:07.684495",
+          "id": 186197,
+          "identifier_value": "repdianadegette"
+        }
+      ]
+    },
+    {
+      "id": 15015,
+      "first_name": "Cory",
+      "last_name": "Gardner",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "CO",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2015-01-06 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "GARDNER, Cory, a Senator and a Representative from Colorado; born in Yuma, Yuma County, Colo., on August 22, 1974; graduated from Yuma High School, Yuma, Colo., 1993; B.A., Colorado State University, Fort Collins, Colo., 1997; J.D., University of Colorado, Boulder, Colo., 2001; agricultural advocate; staff, United States Senator Wayne Allard of Colorado, 2002-2005; member of the Colorado state house of representatives, 2005-2010; elected as a Republican to the One Hundred Twelfth and to the succeeding Congress (January 3, 2011-January 3, 2015); was not a candidate for reelection to the House of Representatives but was elected as a Republican to the United States Senate in 2014 for the term ending January 3, 2021; chair, National Republican Senatorial Committee (2017-).",
+        "1974-08-22"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/G/G000562.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-5941",
+        "fax_1": "(202) 224-6524",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "354 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.gardner.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180582,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180582,
+          "identifier_value": "30004"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180583,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180583,
+          "identifier_value": "412406"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180585,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180585,
+          "identifier_value": "sencorygardner"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180586,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180586,
+          "identifier_value": "https://www.facebook.com/SenCoryGardner"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180587,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180587,
+          "identifier_value": "sencorygardner"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180588,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180588,
+          "identifier_value": "corygardner"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180589,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180589,
+          "identifier_value": "UC7Vi5vAFb7piu_BNwrYDBxQ"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180590,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180590,
+          "identifier_value": "H0CO04122"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180591,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180591,
+          "identifier_value": "N00030780"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180592,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180592,
+          "identifier_value": "G000562"
+        },
+        {
+          "official": 226577,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180593,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:17:33.593784",
+          "id": 180593,
+          "identifier_value": "https://www.facebook.com/Cory.Gardner.For.Senate/"
+        }
+      ]
+    },
+    {
+      "id": 217834,
+      "first_name": "Julie",
+      "last_name": "Gonzales",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "Colorado State Senate",
+          "type": "UPPER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "34",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2019-01-09 00:00:00",
+      "term_end": "2023-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "https://leg.colorado.gov/sites/default/files/styles/width_300/public/2019a_gonzales-julie.jpg?itok=6oU22Tul",
+      "office_location": {
+        "county": "",
+        "postal_code": "80203",
+        "phone_2": "",
+        "phone_1": "(303) 866-4862",
+        "fax_1": "",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "Colorado State Capitol",
+        "address_2": "200 East Colfax Avenue",
+        "address_3": "Room 346"
+      },
+      "websites": [
+        "https://leg.colorado.gov/legislators/julie-gonzales"
+      ],
+      "emails": [
+        "julie.gonzales.senate@state.co.us"
+      ],
+      "socials": []
+    },
+    {
+      "id": 16438,
+      "first_name": "Michael",
+      "last_name": "Hancock",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "CO",
+        "city": "Denver",
+        "chamber_details": {
+          "name": "Denver Mayor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "DENVER",
+          "city": "Denver",
+          "state": "CO"
+        }
+      },
+      "term_start": "2011-07-18 00:00:00",
+      "term_end": "2019-07-15 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Michael B. Hancock became Denver, Colorado’s 45th mayor in July 2011 and immediately began to transform Denver into a more globally competitive city. With the fifth-busiest airport in the United States serving more than 53 million passengers annually, Mayor Hancock is leveraging Denver International Airport to make the entire region a gateway to the world.\\n\\nMayor Hancock has secured five new nonstop international flights, including Tokyo, Mexico City, Reykjavik and Panama City, bringing a combined $203M in economic benefits to the region. These routes are opening new connections between the Rocky Mountain West and Asia, Europe and Central America.\\n\\nPrior to becoming Mayor, Michael B. Hancock served on the Denver City Council for eight years, including two terms as City Council President. In his early career, he worked for the Denver Housing Authority and National Civic League. He was the youngest President of an Urban League chapter in America. Mayor Hancock is 44 years old and the proud father of three children: Alayna, Jordan and Janae. He and his wife, Mary, have been married for more than 20 years.",
+        "1969-01-01"
+      ],
+      "photo": "https://www.denvergov.org/content/dam/denvergov/Portals/728/images/Mayor-Hancock-Web.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "80202",
+        "phone_2": "",
+        "phone_1": "(720) 865-9000",
+        "fax_1": "",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "Denver City and County Building",
+        "address_2": "1437 Bannock Street",
+        "address_3": "Room 350"
+      },
+      "websites": [
+        "http://www.denvergov.org/content/denvergov/en/mayors-office.html"
+      ],
+      "emails": [
+        "milehighmayor@denvergov.org"
+      ],
+      "socials": [
+        {
+          "official": 188900,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 4942,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2017-12-29 16:03:23.690967",
+          "id": 4942,
+          "identifier_value": "https://www.facebook.com/5280mayor"
+        },
+        {
+          "official": 188900,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 4943,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2017-12-29 16:03:23.690967",
+          "id": 4943,
+          "identifier_value": "MayorHancock"
+        },
+        {
+          "official": 188900,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 4944,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2017-12-29 16:03:23.690967",
+          "id": 4944,
+          "identifier_value": "mayormichaelbhancock"
+        },
+        {
+          "official": 188900,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 12609,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2017-12-29 16:03:23.690967",
+          "id": 12609,
+          "identifier_value": "http://www.denvergov.org/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=728&tid=442244&mid=504977"
+        },
+        {
+          "official": 188900,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 60965,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2017-12-29 16:03:23.690967",
+          "id": 60965,
+          "identifier_value": "https://www.facebook.com/5280mayor/"
+        },
+        {
+          "official": 188900,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 60993,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2017-12-29 16:03:23.690967",
+          "id": 60993,
+          "identifier_value": "mayorhancock"
+        }
+      ]
+    },
+    {
+      "id": 2004,
+      "first_name": "Robin",
+      "last_name": "Kniech",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "CO",
+        "city": "Denver",
+        "chamber_details": {
+          "name": "Denver City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Denver",
+          "state": "CO"
+        }
+      },
+      "term_start": "2011-07-18 00:00:00",
+      "term_end": "2019-07-15 00:00:00",
+      "party": "",
+      "bio": [
+        "Robin Kniech was elected in 2011. She was raised in the Midwest by working-class parents and learned the value of community and hard work early in life. She graduated Summa Cum Laude from Drake University and as a Public Interest Scholar from Northeastern University School of Law, working throughout her education and funding the rest with scholarships and loans. Robin is an inactive member of the Colorado Bar. \\n\\nRobin has dedicated her life to supporting communities and making our city and region a better place for middle class families and those struggling to make ends meet. Robin’s qualifications include nearly 20 years of policy experience in the non-profit and public sectors ranging from women’s rights, affordable housing, economic justice, and quality jobs. Prior to her election, Robin served as the Program Director for a metro Denver non-profit organization focused on ensuring that public investments in development and transit build sustainable communities that benefit residents of all incomes. She has been a champion for transparency and community involvement in government decisions, and she expanded public comment in City Council policy debates during her first year in office.\\n\\nRobin was recognized as the Professional Woman of the Year by Denver’s Gay and Lesbian Chamber of Commerce in 2014, and as Lawmaker of the Year in 2012 by the Women’s Chamber of Commerce and Denver’s Women’s Commission. Robin is the first out member of the LGBT community to serve on the Denver City Council, and she is the mom of a young son.",
+        null
+      ],
+      "photo": "https://www.denvergov.org/content/dam/denvergov/Portals/695/images/CouncilHeadshots/RobinKniech_web.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "80202",
+        "phone_2": "(720) 337-7712",
+        "phone_1": "(720) 337-2000",
+        "fax_1": "(720) 865-9482",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "City and County Building",
+        "address_2": "1437 Bannock Street",
+        "address_3": "Room 451"
+      },
+      "websites": [
+        "http://www.denvergov.org/content/denvergov/en/denver-council-district-12.html"
+      ],
+      "emails": [
+        "kniechatlarge@denvergov.org"
+      ],
+      "socials": [
+        {
+          "official": 210816,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140265,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:25:41.275524",
+          "id": 140265,
+          "identifier_value": "KniechAtLarge"
+        },
+        {
+          "official": 210816,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140266,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:25:41.275524",
+          "id": 140266,
+          "identifier_value": "UC3TrKMuRXWi_KsWAv50aajA"
+        },
+        {
+          "official": 210816,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140267,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:25:41.275524",
+          "id": 140267,
+          "identifier_value": "https://www.denvergov.org/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=767&tid=444244&mid=512114"
+        },
+        {
+          "official": 210816,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140268,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:25:41.275524",
+          "id": 140268,
+          "identifier_value": "https://www.facebook.com/Robin-Kniech-Denver-City-Council-At-Large-262696580408620/"
+        },
+        {
+          "official": 210816,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140269,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:25:41.275524",
+          "id": 140269,
+          "identifier_value": "https://www.facebook.com/Robin-Kniech-Denver-City-Council-At-Large-262696580408620/"
+        },
+        {
+          "official": 210816,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140270,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:25:41.275524",
+          "id": 140270,
+          "identifier_value": "71566"
+        }
+      ]
+    },
+    {
+      "id": 110141,
+      "first_name": "Wayne",
+      "last_name": "New",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "CO",
+        "city": "Denver",
+        "chamber_details": {
+          "name": "Denver City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "10",
+          "city": "Denver",
+          "state": "CO"
+        }
+      },
+      "term_start": "2015-07-20 00:00:00",
+      "term_end": "2019-07-15 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://www.denvergov.org/content/dam/denvergov/Portals/695/images/CouncilHeadshots/WayneNew_web.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "80202",
+        "phone_2": "(720) 337-7710",
+        "phone_1": "(720) 337-2000",
+        "fax_1": "(720) 865-9482",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "City and County Building",
+        "address_2": "1437 Bannock Street",
+        "address_3": "Room 451"
+      },
+      "websites": [
+        "http://www.denvergov.org/content/denvergov/en/denver-council-district-10.html"
+      ],
+      "emails": [
+        "wayne.new@denvergov.org"
+      ],
+      "socials": [
+        {
+          "official": 210804,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140203,
+          "valid_from": "2015-07-20 00:00:00",
+          "last_update_date": "2018-11-02 16:58:45.866953",
+          "id": 140203,
+          "identifier_value": "https://www.facebook.com/CD10New/"
+        },
+        {
+          "official": 210804,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140204,
+          "valid_from": "2015-07-20 00:00:00",
+          "last_update_date": "2018-11-02 16:58:45.866953",
+          "id": 140204,
+          "identifier_value": "https://www.facebook.com/CD10New/"
+        },
+        {
+          "official": 210804,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140205,
+          "valid_from": "2015-07-20 00:00:00",
+          "last_update_date": "2018-11-02 16:58:45.866953",
+          "id": 140205,
+          "identifier_value": "https://www.linkedin.com/in/wayne-new-60283098/"
+        },
+        {
+          "official": 210804,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140206,
+          "valid_from": "2015-07-20 00:00:00",
+          "last_update_date": "2018-11-02 16:58:45.866953",
+          "id": 140206,
+          "identifier_value": "waynenewdenver"
+        },
+        {
+          "official": 210804,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140207,
+          "valid_from": "2015-07-20 00:00:00",
+          "last_update_date": "2018-11-02 16:58:45.866953",
+          "id": 140207,
+          "identifier_value": "71563"
+        }
+      ]
+    },
+    {
+      "id": 12231,
+      "first_name": "Deborah",
+      "last_name": "Ortega",
+      "nickname": "Debbie",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "CO",
+        "city": "Denver",
+        "chamber_details": {
+          "name": "Denver City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Denver",
+          "state": "CO"
+        }
+      },
+      "term_start": "2011-07-18 00:00:00",
+      "term_end": "2019-07-15 00:00:00",
+      "party": "",
+      "bio": [
+        "Councilwoman Ortega was elected to an at-large seat in 2011. She has focused on listening to the community and making sure Denver works for all its residents.  She has worked to establish reasonable regulation of the marijuana industry to implement the intent of the voters while protecting our children - especially from access to marijuana edibles. She will continue to monitor implementation and make necessary changes in our ordinances as unintended consequences arise. \\n\\nPrior to be elected in 2011Councilwoman Ortega served as Executive Director of the Denver Commission to End Homelessness. She represented District 9 on Denver City Council from 1987 to 2003 and served two consecutive terms as City Council President. In these capacities she has worked on a broad range of issues from community revitalization to economic development to assisting our homeless and others in need. \\n\\nCouncilwoman Ortega supports the recent changes to provide the Office of the Independent Monitor with the proper tools and authority to investigate allegations against Denver public safety employees.  The City must reform the operations of the departments to prevent large payouts resulting from excessive force complaints while protecting the men and women who protect us.  She will be carefully scrutinizing the findings from the current reviews of the Department of Safety.",
+        null
+      ],
+      "photo": "https://www.denvergov.org/content/dam/denvergov/Portals/695/images/CouncilHeadshots/DeborahOrtega_web.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "80202",
+        "phone_2": "(720) 337-7713",
+        "phone_1": "(720) 337-2000",
+        "fax_1": "(720) 865-9482",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "City and County Building",
+        "address_2": "1437 Bannock Street",
+        "address_3": "Room 451"
+      },
+      "websites": [
+        "http://www.denvergov.org/content/denvergov/en/denver-council-district-13.html"
+      ],
+      "emails": [
+        "ortegaatlarge@denvergov.org",
+        "deborah.ortega@denvergov.org"
+      ],
+      "socials": [
+        {
+          "official": 210817,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140271,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:27:05.469447",
+          "id": 140271,
+          "identifier_value": "http://www.denvergov.org/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=768&tid=444245&mid=511993"
+        },
+        {
+          "official": 210817,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140272,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:27:05.469447",
+          "id": 140272,
+          "identifier_value": "ortegaatlarge"
+        },
+        {
+          "official": 210817,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140273,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:27:05.469447",
+          "id": 140273,
+          "identifier_value": "https://www.facebook.com/ortegaatlarge/"
+        },
+        {
+          "official": 210817,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140274,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:27:05.469447",
+          "id": 140274,
+          "identifier_value": "https://www.facebook.com/ortegaatlarge/"
+        },
+        {
+          "official": 210817,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140275,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:27:05.469447",
+          "id": 140275,
+          "identifier_value": "https://www.linkedin.com/in/debbie-ortega-a3720714/"
+        },
+        {
+          "official": 210817,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2019-07-15 00:00:00",
+          "sk": 140276,
+          "valid_from": "2011-07-18 00:00:00",
+          "last_update_date": "2018-11-02 17:27:05.469447",
+          "id": 140276,
+          "identifier_value": "71568"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 2103,
+      "first_name": "Jared",
+      "last_name": "Polis",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Governor",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "Colorado Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "CO",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-09 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "POLIS, Jared, a Representative from Colorado; born in Boulder, Boulder County, Colo., May 12, 1975; A.B., Princeton University, Princeton, N. J., 1996; business owner; entrepreneur; member of the Colorado state board of education, 2001-2007; chairman of the Colorado state board of education, 2004-2005; elected as a Democrat to the One Hundred Eleventh and to the three succeeding Congresses (January 3, 2009-present).",
+        "1975-05-12"
+      ],
+      "photo": "https://www.colorado.gov/governor/sites/default/files/gov_jared-polis_portrait_darkblueshirt.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "80203",
+        "phone_2": "",
+        "phone_1": "(303) 866-2471",
+        "fax_1": "",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "Office of the Governor",
+        "address_2": "136 State Capitol Bldg",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.colorado.gov/governor/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197059,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197059,
+          "identifier_value": "P000598"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197060,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197060,
+          "identifier_value": "106220"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197061,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197061,
+          "identifier_value": "https://www.facebook.com/polis"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197062,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197062,
+          "identifier_value": "JaredPolis31275"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197064,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197064,
+          "identifier_value": "jaredpolis"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197066,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197066,
+          "identifier_value": "N00029127"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197067,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197067,
+          "identifier_value": "412308"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197068,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197068,
+          "identifier_value": "H8CO02137"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197070,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197070,
+          "identifier_value": "https://www.facebook.com/jaredpolis/"
+        },
+        {
+          "official": 230807,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 197071,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-21 21:41:59.528013",
+          "id": 197071,
+          "identifier_value": "jaredpolis"
+        }
+      ]
+    },
+    {
+      "id": 11566,
+      "first_name": "Dianne",
+      "last_name": "Primavera",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "Colorado Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "CO",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-09 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "In 2006, Dianne was elected to the first of four terms in the State Legislature, representing Broomfield, Superior, and parts of Erie. Throughout her service, Dianne was highly regarded for her success working across the aisle to promote Colorado small businesses, lower prescription drug costs, and expand access to affordable health care. Some of her major successes included:\\n\\nExpanding Medicaid and private-insurance coverage for cancer screenings and women’s preventative health care\\nSecuring insurance coverage for autism services for children in Colorado\\nEnhancing privacy protections for Coloradans’ personal medical information\\nCreating a program to distribute unused cancer drugs to patients who could not afford them\\nCreating a Business Personal Property Tax Credit to reduce costs for small businesses\\nMost recently, Dianne served as the CEO of Susan G. Komen Colorado, one of the largest organizations in the country dedicated to breast cancer prevention, treatment, research, and education.\\n\\nDianne is a lifelong Coloradan and a Broomfield resident. She has two adult daughters and a one-year-old granddaughter, Kailani. Dianne is also an avid country dancer — taking after her dad, who was a dedicated ballroom dancer throughout his life, even on his 95th birthday.",
+        "1950-01-28"
+      ],
+      "photo": "https://www.colorado.gov/governor/sites/default/files/styles/panopoly_image_original/public/photos/ltgovdianneprimavera.jpg?itok=1ocDtwUx",
+      "office_location": {
+        "county": "",
+        "postal_code": "80203",
+        "phone_2": "(303) 866-2471",
+        "phone_1": "(303) 866-2885",
+        "fax_1": "",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "Office of the Lieutenant Governor",
+        "address_2": "130 State Capitol",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.colorado.gov/ltgovernor"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 233450,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 205342,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-31 19:16:05.178851",
+          "id": 205342,
+          "identifier_value": "https://www.facebook.com/LtGovofCO/"
+        },
+        {
+          "official": 233450,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 205343,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-31 19:16:05.178851",
+          "id": 205343,
+          "identifier_value": "29795"
+        },
+        {
+          "official": 233450,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 205344,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-31 19:16:05.178851",
+          "id": 205344,
+          "identifier_value": "ltgov4co"
+        },
+        {
+          "official": 233450,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 205345,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-31 19:16:05.178851",
+          "id": 205345,
+          "identifier_value": "ltgovofco"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    },
+    {
+      "id": 216853,
+      "first_name": "Alex",
+      "last_name": "Valdez",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "CO",
+        "city": "",
+        "chamber_details": {
+          "name": "Colorado House of Representatives",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "5",
+          "city": "",
+          "state": "CO"
+        }
+      },
+      "term_start": "2019-01-09 00:00:00",
+      "term_end": "2021-01-13 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "https://leg.colorado.gov/sites/default/files/styles/width_300/public/2019a_valdez-alex.jpg?itok=t8vlKKa2",
+      "office_location": {
+        "county": "",
+        "postal_code": "80203",
+        "phone_2": "",
+        "phone_1": "(303) 866-2925",
+        "fax_1": "",
+        "city": "Denver",
+        "fax_2": "",
+        "state": "CO",
+        "address_1": "Colorado State Capitol",
+        "address_2": "200 E. Colfax",
+        "address_3": "Room 307"
+      },
+      "websites": [
+        "https://leg.colorado.gov/legislators/alex-valdez"
+      ],
+      "emails": [
+        "alex.valdez.house@state.co.us"
+      ],
+      "socials": [
+        {
+          "official": 227861,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-13 00:00:00",
+          "sk": 188250,
+          "valid_from": "2019-01-09 00:00:00",
+          "last_update_date": "2019-01-09 17:34:06.141733",
+          "id": 188250,
+          "identifier_value": "https://www.facebook.com/ValdezforCO/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1759 @@
+{
+  "number": 15,
+  "officials": [
+    {
+      "id": 16478,
+      "first_name": "Michael",
+      "last_name": "Bond",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "GA",
+        "city": "Atlanta",
+        "chamber_details": {
+          "name": "Atlanta City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2010-01-04 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "http://citycouncil.atlantaga.gov/Home/ShowImage?id=1620&t=636502211851400000",
+      "office_location": {
+        "county": "",
+        "postal_code": "30303-3584",
+        "phone_2": "",
+        "phone_1": "(404) 330-6770",
+        "fax_1": "(404) 739-4852",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Atlanta City Hall",
+        "address_2": "55 Trinity Ave SW",
+        "address_3": "Suite 2900"
+      },
+      "websites": [
+        "http://citycouncil.atlantaga.gov/council-members/michael-julian-bond"
+      ],
+      "emails": [
+        "mbond@atlantaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 190410,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 72970,
+          "valid_from": "2010-01-04 00:00:00",
+          "last_update_date": "2018-01-05 18:46:33.280790",
+          "id": 72970,
+          "identifier_value": "https://www.linkedin.com/in/michaeljulianbond00366357/"
+        },
+        {
+          "official": 190410,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 72971,
+          "valid_from": "2010-01-04 00:00:00",
+          "last_update_date": "2018-01-05 18:46:33.280790",
+          "id": 72971,
+          "identifier_value": "michael_j_bond"
+        },
+        {
+          "official": 190410,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 72972,
+          "valid_from": "2010-01-04 00:00:00",
+          "last_update_date": "2018-01-05 18:46:33.280790",
+          "id": 72972,
+          "identifier_value": "https://www.facebook.com/michaeljulianbond/"
+        },
+        {
+          "official": 190410,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 72973,
+          "valid_from": "2010-01-04 00:00:00",
+          "last_update_date": "2018-01-05 18:46:33.280790",
+          "id": 72973,
+          "identifier_value": "https://www.facebook.com/michaeljulianbond/"
+        },
+        {
+          "official": 190410,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 72974,
+          "valid_from": "2010-01-04 00:00:00",
+          "last_update_date": "2018-01-05 18:46:33.280790",
+          "id": 72974,
+          "identifier_value": "71999"
+        }
+      ]
+    },
+    {
+      "id": 15669,
+      "first_name": "Keisha",
+      "last_name": "Bottoms",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "GA",
+        "city": "Atlanta",
+        "chamber_details": {
+          "name": "Atlanta Mayor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "ATLANTA",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2018-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Keisha Lance Bottoms is the 60th Mayor of the City of Atlanta.  As the second woman elected Mayor in the City’s history, Mayor Bottoms is committed to creating safe communities, expanding access to public transit, developing opportunities for jobs and economic growth and advocating for high quality public education. \\n\\nMayor Bottoms is a member of the State Bar of Georgia, the Atlanta Chapter of Jack and Jill of America, the Dogwood City Chapter of The Links, Inc., and the Atlanta Alumnae Chapter of Delta Sigma Theta Sorority, Inc. \\n\\nMayor Bottoms is a graduate of Florida A&M University and Georgia State University College of Law.  Alongside her public service career, Mayor Bottoms has maintained a private law practice for more than 20 years, and has served as General Counsel for a multi-million dollar business, as well as a Judge (Pro Hoc) in Fulton County State Court. \\n\\nThe Mayor lives in Southwest Atlanta with her husband, Derek W. Bottoms, and their four children – Lance, Langston, Lincoln and Lennox.",
+        null
+      ],
+      "photo": "https://www.atlantaga.gov/Home/ShowImage?id=8314&t=636506862088221942",
+      "office_location": {
+        "county": "",
+        "postal_code": "30303",
+        "phone_2": "",
+        "phone_1": "(404) 330-6100",
+        "fax_1": "(404) 658-7285",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "68 Mitchell Street SW",
+        "address_2": "",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.atlantaga.gov/government/mayor-s-office"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 196742,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 101480,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-04-16 19:48:58.091591",
+          "id": 101480,
+          "identifier_value": "https://www.facebook.com/keisha.bottoms/"
+        },
+        {
+          "official": 196742,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 101481,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-04-16 19:48:58.091591",
+          "id": 101481,
+          "identifier_value": "https://www.facebook.com/keisha.bottoms/"
+        },
+        {
+          "official": 196742,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 101482,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-04-16 19:48:58.091591",
+          "id": 101482,
+          "identifier_value": "KeishaBottoms"
+        }
+      ]
+    },
+    {
+      "id": 65471,
+      "first_name": "Andre",
+      "last_name": "Dickens",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "GA",
+        "city": "Atlanta",
+        "chamber_details": {
+          "name": "Atlanta City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2014-01-06 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "http://citycouncil.atlantaga.gov/Home/ShowImage?id=1556&t=636495627209800000",
+      "office_location": {
+        "county": "",
+        "postal_code": "30303-3584",
+        "phone_2": "",
+        "phone_1": "(404) 330-6041",
+        "fax_1": "(404) 739-9250",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Atlanta City Hall",
+        "address_2": "55 Trinity Ave SW",
+        "address_3": "Suite 2900"
+      },
+      "websites": [
+        "http://citycouncil.atlantaga.gov/council-members/andre-dickens"
+      ],
+      "emails": [
+        "adickens@atlantaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 199162,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 109689,
+          "valid_from": "2014-01-06 00:00:00",
+          "last_update_date": "2018-05-04 17:48:50.241147",
+          "id": 109689,
+          "identifier_value": "andre4atlanta"
+        },
+        {
+          "official": 199162,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 109690,
+          "valid_from": "2014-01-06 00:00:00",
+          "last_update_date": "2018-05-04 17:48:50.241147",
+          "id": 109690,
+          "identifier_value": "andre4atlanta"
+        },
+        {
+          "official": 199162,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 109691,
+          "valid_from": "2014-01-06 00:00:00",
+          "last_update_date": "2018-05-04 17:48:50.241147",
+          "id": 109691,
+          "identifier_value": "https://www.linkedin.com/in/andre-dickens-2219b81/"
+        },
+        {
+          "official": 199162,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 109692,
+          "valid_from": "2014-01-06 00:00:00",
+          "last_update_date": "2018-05-04 17:48:50.241147",
+          "id": 109692,
+          "identifier_value": "157491"
+        },
+        {
+          "official": 199162,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 109693,
+          "valid_from": "2014-01-06 00:00:00",
+          "last_update_date": "2018-05-04 17:48:50.241147",
+          "id": 109693,
+          "identifier_value": "https://www.facebook.com/Andre4Atlanta/"
+        },
+        {
+          "official": 199162,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 109695,
+          "valid_from": "2014-01-06 00:00:00",
+          "last_update_date": "2018-05-04 17:48:50.241147",
+          "id": 109695,
+          "identifier_value": "https://www.facebook.com/dredickens"
+        }
+      ]
+    },
+    {
+      "id": 214494,
+      "first_name": "Geoff",
+      "last_name": "Duncan",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2019-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Republican",
+      "bio": [
+        null
+      ],
+      "photo": "https://ltgov.georgia.gov/sites/ltgov.georgia.gov/files/styles/image_box/public/imagebox/Geoff%20Duncan.jpg?itok=i97O0yQK",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(404) 656-5030",
+        "fax_1": "(404) 656-6739",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Office of the Lieutenant Governor",
+        "address_2": "240 State Capitol",
+        "address_3": ""
+      },
+      "websites": [
+        "https://ltgov.georgia.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 230310,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195681,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:48:04.229359",
+          "id": 195681,
+          "identifier_value": "GeoffDuncanGA"
+        },
+        {
+          "official": 230310,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195682,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:48:04.229359",
+          "id": 195682,
+          "identifier_value": "https://www.facebook.com/geoffduncanforlg/"
+        },
+        {
+          "official": 230310,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195683,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:48:04.229359",
+          "id": 195683,
+          "identifier_value": "https://www.facebook.com/geoff.duncan.75"
+        }
+      ]
+    },
+    {
+      "id": 182953,
+      "first_name": "Amir",
+      "last_name": "Farokhi",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "GA",
+        "city": "Atlanta",
+        "chamber_details": {
+          "name": "Atlanta City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "2",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2018-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Elected in 2017, Amir Farokhi represents Atlanta's District 2 which includes Downtown, Midtown, Old Fourth Ward, Inman Park, Poncey-Highland, and Candler Park.\\n\\nA native to Atlanta, Councilmember Farokhi lives in the Old Fourth Ward. Professionally, alongside serving on the Atlanta City Council, he is Vice President of Strategic Initiatives for Briteweb, a social impact consultancy. Previously he served as Director of Strategy at BrightHouse; Chief Operating Officer of College Advising Corps; Founder and Executive Director of GeorgiaForward; and practiced commercial litigation with an international law firm.\\n\\nIn 2011, 2012 and 2013, Councilmember Farokhi was named among the Most Influential Georgians by Georgia Trend Magazine and included in the magazine's 40 Under 40 list. He is a 2011 Marshall Memorial Fellow, Term Member with the Council on Foreign Relations, Truman National Security Project member, and graduate of LEAD Atlanta (2006) and Leadership Atlanta (2013).\\n\\nAmir’s community service contributions include the following:\\n\\n                •              Board Member, GeorgiaForward\\n                •              Board Member, The Galloway School\\n                •              Board Member, Charles R. Drew Charter School\\n                •              Past Board Member, Atlanta Fire Foundation\\n                •              Past Board Member, Atlanta Bicycle Coalition\\n                •              Past Board Member, Citizens for Progressive Transit\\n                •              Past Board Member, Generation Green, Georgia Conservancy \\n\\nCouncilmember Farokhi is a graduate of Duke University and Duke University School of Law and is the first Iranian-American elected official in the American South.",
+        null
+      ],
+      "photo": "http://citycouncil.atlantaga.gov/Home/ShowImage?id=1590&t=636495655497400000",
+      "office_location": {
+        "county": "",
+        "postal_code": "30303-3584",
+        "phone_2": "",
+        "phone_1": "(404) 330-6038",
+        "fax_1": "(404) 979-3676",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Atlanta City Hall",
+        "address_2": "55 Trinity Ave, S.W.",
+        "address_3": "Suite 2900"
+      },
+      "websites": [
+        "http://citycouncil.atlantaga.gov/council-members/amir-r-farokhi"
+      ],
+      "emails": [
+        "arfarokhi@atlantaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 201271,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 118572,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-22 15:23:03.641031",
+          "id": 118572,
+          "identifier_value": "https://www.facebook.com/AmirforAtlanta/"
+        },
+        {
+          "official": 201271,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 118573,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-22 15:23:03.641031",
+          "id": 118573,
+          "identifier_value": "https://www.linkedin.com/in/amir-farokhi-b4a76635/"
+        },
+        {
+          "official": 201271,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 118574,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-22 15:23:03.641031",
+          "id": 118574,
+          "identifier_value": "https://www.facebook.com/D2Atlanta/"
+        },
+        {
+          "official": 201271,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 118575,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-22 15:23:03.641031",
+          "id": 118575,
+          "identifier_value": "amirrf"
+        },
+        {
+          "official": 201271,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 118576,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-22 15:23:03.641031",
+          "id": 118576,
+          "identifier_value": "https://www.facebook.com/amir.farokhi"
+        }
+      ]
+    },
+    {
+      "id": 9148,
+      "first_name": "Pat",
+      "last_name": "Gardner",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia House of Representatives",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "57",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2013-01-14 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Pat Gardner was first elected to the House in a 2001 special election. Representative Gardner is currently serving on the Appropriations Committee, Health Subcommittee of Appropriations, Higher Education, Natural Resources and Transportation Committees. She serves as Co Chair of the Women’s Legislative Caucus and the Vice Chair of the Fulton Delegation of the Georgia General Assembly. \\n\\nPat has lived in Morningside for the past 37 years with her husband, Jerry Gardner, and they have two children, Anita and Bradley. Prior to moving to Atlanta Pat taught high school Spanish for eight years in California, Michigan and Virginia. A graduate of the University of Michigan, Pat studied in Spain for a year and lived in India for another year. \\n\\nGardner became the Executive Director of the Georgia Psychological Association in 1977 until her recent retirement and has been a tireless advocate for mental health services. As a Certified Association Executive (CAE), she has worked in leadership positions with the Georgia Association of Association Executives and as President of the American Psychological Association’s Council of State Executives. \\n\\nAn advocate for universal access to health care initially for children, Pat has initiated efforts to expand the current PeachCare system to make it available to every Georgia family based on their ability to pay and more recently chaired a work group to investigate duplication in the eligibility systems of Medicaid and PeachCare. She chaired a study committee to evaluate how to reinstate the COLA for state retirees and another one to look at how to provide health insurance benefits for small employers. She passed a bill requiring more recycling on Capitol Hill and sponsored Sustainable Businesses Day at the Capitol for the 6th year in a row. \\n\\nShe has received commendations from the Georgia Conservation Voters , the Georgia Network of Mental Health Consumers, the National Mental Health Association of Georgia, the Association on Developmental Disabilities, and the National Alliance for the Mentally Ill. The Women’s Policy Group awarded Pat their legislative award in 2004.",
+        "1940-03-22"
+      ],
+      "photo": "http://www.house.ga.gov/SiteCollectionImages/GardnerPat109.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(404) 656-0265",
+        "fax_1": "(404) 463-2634",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "604-G Coverdell Legislative Office Building",
+        "address_2": "18 Capitol Square SW",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=109&Session=27",
+        "http://pat-gardner.com/"
+      ],
+      "emails": [
+        "pat@patgardner.org"
+      ],
+      "socials": [
+        {
+          "official": 235415,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 211623,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-02-14 12:59:12.742479",
+          "id": 211623,
+          "identifier_value": "patgardner"
+        },
+        {
+          "official": 235415,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 211624,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-02-14 12:59:12.742479",
+          "id": 211624,
+          "identifier_value": "31527"
+        },
+        {
+          "official": 235415,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 211625,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-02-14 12:59:12.742479",
+          "id": 211625,
+          "identifier_value": "https://www.facebook.com/State-Rep-Pat-Gardner-55167783779/"
+        },
+        {
+          "official": 235415,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 211626,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-02-14 12:59:12.742479",
+          "id": 211626,
+          "identifier_value": "https://www.linkedin.com/in/pat-gardner-74716b12/"
+        }
+      ]
+    },
+    {
+      "id": 8172,
+      "first_name": "Johnny",
+      "last_name": "Isakson",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "ISAKSON, Johnny, a Senator and a Representative from Georgia; born in Atlanta, Fulton County, Ga., December 28, 1944; graduated from the University of Georgia, Athens, Ga., 1966; served in the Georgia Air National Guard 1966-1972; member of the Georgia state general assembly, 1976-1990; unsuccessful candidate for election as Governor of Georgia 1990; member of the Georgia state senate 1993-1996; unsuccessful candidate for election to the United States Senate in 1996; chair of the Georgia board of education 1996; elected as a Republican to the One Hundred Sixth Congress by special election to fill the vacancy created when United States Representative Newt Gingrich did not take his seat in the One Hundred Sixth Congress; reelected to the two succeeding Congresses (February 23, 1999-January 3, 2005); was not a candidate for reelection to the House of Representatives, but was elected to the United States Senate in 2004; reelected in 2010 and again in 2016 for the term ending January 3, 2023; chair, Committee on Veterans’ Affairs (One Hundred Fourteenth Congress), Select Committee on Ethics (One Hundred Fourteenth Congress).",
+        "1944-12-28"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/I/I000055.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3643",
+        "fax_1": "(202) 228-0724",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "131 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.isakson.senate.gov/public/index.cfm/home",
+        "http://www.johnnyisakson.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180759,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180759,
+          "identifier_value": "I000055"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180760,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180760,
+          "identifier_value": "N00002593"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180761,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180761,
+          "identifier_value": "1721"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180762,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180762,
+          "identifier_value": "400194"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180763,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180763,
+          "identifier_value": "S6GA00119"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180764,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180764,
+          "identifier_value": "SenatorIsakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180765,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180765,
+          "identifier_value": "SenatorIsakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180766,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180766,
+          "identifier_value": "senatorisakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180767,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180767,
+          "identifier_value": "johnnyisakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180769,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180769,
+          "identifier_value": "https://www.facebook.com/isakson/"
+        }
+      ]
+    },
+    {
+      "id": 220261,
+      "first_name": "Brian",
+      "last_name": "Kemp",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Governor",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2019-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Republican",
+      "bio": [
+        null
+      ],
+      "photo": "https://gov.georgia.gov/sites/gov.georgia.gov/files/styles/profile_thumbnail/public/profile/brian-kemp-cropped.jpg?itok=b8ven4Ow",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(800) 436-7442",
+        "fax_1": "(404) 463-5269",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Office of the Governor Brian Kemp",
+        "address_2": "203 State Capitol",
+        "address_3": ""
+      },
+      "websites": [
+        "https://gov.georgia.gov/"
+      ],
+      "emails": [
+        "kempscheduling@georgia.gov"
+      ],
+      "socials": [
+        {
+          "official": 230306,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195672,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:45:12.454416",
+          "id": 195672,
+          "identifier_value": "https://www.facebook.com/BrianKempGA/"
+        },
+        {
+          "official": 230306,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195673,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:45:12.454416",
+          "id": 195673,
+          "identifier_value": "https://www.facebook.com/brianpkemp"
+        }
+      ]
+    },
+    {
+      "id": 4568,
+      "first_name": "John",
+      "last_name": "Lewis",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "5",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2013-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "LEWIS, John R., a Representative from Georgia; born in Troy, Pike County, Ala., February 21, 1940; attended Pike County Training School, Brundidge, Ala.; B.A., American Baptist Theological Seminary, Nashville, Tenn., 1961; B.A., Fisk University, Nashville, Tenn., 1967; chairman, Student Nonviolent Coordinating Committee, 1963-1966; director of ACTION, 1977-1980; community affairs director, National Consumer Co-op Bank, Atlanta, 1980-1986; member of the Atlanta, Ga., city council, 1982-1986; elected as a Democrat to the One Hundredth and to the fourteen succeeding Congresses (January 3, 1987-present).",
+        "1940-02-21"
+      ],
+      "photo": "https://johnlewis.house.gov/sites/johnlewis.house.gov/files/A2.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-3801",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "300 Cannon House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://johnlewis.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187101,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187101,
+          "identifier_value": "L000287"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187102,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187102,
+          "identifier_value": "N00002577"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187103,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187103,
+          "identifier_value": "26820"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187104,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187104,
+          "identifier_value": "400240"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187105,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187105,
+          "identifier_value": "H6GA05217"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187106,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187106,
+          "identifier_value": "repjohnlewis"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187107,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187107,
+          "identifier_value": "repjohnlewis"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187108,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187108,
+          "identifier_value": "RepJohnLewis"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187110,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187110,
+          "identifier_value": "https://www.facebook.com/JohnLewis/"
+        },
+        {
+          "official": 227640,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187112,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-09 02:32:35.123301",
+          "id": 187112,
+          "identifier_value": "https://www.facebook.com/RepJohnLewis/"
+        }
+      ]
+    },
+    {
+      "id": 18022,
+      "first_name": "Felicia",
+      "last_name": "Moore",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "GA",
+        "city": "Atlanta",
+        "chamber_details": {
+          "name": "Atlanta City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2018-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Felicia A. Moore was elected to the Atlanta City Council in 1997\\n\\nFelicia is an active member of the National League of Cities (NLC). She is a Past President and current board member of the National Black Caucus of Local Elected Officials (NBC-LEO), a constituency group of NLC, and a past chair of the NBC-LEO Foundation. As a participant of the NLC Leadership Training Institute, she has recently earned the Diamond Ambassador Certificate Award.\\n\\nOn the state level, she is an active member of the Georgia Municipal Association (GMA). She has served as a member of the Board of Directors, Past President of Central Region/District 3, and the Legislative Policy Council. She is a member of the Revenue and Finance and Municipal Operations Policy Committee. In addition, she is President of the Georgia Municipal Black Caucus (GMBC), to which she is a co-founder.\\n\\nOne of her legislative highlights is the instrumental role she played in the July 2011 Pension Reform for the City of Atlanta. Moore is credited by many for bringing the labor unions, pension boards and employee groups together to agree on their increased contribution level to save their Defined Benefits and avoid costly legal action against the City.\\n\\nAnother highlight was inspired by the case of Mrs. Mattie Moore (no relation), an Alzheimer patient who wandered away from her District 9 home in April 2004. Her remains were discovered six months later within 500 feet of her home. In response, Felicia authored legislation to establish the \"Mattie’s Call\" alert system that became an Atlanta Police Department Standard Operating Procedure for swift, efficient public alerts to assist in finding missing mentally impaired persons. In 2006, the law was adopted statewide. Additionally, she brought \"Project Lifesaver\" to Atlanta, which provides a monitoring bracelet that can be tracked by police with a transmitter to quickly find wandering patients.\\n\\nMoore is currently a member of the Board of Governors, and an Alzheimer’s Ambassador for the\\nAlzheimer’s Association of Georgia. Felicia started her community service in 1991 when she purchased a home in the Riverside neighborhood. She served as President of the neighborhood association for several years, spearheading youth programs, crime-watch and beautification efforts. In 1995, she was elected Chair of Neighborhood Planning Unit-D becoming a community advocate for environmental, housing and economic development issues.\\n\\nShe is a cum laude graduate of Central State University in Wilberforce, Ohio with a B.A. in communications. Felicia is a Honor Society member and she holds a Master of Science in Administration degree from Central Michigan University with a concentration in Public Administration. Additionally, she is a licensed Real Estate Broker.\\n\\nMoore has received numerous honors and awards including being awarded the 2012, 2013, and 2014 Common Cause Democracy Award, being listed in \"Who’s Who in Black Atlanta,\" and \"The Women Looking Ahead 100 List.\" She has also been recognized by the Atlanta Business League as one of \"Atlanta’s Top 100 Women of Influence.\"",
+        null
+      ],
+      "photo": "http://citycouncil.atlantaga.gov/Home/ShowImage?id=1566&t=636495627228870000",
+      "office_location": {
+        "county": "",
+        "postal_code": "30303-3584",
+        "phone_2": "",
+        "phone_1": "(404) 330-6052",
+        "fax_1": "(404) 739-9240",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Atlanta City Hall",
+        "address_2": "55 Trinity Ave SW",
+        "address_3": "Second Floor East"
+      },
+      "websites": [
+        "http://citycouncil.atlantaga.gov/council-members/council-president-felicia-a-moore"
+      ],
+      "emails": [
+        "fmoore@atlantaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 196737,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 101470,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-04-16 19:44:12.714691",
+          "id": 101470,
+          "identifier_value": "FeliciaAMoore"
+        },
+        {
+          "official": 196737,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 101471,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-04-16 19:44:12.714691",
+          "id": 101471,
+          "identifier_value": "https://www.facebook.com/MooreForAtlanta/"
+        },
+        {
+          "official": 196737,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 101472,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-04-16 19:44:12.714691",
+          "id": 101472,
+          "identifier_value": "https://www.facebook.com/profile.php?id=100002261916547"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "first_name": "Nan",
+      "last_name": "Orrock",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia State Senate",
+          "type": "UPPER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "36",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2013-01-14 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "1943-11-08"
+      ],
+      "photo": "http://www.senate.ga.gov/SiteCollectionImages/OrrockNan33.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(404) 463-8054",
+        "fax_1": "(404) 657-9728",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "420-B State Capitol",
+        "address_2": "",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.senate.ga.gov/senators/en-US/member.aspx?Member=33&Session=27"
+      ],
+      "emails": [
+        "nan.orrock@senate.ga.gov"
+      ],
+      "socials": [
+        {
+          "official": 232832,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203546,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-01-29 18:32:07.383862",
+          "id": 203546,
+          "identifier_value": "7940"
+        },
+        {
+          "official": 232832,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203547,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-01-29 18:32:07.383862",
+          "id": 203547,
+          "identifier_value": "SenNanOrrock"
+        },
+        {
+          "official": 232832,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203548,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-01-29 18:32:07.383862",
+          "id": 203548,
+          "identifier_value": "https://www.facebook.com/senatornanorrock"
+        },
+        {
+          "official": 232832,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203549,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-01-29 18:32:07.383862",
+          "id": 203549,
+          "identifier_value": "https://www.facebook.com/nan.orrock"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 81814,
+      "first_name": "David",
+      "last_name": "Perdue",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2015-01-06 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "PERDUE, David Alfred, Jr., a Senator from Georgia; born in Macon, Bibb County, Ga., December 10, 1949; B.S., Georgia Institute of Technology, 1972; M.S., Georgia Institute of Technology, 1976; management consultant; company executive; elected as a Republican to the United States Senate in 2014 for the term ending January 3, 2021.",
+        "1949-12-10"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/P/P000612.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3521",
+        "fax_1": "(202) 228-1031",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "455 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.perdue.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180784,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180784,
+          "identifier_value": "412666"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180786,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180786,
+          "identifier_value": "sendavidperdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180787,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180787,
+          "identifier_value": "https://www.facebook.com/SenatorDavidPerdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180788,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180788,
+          "identifier_value": "UCXHsrkPP4TAm0s0qB1C31Lw"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180789,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180789,
+          "identifier_value": "senatordavidperdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180790,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180790,
+          "identifier_value": "sendavidperdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180791,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180791,
+          "identifier_value": "N00035516"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180792,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180792,
+          "identifier_value": "S4GA11285"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180793,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180793,
+          "identifier_value": "P000612"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180794,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180794,
+          "identifier_value": "151330"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180795,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180795,
+          "identifier_value": "https://www.facebook.com/perduesenate"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180796,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180796,
+          "identifier_value": "perduesenate"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    },
+    {
+      "id": 182926,
+      "first_name": "Matt",
+      "last_name": "Westmoreland",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "GA",
+        "city": "Atlanta",
+        "chamber_details": {
+          "name": "Atlanta City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Atlanta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2018-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Matt Westmoreland is the Post 2 At-Large member of the Atlanta City Council.\\n\\nPrior to his election, Matt was the Atlanta Public Schools Board of Education’s District 3 representative, serving as chair of its Budget Commission and legislative liaison to the Georgia General Assembly. \\n\\nDuring his tenure, the board recruited and partnered with a new superintendent to rewrite the school system’s mission and vision, revise its strategic plan, define equity, adopt a new operating model that pushed decision-making down to schools, develop a turnaround strategy for chronically struggling schools, and build a $545 million capital-projects plan. \\n\\nAs chair of the Budget Commission, Matt led efforts to cut waste from the central office, increase teacher pay, allocate funding based on student need, and direct more dollars to classrooms. During his tenure, Atlanta Public Schools’ graduation rate increased 19 points from 58 percent to 77 percent, and the district saw improved SAT, ACT, and Advanced Placement test scores system-wide.\\n\\nAn Atlanta native, Matt attended Morningside Elementary School, Inman Middle School, and Henry W. Grady High School. He received his bachelor’s degree in history from Princeton University in Princeton, New Jersey, where he served as editor-in-chief of The Daily Princetonian. After graduation, Matt returned to Atlanta as a Teach for America Corps Member and taught history at Carver Early College High School in southeast Atlanta.\\n\\nMatt previously served as programs director for Horizons Atlanta, an educational non-profit serving low-income students across Metro Atlanta through summer enrichment programs. He also worked for the Atlanta Regional Commission, the Washington, D.C. Public Schools System, in the D.C. office of Congressman JohnLewis, and was an Urban Leaders Fellow with Colorado Senator Mike Johnston.\\n\\nA lifelong and active member of Peachtree Road United Methodist Church, Matt lives in Midtown.",
+        null
+      ],
+      "photo": "http://citycouncil.atlantaga.gov/Home/ShowImage?id=1580&t=636495627579330000",
+      "office_location": {
+        "county": "",
+        "postal_code": "30303-3584",
+        "phone_2": "",
+        "phone_1": "(404) 330-6302",
+        "fax_1": "(404) 979-3681",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Atlanta City Hall",
+        "address_2": "55 Trinity Ave SW",
+        "address_3": "Suite 2900"
+      },
+      "websites": [
+        "http://citycouncil.atlantaga.gov/council-members/matt-westmoreland"
+      ],
+      "emails": [
+        "mswestmoreland@atlantaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 200759,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 116103,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-18 18:15:25.968515",
+          "id": 116103,
+          "identifier_value": "WestmorelandATL"
+        },
+        {
+          "official": 200759,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 116104,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-18 18:15:25.968515",
+          "id": 116104,
+          "identifier_value": "https://www.facebook.com/WestmorelandATL/"
+        },
+        {
+          "official": 200759,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 116105,
+          "valid_from": "2018-01-01 00:00:00",
+          "last_update_date": "2018-05-18 18:15:25.968515",
+          "id": 116105,
+          "identifier_value": "https://www.facebook.com/matt.westmoreland.1"
+        }
+      ]
+    }
+  ]
+}
