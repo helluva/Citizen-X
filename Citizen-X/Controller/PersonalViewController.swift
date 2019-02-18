@@ -9,14 +9,42 @@
 import UIKit
 
 class PersonalViewController: UIViewController {
+    
+    // MARK: Presentation
+    
+    class func present(over presenter: UIViewController, with location: Location) {
+        let navigationVC = UIStoryboard.main.instantiateViewController(withIdentifier: "PersonalViewControllerNavVC")
+        navigationVC.modalPresentationStyle = .formSheet
+        
+        let personalVC = (navigationVC as! UINavigationController).viewControllers.first as! PersonalViewController
+        personalVC.location = location
+        presenter.present(navigationVC, animated: true, completion: nil)
+    }
+    
+    
+    // MARK: - UIViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        titleLabel.text = "Citizen X"
+        locationLabel.text = "Political Location: \(location?.city ?? "Not Set")"
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        imageView.roundCircularly()
     }
     
     
+    // MARK: - Private
+    
     @IBOutlet weak private var imageView: UIImageView!
-
+    
+    @IBOutlet weak private var titleLabel: UILabel!
+    @IBOutlet weak private var locationLabel: UILabel!
+    
+    private var location: Location? = nil
+    
 }

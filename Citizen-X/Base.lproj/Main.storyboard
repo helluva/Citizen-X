@@ -14,7 +14,7 @@
         <!--Citizen X-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="EngagementViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="InteractionStackViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,11 @@
                                 <action selector="setLocationButtonTapped" destination="BYZ-38-t0r" id="pnt-cZ-0hp"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Icon" image="Contact" id="eoA-5h-lNI"/>
+                        <barButtonItem key="rightBarButtonItem" title="Icon" image="Contact" id="eoA-5h-lNI">
+                            <connections>
+                                <action selector="citizenInfoButtonTapped" destination="BYZ-38-t0r" id="khE-s0-gmU"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -277,45 +281,75 @@
         <!--Personal View Controller-->
         <scene sceneID="zC3-Ma-nS1">
             <objects>
-                <viewController modalPresentationStyle="formSheet" id="eNB-0i-CoY" customClass="PersonalViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonalViewController" modalPresentationStyle="formSheet" id="eNB-0i-CoY" customClass="PersonalViewController" customModule="Citizen_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DOI-KX-beK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCw-gd-SWp">
-                                <rect key="frame" x="0.0" y="44" width="375" height="203"/>
+                                <rect key="frame" x="0.0" y="87.999999999999986" width="375" height="222.66666666666663"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pvx-ET-ZEq">
-                                        <rect key="frame" x="110" y="24" width="155" height="155"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Core" translatesAutoresizingMaskIntoConstraints="NO" id="pvx-ET-ZEq">
+                                        <rect key="frame" x="121.33333333333333" y="4" width="132.33333333333337" height="132.33333333333334"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="pvx-ET-ZEq" secondAttribute="height" multiplier="1:1" id="2Mo-pe-zwH"/>
                                         </constraints>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BdZ-HY-qlO">
+                                        <rect key="frame" x="0.0" y="154.33333333333334" width="375" height="50.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Citizen X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0D-cr-rfP">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="21"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Location: San Francisco, CA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxi-Ob-aBz">
+                                                <rect key="frame" x="0.0" y="30.999999999999972" width="375" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="pvx-ET-ZEq" secondAttribute="bottom" constant="24" id="Pgp-Yr-ovB"/>
+                                    <constraint firstItem="BdZ-HY-qlO" firstAttribute="leading" secondItem="PCw-gd-SWp" secondAttribute="leading" id="IUr-0M-nDq"/>
                                     <constraint firstItem="pvx-ET-ZEq" firstAttribute="centerX" secondItem="PCw-gd-SWp" secondAttribute="centerX" id="Qlg-7Z-gZS"/>
-                                    <constraint firstItem="pvx-ET-ZEq" firstAttribute="top" secondItem="PCw-gd-SWp" secondAttribute="top" constant="24" id="fGl-2a-l9b"/>
+                                    <constraint firstItem="pvx-ET-ZEq" firstAttribute="top" secondItem="PCw-gd-SWp" secondAttribute="top" constant="4" id="fGl-2a-l9b"/>
+                                    <constraint firstAttribute="trailing" secondItem="BdZ-HY-qlO" secondAttribute="trailing" id="hqZ-67-mDl"/>
+                                    <constraint firstAttribute="bottom" secondItem="BdZ-HY-qlO" secondAttribute="bottom" constant="18" id="lVu-Wj-sFb"/>
+                                    <constraint firstItem="BdZ-HY-qlO" firstAttribute="top" secondItem="pvx-ET-ZEq" secondAttribute="bottom" constant="18" id="wvD-CP-zES"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="PCw-gd-SWp" firstAttribute="top" secondItem="Uvh-zL-TNv" secondAttribute="top" id="1ow-dZ-ObE"/>
                             <constraint firstItem="Uvh-zL-TNv" firstAttribute="trailing" secondItem="PCw-gd-SWp" secondAttribute="trailing" id="Gfv-MC-7ow"/>
                             <constraint firstItem="PCw-gd-SWp" firstAttribute="leading" secondItem="Uvh-zL-TNv" secondAttribute="leading" id="LOM-vX-cHE"/>
-                            <constraint firstItem="PCw-gd-SWp" firstAttribute="height" secondItem="DOI-KX-beK" secondAttribute="height" multiplier="0.25" id="dQ8-rt-8PD"/>
+                            <constraint firstItem="PCw-gd-SWp" firstAttribute="height" secondItem="DOI-KX-beK" secondAttribute="height" multiplier="0.225" constant="40" id="dQ8-rt-8PD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Uvh-zL-TNv"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZUO-IL-VyS">
+                        <barButtonItem key="rightBarButtonItem" springLoaded="YES" style="done" systemItem="done" id="dNQ-f2-sLM">
+                            <color key="tintColor" name="Primary2"/>
+                            <connections>
+                                <action selector="dismissFor:" destination="eNB-0i-CoY" id="ARh-Zu-22d"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="pvx-ET-ZEq" id="f57-R0-J4f"/>
+                        <outlet property="locationLabel" destination="vxi-Ob-aBz" id="idn-iZ-cv8"/>
+                        <outlet property="titleLabel" destination="z0D-cr-rfP" id="N3m-Y6-XAB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XI1-4Q-pWs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2237" y="2027"/>
+            <point key="canvasLocation" x="3178.4000000000001" y="2026.8472906403942"/>
         </scene>
         <!--Get Started View Controller-->
         <scene sceneID="uq1-US-wvf">
@@ -463,10 +497,29 @@
             </objects>
             <point key="canvasLocation" x="137" y="1668"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nar-s8-bG3">
+            <objects>
+                <navigationController storyboardIdentifier="PersonalViewControllerNavVC" automaticallyAdjustsScrollViewInsets="NO" id="KJM-tm-MW3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gyj-Xp-Fj5" customClass="ModernNavigationBar" customModule="ModernUIKit">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eNB-0i-CoY" kind="relationship" relationship="rootViewController" id="M8q-he-6Xb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NjB-Pm-T6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2236" y="2026.8472906403942"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Civic" width="1118" height="825"/>
         <image name="Contact" width="30" height="30.333333969116211"/>
+        <image name="Core" width="880" height="880"/>
         <image name="Location" width="30" height="30"/>
         <image name="microphone" width="200" height="200"/>
         <image name="share" width="100" height="100"/>

@@ -38,7 +38,7 @@
 		2E205387221B409B005E9FD9 /* Seattle WA.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E205366221B3ECA005E9FD9 /* Seattle WA.json */; };
 		2E205388221B409B005E9FD9 /* San Francisco CA.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E205367221B3ECA005E9FD9 /* San Francisco CA.json */; };
 		91D55BD62218822500250936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD52218822500250936 /* AppDelegate.swift */; };
-		91D55BD82218822500250936 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* EngagementViewController.swift */; };
+		91D55BD82218822500250936 /* InteractionStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D55BD72218822500250936 /* InteractionStackViewController.swift */; };
 		91D55BDB2218822500250936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BD92218822500250936 /* Main.storyboard */; };
 		91D55BDD2218822700250936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDC2218822700250936 /* Assets.xcassets */; };
 		91D55BE02218822700250936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D55BDE2218822700250936 /* LaunchScreen.storyboard */; };
@@ -166,7 +166,7 @@
 		2E205367221B3ECA005E9FD9 /* San Francisco CA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "San Francisco CA.json"; sourceTree = "<group>"; };
 		91D55BD22218822500250936 /* Citizen-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citizen-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D55BD52218822500250936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91D55BD72218822500250936 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
+		91D55BD72218822500250936 /* InteractionStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionStackViewController.swift; sourceTree = "<group>"; };
 		91D55BDA2218822500250936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91D55BDC2218822700250936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D55BDF2218822700250936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -388,7 +388,7 @@
 		91D55BEC221886FF00250936 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				91D55BD72218822500250936 /* EngagementViewController.swift */,
+				91D55BD72218822500250936 /* InteractionStackViewController.swift */,
 				2E0F6C332218F82100640A9E /* CivicInteractionsController.swift */,
 				91D55C3F2218E6BA00250936 /* LegislatorListViewController.swift */,
 				91D55C4B2219296D00250936 /* LegislatorDetailViewController.swift */,
@@ -718,7 +718,7 @@
 				91D55C48221923C300250936 /* GetStartedViewController.swift in Sources */,
 				91D55BEA221884CE00250936 /* Core.swift in Sources */,
 				91D55C3B2218BDFF00250936 /* EngagementTableViewCell.swift in Sources */,
-				91D55BD82218822500250936 /* EngagementViewController.swift in Sources */,
+				91D55BD82218822500250936 /* InteractionStackViewController.swift in Sources */,
 				91D55C402218E6BA00250936 /* LegislatorListViewController.swift in Sources */,
 				2E0F6C3822192A9E00640A9E /* OverlayView.swift in Sources */,
 				2E0F6C3A22192ABB00640A9E /* SetLocationViewController.swift in Sources */,

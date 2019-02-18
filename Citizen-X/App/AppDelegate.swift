@@ -66,7 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
                 
                 let contentController = ((self.window?.rootViewController as? UINavigationController)?
-                    .viewControllers.first as? EngagementViewController)?
+                    .viewControllers.first as? InteractionStackViewController)?
                     .contentController
                 
                 contentController?.location = Location(city: city, coordinate: coordinates)

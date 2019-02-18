@@ -266,6 +266,7 @@ class CivicInteractionsController {
         
         var responseContent: CardContentProviding? = nil
         var isShareable = true
+        if "".count == 1 { isShareable = false }    // Remove mutation warning for now; we may change isShareable in the future
         
         // "Who are my local/state/national representatives?"
         if let representativesQueryScope = queryResult["representatives"] as? String {

@@ -1,5 +1,5 @@
 //
-//  EngagementViewController.swift
+//  InteractionStackViewController.swift
 //  Citizen-X
 //
 //  Created by Cliff Panos on 2/16/19.
@@ -13,7 +13,7 @@ import CoreLocation
 ///
 /// The primary view controller for speech interaction and displaying content cards
 ///
-class EngagementViewController: UIViewController {
+class InteractionStackViewController: UIViewController {
     
     let contentController = CivicInteractionsController(for: .sanFrancisco)
     
@@ -58,11 +58,18 @@ class EngagementViewController: UIViewController {
                 self.contentController.location = location
         })
     }
+    
+    @IBAction private func citizenInfoButtonTapped() {
+        PersonalViewController.present(
+            over: self,
+            with: contentController.location
+        )
+    }
 
 }
 
 
-extension EngagementViewController: UITableViewDelegate {
+extension InteractionStackViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
@@ -70,7 +77,7 @@ extension EngagementViewController: UITableViewDelegate {
     
 }
 
-extension EngagementViewController: UITableViewDataSource {
+extension InteractionStackViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contentController.interactions.count
@@ -145,7 +152,7 @@ extension EngagementViewController: UITableViewDataSource {
     
 }
 
-extension EngagementViewController: CivicInteractionsControllerDelegate {
+extension InteractionStackViewController: CivicInteractionsControllerDelegate {
     
     func addedNewInteraction(_ interaction: CivicInteraction) {
         tableView.insertRows(at: [.zero], with: .fade)
