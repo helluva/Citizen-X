@@ -1,0 +1,1110 @@
+{
+  "number": 9,
+  "officials": [
+    {
+      "id": 33495,
+      "first_name": "Ron",
+      "last_name": "DeSantis",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Governor",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "1978-09-14"
+      ],
+      "photo": "https://www.flgov.com/wp-content/uploads/desantis/Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "32399",
+        "phone_2": "",
+        "phone_1": "(850) 488-7146",
+        "fax_1": "",
+        "city": "Tallahassee",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "Executive Office of Governor Ron DeSantis",
+        "address_2": "400 S Monroe St",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.flgov.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199139,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199139,
+          "identifier_value": "26797"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199140,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199140,
+          "identifier_value": "https://www.facebook.com/GovRonDeSantis"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199141,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199141,
+          "identifier_value": "https://www.facebook.com/RonDeSantisFlorida/"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199142,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199142,
+          "identifier_value": "rondesantisfl"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199143,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199143,
+          "identifier_value": "rondesantisfl"
+        },
+        {
+          "official": 231473,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 199144,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-23 20:57:28.174249",
+          "id": 199144,
+          "identifier_value": "UCm8TSZDyDUkiYu-dgd0R0Yg"
+        }
+      ]
+    },
+    {
+      "id": 212192,
+      "first_name": "Anna",
+      "last_name": "Eskamani",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida House of Representatives",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "47",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2018-11-20 00:00:00",
+      "term_end": "2020-11-17 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "City of Residence:  Orlando \\n\\nOccupation:  State Strategic Advisor, NEO Philanthropy \\n\\nEducation:  University High School, Theatre Troupe 4848, 2004-2008; University of Central Florida, BA, Political Science, International Studies, BA, Interdisciplinary Studies, Women's Studies, Certificate in Service Learning, 2008-2012; University of Central Florida, MA, Public Administration, MA, Nonprofit Management, Graduate Certificate in Gender Studies, Certified Nonprofit Professional, 2012-2015; University of Central Florida, PHD, Public Affairs, 2016-present \\n\\nBorn:  May 20, 1990, Orlando, FL \\n\\nRecreational Interest:  feminist research, going to the beach, poetry, running",
+        null
+      ],
+      "photo": "https://www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4746.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "32399-1300",
+        "phone_2": "",
+        "phone_1": "(850) 717-5047",
+        "fax_1": "",
+        "city": "Tallahassee",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "Florida House of Representatives",
+        "address_2": "",
+        "address_3": "402 South Monroe Street"
+      },
+      "websites": [
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746&LegislativeTermId=88"
+      ],
+      "emails": [
+        "anna.eskamani@myfloridahouse.gov"
+      ],
+      "socials": [
+        {
+          "official": 220298,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 165041,
+          "valid_from": "2018-11-20 00:00:00",
+          "last_update_date": "2018-11-19 20:04:54.187630",
+          "id": 165041,
+          "identifier_value": "https://www.facebook.com/anna.v.eskamani"
+        },
+        {
+          "official": 220298,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 165042,
+          "valid_from": "2018-11-20 00:00:00",
+          "last_update_date": "2018-11-19 20:04:54.187630",
+          "id": 165042,
+          "identifier_value": "https://www.facebook.com/AnnaForFlorida"
+        }
+      ]
+    },
+    {
+      "id": 137340,
+      "first_name": "Stephanie",
+      "last_name": "Murphy",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "7",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2017-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "MURPHY, Stephanie, a Representative from Florida; born in Ho Chi Minh City, Vietnam, September 16, 1978; B.A., College of William and Mary, Williamsburg, Va., 2000; M.S.F.S., Georgetown University, Washington, D.C., 2004; consultant; businesswoman; foreign affairs specialist, United States Department of Defense, 2004-2008; faculty, Rollins College, Winter Park, Fla., 2014-2016; elected as a Democrat to the One Hundred Fifteenth Congress (January 3, 2017-present).",
+        "1978-09-16"
+      ],
+      "photo": "https://stephaniemurphy.house.gov/UploadedPhotos/HighResolution/3e5ecfca-f16c-4af3-b290-143a35d722dc.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-4035",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "1710 Longworth House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://murphy.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186796,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186796,
+          "identifier_value": "repstephmurphy"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186797,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186797,
+          "identifier_value": "repstephmurphy"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186798,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186798,
+          "identifier_value": "https://stephaniemurphy.house.gov/rss.xml"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186799,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186799,
+          "identifier_value": "M001202"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186800,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186800,
+          "identifier_value": "SMurphyCongress"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186801,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186801,
+          "identifier_value": "https://www.facebook.com/SMurphyCongress/"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186802,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186802,
+          "identifier_value": "UCj9-Bc0hPcylKBNbPo0GZkw"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186803,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186803,
+          "identifier_value": "smurphycongress"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186804,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186804,
+          "identifier_value": "UCmd4mo5owVTGetYcPmkcI1g"
+        },
+        {
+          "official": 227611,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 186806,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-08 22:38:54.843003",
+          "id": 186806,
+          "identifier_value": "https://www.facebook.com/repstephmurphy"
+        }
+      ]
+    },
+    {
+      "id": 22934,
+      "first_name": "Jeanette",
+      "last_name": "Nuñez",
+      "nickname": "",
+      "salutation": "The Honorable",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Jeanette M. Nuñez, born and raised in Miami, Florida, has dedicated her entire career to public service. At present, she is Vice President of External Affairs at Kendall Regional Medical Center and Aventura Hospital and Medical Center. Among her many responsibilities, she is responsible for facilitating and improving access and developing initiatives for the surrounding communities. Before joining Kendall and Aventura, she was Vice President of Government Affairs at Jackson Health System.\\n\\nPrior to working in the hospital industry, she worked in Tallahassee as a Chief of Staff to State Senator Alex Diaz de la Portilla.\\n\\nJeanette earned her Bachelor of Arts in International Relations and Political Science, as well as her Master of Public Administration from Florida International University. She has served as an Adjunct Professor at FIU's College of Public Health's Graduate Program, as well as an advisor to the FIU College of Business, Health Care MBA Program.\\n\\nJeanette was elected to the Florida House of Representatives in 2010 to represent the 112th district. She has represented the 119th district since 2012.",
+        "1972-06-06"
+      ],
+      "photo": "",
+      "office_location": {},
+      "websites": [],
+      "emails": [],
+      "socials": [
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166371,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166371,
+          "identifier_value": "RepJNunez"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166372,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166372,
+          "identifier_value": "UCIZyzHw8NAfCN5IebL4nqGw"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166373,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166373,
+          "identifier_value": "117192"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166374,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166374,
+          "identifier_value": "https://www.facebook.com/JeanetteNunezCampaign/"
+        },
+        {
+          "official": 220800,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 166375,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2018-11-20 18:36:25.356549",
+          "id": 166375,
+          "identifier_value": "https://www.facebook.com/JeanetteNunezCampaign/"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "first_name": "Marco",
+      "last_name": "Rubio",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "RUBIO, Marco, a Senator from Florida; born in Miami, Fla., May 28, 1971; graduated University of Florida, B.S., 1993; graduated University of Miami, J.D., 1996; lawyer; West Miami City Commission 1998-2000; member of the Florida house of representatives 2000-2008; majority leader 2003-2006; speaker 2006-2008; elected as a Republican to the United States Senate in 2010; reelected in 2016 for the term ending January 3, 2023; was an unsuccessful candidate for the Republican presidential nomination in 2016.",
+        "1971-05-28"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/R/R000595.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3041",
+        "fax_1": "(202) 228-0285",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "284 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.rubio.senate.gov/public/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180673,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180673,
+          "identifier_value": "R000595"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180674,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180674,
+          "identifier_value": "N00030612"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180675,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180675,
+          "identifier_value": "S0FL00338"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180676,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180676,
+          "identifier_value": "1601"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180677,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180677,
+          "identifier_value": "412491"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180679,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180679,
+          "identifier_value": "SenatorMarcoRubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180680,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180680,
+          "identifier_value": "SenRubioPress"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180681,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180681,
+          "identifier_value": "http://www.rubio.senate.gov/public/?a=rss.feed"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180682,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180682,
+          "identifier_value": "marcorubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180683,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180683,
+          "identifier_value": "https://www.facebook.com/SenatorMarcoRubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180684,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180684,
+          "identifier_value": "marcorubiofla"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180685,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180685,
+          "identifier_value": "MarcoRubio"
+        },
+        {
+          "official": 226584,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180686,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:30:05.848778",
+          "id": 180686,
+          "identifier_value": "https://www.facebook.com/MarcoRubio/"
+        }
+      ]
+    },
+    {
+      "id": 5693,
+      "first_name": "Richard",
+      "last_name": "Scott",
+      "nickname": "Rick",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "FL",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2025-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "A senator from Florida; born in Bloomington, Ill., December 1, 1952; graduated North Kansas City High School, Kansas City, Mo., 1970; B.A., business administration, University of Missouri-Kansas City, 1975; J.D., Southern Methodist University, 1978; served in the United States Navy 1971-1974; co-owner of Texas Rangers baseball team; founder and investor in healthcare, manufacturing and technology companies; chief executive officer; governor of Florida 2011-2018; elected as a Republican to the United States Senate in 2018 for the term ending January 3, 2025. Senator Scott and his wife Ann have two daughters and 6 grandsons.",
+        "1952-12-01"
+      ],
+      "photo": "https://www.senate.gov/artandhistory/history/resources/graphic/medium/ScottRick.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-5274",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "B3 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.senate.gov/senators/116thCongress/ScottRick.htm"
+      ],
+      "emails": [
+        "help@rickscott.senate.gov"
+      ],
+      "socials": [
+        {
+          "official": 233537,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 205559,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-02-01 14:45:50.751938",
+          "id": 205559,
+          "identifier_value": "https://www.facebook.com/scottforflorida/"
+        },
+        {
+          "official": 233537,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 205560,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-02-01 14:45:50.751938",
+          "id": 205560,
+          "identifier_value": "https://www.facebook.com/RickScottSenOffice/"
+        }
+      ]
+    },
+    {
+      "id": 22841,
+      "first_name": "Linda",
+      "last_name": "Stewart",
+      "nickname": "",
+      "salutation": "The Honorable",
+      "office_details": {
+        "position": "Senator",
+        "state": "FL",
+        "city": "",
+        "chamber_details": {
+          "name": "Florida Senate",
+          "type": "UPPER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "13",
+          "city": "",
+          "state": "FL"
+        }
+      },
+      "term_start": "2016-11-22 00:00:00",
+      "term_end": "2020-11-17 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "1948-11-23"
+      ],
+      "photo": "https://www.flsenate.gov/PublishedContent/Senators/2016-2018/Photos/s13_5205.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "32399-1100",
+        "phone_2": "",
+        "phone_1": "(850) 487-5013",
+        "fax_1": "",
+        "city": "Tallahassee",
+        "fax_2": "",
+        "state": "FL",
+        "address_1": "205 Senate Office Building",
+        "address_2": "404 South Monroe Street",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.flsenate.gov/Senators/s13"
+      ],
+      "emails": [
+        "stewart.linda.web@flsenate.gov"
+      ],
+      "socials": [
+        {
+          "official": 234795,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209101,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 19:17:09.092289",
+          "id": 209101,
+          "identifier_value": "LindaStewartFL"
+        },
+        {
+          "official": 234795,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209102,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 19:17:09.092289",
+          "id": 209102,
+          "identifier_value": "81128"
+        },
+        {
+          "official": 234795,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209103,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 19:17:09.092289",
+          "id": 209103,
+          "identifier_value": "https://www.facebook.com/linda.stewart"
+        },
+        {
+          "official": 234795,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2020-11-17 00:00:00",
+          "sk": 209104,
+          "valid_from": "2016-11-22 00:00:00",
+          "last_update_date": "2019-02-11 19:17:09.092289",
+          "id": 209104,
+          "identifier_value": "https://www.facebook.com/SenatorLindaStewart/"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    }
+  ]
+}

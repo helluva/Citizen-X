@@ -1,0 +1,1748 @@
+{
+  "number": 14,
+  "officials": [
+    {
+      "id": 4749,
+      "first_name": "Andrew",
+      "last_name": "Cuomo",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Governor",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "New York Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "NY",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2011-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Cuomo graduated from Fordham University in 1979 and Albany Law School in 1982.\\n\\nCuomo first practiced law as an assistant district attorney in Manhattan. He also briefly worked at a law firm before founding Housing Enterprise for the Less Privileged (HELP) – a not-for-profit organization designed to combat homelessness in New York City. Cuomo later served as Chairman of Mayor David Dinkins’ New York City Homeless Commission.\\n\\nIn 1997, Cuomo was appointed by President Clinton to serve as Secretary of Housing and Urban Development (HUD). Prior to his election as Governor, Andrew Cuomo served four years as New York’s Attorney General.\\n\\nAndrew Cuomo resides in Mount Kisco in Westchester County, and is the father of three daughters, twins Mariah and Cara, and Michaela.",
+        null
+      ],
+      "photo": "https://www.governor.ny.gov/sites/governor.ny.gov/files/styles/slideshow/public/thumbnails/image/TerrorGap_StatueLiberty_NYC_Governor.jpg?itok=8ogO452b",
+      "office_location": {
+        "county": "",
+        "postal_code": "12224",
+        "phone_2": "",
+        "phone_1": "(518) 474-8390",
+        "fax_1": "(518) 474-3767",
+        "city": "Albany",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "The Honorable Andrew M. Cuomo",
+        "address_2": "Governor of New York State",
+        "address_3": "NYS State Capitol Building"
+      },
+      "websites": [
+        "http://www.governor.ny.gov/",
+        "https://andrewcuomo.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169051,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169051,
+          "identifier_value": "NYGovCuomo"
+        },
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169052,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169052,
+          "identifier_value": "governorandrewmcuomo"
+        },
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169053,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169053,
+          "identifier_value": "https://www.facebook.com/GovernorAndrewCuomo"
+        },
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169054,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169054,
+          "identifier_value": "nygovcuomo"
+        },
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169055,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169055,
+          "identifier_value": "nygovcuomo"
+        },
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169056,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169056,
+          "identifier_value": "https://www.governor.ny.gov/rss.xml"
+        },
+        {
+          "official": 222205,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 169057,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-11-29 17:49:36.545491",
+          "id": 169057,
+          "identifier_value": "45083"
+        }
+      ]
+    },
+    {
+      "id": 56490,
+      "first_name": "Bill",
+      "last_name": "de Blasio",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "NY",
+        "city": "New York",
+        "chamber_details": {
+          "name": "Mayor of the City of New York",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "3 term limit (changed for 2 terms in 2009)",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "NEW YORK",
+          "city": "New York",
+          "state": "NY"
+        }
+      },
+      "term_start": "2014-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "Democrat/Working Families",
+      "bio": [
+        "Mayor Bill de Blasio is the 109th Mayor of New York City. From his early days as a young City Hall staffer, to serving on his local school board, to his most recent position as Public Advocate for the City of New York, Bill de Blasio has spent his life fighting to ensure that every New Yorker - in every neighborhood throughout our five boroughs - gets a fair shot.\\n\\nTogether with his wife Chirlane, Bill is the proud parent of Chiara, a college sophomore, and Dante, a high school junior. Having raised their children in Brooklyn and sent them to New York City public schools, Bill and Chirlane understand firsthand the fundamental role parents and teachers share in educating the next generation - and of the importance of providing equal educational opportunities in all neighborhoods.\\n\\nAfter graduating from NYU, Bill studied at Columbia University's School of International and Public Affairs. He began his career in public service as a junior staffer for New York City's first African-American mayor, David N. Dinkins, and later became an assistant for community affairs at City Hall.\\n\\nIn 1997, Bill moved to the U.S. Department of Housing and Urban Development, working as Regional Director under then-Housing Secretary Andrew Cuomo, as New York and New Jersey's highest-ranking official in the department. At HUD, he crisscrossed the Tri-State region, gaining a critical understanding of the diverse communities that make up the New York metropolitan area. As regional director, Bill fought for increased federal funding for affordable homes and expanded housing services for senior citizens.\\n\\nIn 1999, Bill joined District 15's School Board in Brooklyn, where he championed early childhood education and parental involvement and expanded pre-K programs, helping his district become the first to cap first grade class sizes.\\n\\nIn 2000, Hillary Clinton asked Bill to manage her historic campaign for the U.S. Senate. Working at the head of a vast grassroots operation, he helped re-introduce Mrs. Clinton to New Yorkers and deliver her message about prioritizing children and families, securing her a decisive victory in a highly competitive campaign.\\n\\nTwo years later, Bill started his service on the New York City Council, representing the diverse Brooklyn neighborhoods of Park Slope, Sunset Park, Boro Park, Carroll Gardens, Cobble Hill, Windsor Terrace, Red Hook, and Kensington.\\n\\nIn his eight years on the City Council, Bill focused his efforts on improving public education, engaging parents, expanding affordable housing, and protecting New York's middle-class and working poor. He wrote landmark tenants' rights legislation to protect affordable housing and end landlord discrimination for everyday New Yorkers. Bill also was a vocal advocate for services designed to support fragile families and vulnerable children. After the tragic death of seven-year-old Nixzmary Brown in 2006, he investigated the case as Chair of the Council's General Welfare Committee, holding four hearings examining the City's role in fighting child abuse.\\n\\nIn 2010, Bill was sworn in as New York City Public Advocate, the second-highest citywide elected office. As Public Advocate, Bill launched the \"NYC Worst Landlords Watchlist\" to publicly identify landlords who took advantage of everyday New Yorkers, pressing them to improve building maintenance and upkeep. Bill made his voice heard across our city as a forceful advocate for stronger representation and services for the millions of workers who are the foundation of New York City's economy.\\n\\nAs mayor, Bill is committed to making sure every child gets a great education, protecting our streets and our communities, and building a city where New Yorkers from all five boroughs can start businesses, raise their families, and afford to live in their own neighborhoods. brings a deep background in working with New York's nonprofit community.",
+        null
+      ],
+      "photo": "http://www1.nyc.gov/assets/home/images/mayor/index/deblasio.png",
+      "office_location": {
+        "county": "",
+        "postal_code": "10007",
+        "phone_2": "212-639-9675",
+        "phone_1": "311",
+        "fax_1": "",
+        "city": "New York",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "City Hall",
+        "address_2": "",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www1.nyc.gov/office-of-the-mayor/index.page",
+        "http://www.billdeblasio.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 190598,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 14082,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:53:27.616841",
+          "id": 14082,
+          "identifier_value": "BilldeBlasio"
+        },
+        {
+          "official": 190598,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 53261,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:53:27.616841",
+          "id": 53261,
+          "identifier_value": "https://www.facebook.com/NYCMayor/"
+        },
+        {
+          "official": 190598,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 53262,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:53:27.616841",
+          "id": 53262,
+          "identifier_value": "https://www.facebook.com/NYCMayor/"
+        },
+        {
+          "official": 190598,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 53263,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:53:27.616841",
+          "id": 53263,
+          "identifier_value": "NYCMayorsOffice"
+        },
+        {
+          "official": 190598,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 85781,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:53:27.616841",
+          "id": 85781,
+          "identifier_value": "NYCMayorsOffice"
+        },
+        {
+          "official": 190598,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 85869,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:53:27.616841",
+          "id": 85869,
+          "identifier_value": "https://www.facebook.com/bill.deblasio/"
+        }
+      ]
+    },
+    {
+      "id": 19693,
+      "first_name": "Ruben",
+      "last_name": "Diaz",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Borough President",
+        "state": "NY",
+        "city": "New York",
+        "chamber_details": {
+          "name": "Bronx Borough President",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "BRONX",
+          "city": "New York",
+          "state": "NY"
+        }
+      },
+      "term_start": "2012-06-22 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Elected Bronx Borough President in the Special Election on April 21st, 2009, Ruben Diaz Jr., previously served in the New York State Assembly since 1997, representing the 85th Assembly District.\\n\\nThroughout his seven terms in the State Legislature, Ruben Diaz Jr. was a champion for working families in the Bronx. He demonstrated a passion for constituent service, social advocacy and community empowerment balanced with support for sensible, green economic development and job creation programs. He sponsored and secured passage of important and innovative laws to address the consequences of the intolerable levels of asthma in the South Bronx, healthcare insurance fraud, and quality of life concerns.\\n\\nBorough President Diaz has proven himself to be a fearless and tireless advocate for justice and equality for all. A staunch defender of the environment, he is a leading voice against environmental racism and injustice and helped lead the fight to restore the Bronx River. Due to his tireless and relentless advocacy in the case of his constituent, Amadou Diallo – a law-abiding young African Bronx resident who was wrongly killed by four NYPD officers in a hail of 41 bullets – Ruben Diaz Jr. became known around the world for his advocacy for civil and human rights.\\n\\nIn the State Assembly, Ruben Diaz Jr. served as Chair of the Committee on Election Law and on the Assembly’s Standing Committees on Education, Ways & Means, Children and Families, Environmental Conservation and Transportation. He was also a member of the Assembly’s Puerto Rican and Hispanic Task Force and the Black/Puerto Rican and Asian Legislative Caucus.\\n\\nSince becoming borough president, Diaz led the opposition to the proposed redevelopment of the Kingsbridge Armory, based on concerns over future wages at the retail mall, traffic impact on the neighborhood and the potential of the new project to conflict with businesses on nearby Fordham Road. Following that battle, Diaz convened the Kingsbridge Armory Task Force, which released a report in June 2011 that outlined a number of potential uses for the Kingsbridge Armory that would not include a retail mall. The Bloomberg Administration agreed, and in January 2012 the City issued a new RFP for the Kingsbridge Armory that focused on a wide variety of uses.\\n\\nDiaz has also led the charge for a new “living wage” law in New York City, which would require developers that receive heavy taxpayer funding for their project to pay the employees of that development a “living wage.” In May 2012, the City Council passed such a law, which had been introduced at the behest of the borough president, giving New York City the strongest “living wage” law in the United States.\\n\\nDiaz has also put forward a strong agenda to bring new business to the Bronx, while also making it easier for existing businesses to stay. In November 2009, Diaz hosted the borough’s first ever economic summit, in coordination with the Bronx Overall Economic Development Corporation, which brought together business, community and not-for-profit leaders from across the Bronx and the region to discuss the economic goals of the borough. Since then, the borough president’s office and the BOEDC have helped hundreds of businesses improve their operations, and have brought thousands of new jobs to the Bronx.\\n\\nDiaz has also created a Public Housing Advisory Council, which meets to discuss and find answers to the issues faced by the residents of the borough’s public housing buildings; and an African Advisory Council, which works with the Bronx African community to resolve its emerging issues and make recommendations on strategies to improve the quality of life of this growing population.\\n\\nA lifelong resident of the Bronx, Borough President Diaz lives in the Southeast Bronx with his wife Hilda Gerena Diaz and their two sons, Ruben Diaz III and Ryan Isaiah Diaz. He graduated from Lehman College, City University of New York, with a Bachelors degree in political theory. Borough President Diaz is also the recipient of honorary doctoral degrees in civil law from Berkeley College and Mercy College, and a doctoral degree in humane letters from the Metropolitan College of New York.",
+        null
+      ],
+      "photo": "http://bronxboropres.nyc.gov/wp-content/uploads/2017/11/rubendiazjr-150x150.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "10451",
+        "phone_2": "(718) 590-3554",
+        "phone_1": "(718) 590-3557",
+        "fax_1": "",
+        "city": "Bronx",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "Office of the Bronx Borough President",
+        "address_2": "851 Grand Concourse, 3rd Floor",
+        "address_3": ""
+      },
+      "websites": [
+        "http://bronxboropres.nyc.gov/"
+      ],
+      "emails": [
+        "webmail@bronxbp.nyc.gov"
+      ],
+      "socials": [
+        {
+          "official": 199695,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 111734,
+          "valid_from": "2012-06-22 00:00:00",
+          "last_update_date": "2018-05-11 16:13:59.676783",
+          "id": 111734,
+          "identifier_value": "rubendiazjr"
+        },
+        {
+          "official": 199695,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 111735,
+          "valid_from": "2012-06-22 00:00:00",
+          "last_update_date": "2018-05-11 16:13:59.676783",
+          "id": 111735,
+          "identifier_value": "bronxbp"
+        },
+        {
+          "official": 199695,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 111737,
+          "valid_from": "2012-06-22 00:00:00",
+          "last_update_date": "2018-05-11 16:13:59.676783",
+          "id": 111737,
+          "identifier_value": "https://www.facebook.com/bronxbp"
+        },
+        {
+          "official": 199695,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 111739,
+          "valid_from": "2012-06-22 00:00:00",
+          "last_update_date": "2018-05-11 16:13:59.676783",
+          "id": 111739,
+          "identifier_value": "https://www.facebook.com/rubendiazjr"
+        }
+      ]
+    },
+    {
+      "id": 199291,
+      "first_name": "Nathalia",
+      "last_name": "Fernandez",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Assemblymember",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "New York State Assembly",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "80",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2018-05-05 00:00:00",
+      "term_end": "2021-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "A daughter of immigrant parents, Nathalia was raised to understand the benefit of a strong work ethic. Her father, William, migrated with his family from Cuba to the Bronx at a young age and started his own business painting apartments in his late teens to help his father support the family. William started his business and began his career in Morris Park. Nathalia’s mother, Sonia, came to the United States from Colombia and found her home in the neighborhood of Bedford Park.\\nThe Bronx has always been a home away from home for Nathalia. Upon graduating from Hofstra University, Nathalia found herself volunteering for change within the Bronx. Nathalia was driven by her compassion for her peers and neighbors, and it was no surprise when she served the 80th Assembly District as chief of staff to former Assemblyman Mark Gjonaj.\\n",
+        null
+      ],
+      "photo": "http://nyassembly.gov/mem/pic/080.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "12248",
+        "phone_2": "",
+        "phone_1": "(518) 455-5844",
+        "fax_1": "",
+        "city": "Albany",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "New York State Assembly",
+        "address_2": "Legislative Office Building",
+        "address_3": "Room 530"
+      },
+      "websites": [
+        "http://nyassembly.gov/mem/Nathalia-Fernandez"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226279,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 179342,
+          "valid_from": "2018-05-05 00:00:00",
+          "last_update_date": "2019-01-02 20:12:40.970825",
+          "id": 179342,
+          "identifier_value": "https://www.linkedin.com/in/nathalia-fernandez-57301537/"
+        },
+        {
+          "official": 226279,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 179343,
+          "valid_from": "2018-05-05 00:00:00",
+          "last_update_date": "2019-01-02 20:12:40.970825",
+          "id": 179343,
+          "identifier_value": "https://www.facebook.com/Fernandez4NY/"
+        },
+        {
+          "official": 226279,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 179344,
+          "valid_from": "2018-05-05 00:00:00",
+          "last_update_date": "2019-01-02 20:12:40.970825",
+          "id": 179344,
+          "identifier_value": "Fernandez4NY"
+        }
+      ]
+    },
+    {
+      "id": 1556,
+      "first_name": "Kirsten",
+      "last_name": "Gillibrand",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "NY",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2025-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "GILLIBRAND, Kirsten, a Senator and a Representative from New York; born in Albany, Albany County, N.Y., December 9, 1966; A.B., Dartmouth College, Hanover, N.H., 1988; J.D., University of California Los Angeles, Los Angeles, Calif., 1991; lawyer, private practice; special council, United States Housing and Urban Development; elected as a Democrat to the One Hundred Tenth Congress and to the succeeding Congress, and served from January 3, 2007, to January 26, 2009, when she resigned to become a U.S. Senator; appointed January 23, 2009, to fill the vacancy caused by the resignation of Hillary Clinton; appointment took effect upon her resignation from the House of Representatives on January 26, 2009; took the oath of office on January 27, 2009; elected in 2010 in a special election for the term ending January 3, 2013; reelected in 2012 for the term ending January 3, 2019.",
+        "1966-12-09"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/G/G000555.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-4451",
+        "fax_1": "(202) 228-0282",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "478 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.gillibrand.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182084,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182084,
+          "identifier_value": "S0NY00410"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182085,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182085,
+          "identifier_value": "N00027658"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182086,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182086,
+          "identifier_value": "G000555"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182087,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182087,
+          "identifier_value": "412223"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182088,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182088,
+          "identifier_value": "65147"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182089,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182089,
+          "identifier_value": "KirstenEGillibrand"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182090,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182090,
+          "identifier_value": "kirstengillibrand"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182091,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182091,
+          "identifier_value": "40091619@N03"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182092,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182092,
+          "identifier_value": "https://www.facebook.com/KirstenGillibrand/"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182094,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182094,
+          "identifier_value": "https://www.facebook.com/SenKirstenGillibrand/"
+        },
+        {
+          "official": 226727,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 182096,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:25:59.085504",
+          "id": 182096,
+          "identifier_value": "SenGillibrand"
+        }
+      ]
+    },
+    {
+      "id": 13459,
+      "first_name": "Kathleen",
+      "last_name": "Hochul",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "New York Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "NY",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2015-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Hochul spearheaded Governor Cuomo’s Enough is Enough campaign to combat sexual assault on college campuses beginning in 2015 hosting and attending more than 25 events. As the highest ranking female elected official in New York State, she continues to be a champion for women and families across the state. In March 2016, Governor Cuomo named her to the New York State Women’s Suffrage 100th Anniversary Commemoration Commission.\\n\\nRepresenting Governor Cuomo across the state, Hochul tours main streets, meets local business owners, visits college campuses and meets regularly with mayors, supervisors and other community leaders. The Lieutenant Governor builds support for the Governor’s initiatives including the minimum wage increase, paid family leave, ethics reform and infrastructure investment.",
+        null
+      ],
+      "photo": "https://www.governor.ny.gov/sites/governor.ny.gov/files/styles/one_stop_bannercustom_user_desktop_1x/public/thumbnails/image/LGHochul_Podium_Live_hero.jpg?itok=QrGC9tTw",
+      "office_location": {
+        "county": "",
+        "postal_code": "12224",
+        "phone_2": "",
+        "phone_1": "(518) 474-8390",
+        "fax_1": "",
+        "city": "Albany",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "Lieutenant Governor of New York State",
+        "address_2": "NYS State Capitol Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.governor.ny.gov/aboutlieutenantgovernor",
+        "http://kathyhochul.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 221089,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 167198,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2018-11-23 17:57:48.639857",
+          "id": 167198,
+          "identifier_value": "ltgovhochulny"
+        },
+        {
+          "official": 221089,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 167199,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2018-11-23 17:57:48.639857",
+          "id": 167199,
+          "identifier_value": "https://www.facebook.com/KathyHochul"
+        },
+        {
+          "official": 221089,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 167200,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2018-11-23 17:57:48.639857",
+          "id": 167200,
+          "identifier_value": "https://www.facebook.com/ltgovhochulny"
+        },
+        {
+          "official": 221089,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 167201,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2018-11-23 17:57:48.639857",
+          "id": 167201,
+          "identifier_value": "LTGOVHOCHULNY"
+        },
+        {
+          "official": 221089,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 167202,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2018-11-23 17:57:48.639857",
+          "id": 167202,
+          "identifier_value": "UCNgh6Me2UyKXOuNDCnsCzPg"
+        },
+        {
+          "official": 221089,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 167203,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2018-11-23 17:57:48.639857",
+          "id": 167203,
+          "identifier_value": "ltgovhochulny"
+        }
+      ]
+    },
+    {
+      "id": 65711,
+      "first_name": "Corey",
+      "last_name": "Johnson",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Public Advocate",
+        "state": "NY",
+        "city": "New York",
+        "chamber_details": {
+          "name": "New York City Public Advocate",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "NEW YORK",
+          "city": "New York",
+          "state": "NY"
+        }
+      },
+      "term_start": "2019-01-01 00:00:00",
+      "term_end": null,
+      "party": "Democrat",
+      "bio": [
+        "City Council Speaker Corey Johnson assumed the role and office of Acting Public Advocate when the prior Public Advocate, Letitia James, became State Attorney General, on January 1, 2019.",
+        null
+      ],
+      "photo": "https://council.nyc.gov/public-advocate/wp-content/uploads/sites/74/2018/12/Speaker-Corey-Johnson-Headshot.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "10007",
+        "phone_2": "",
+        "phone_1": "(212) 669-7250",
+        "fax_1": "(212) 669-4701",
+        "city": "New York",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "1 Centre Street",
+        "address_2": "15th Floor North",
+        "address_3": ""
+      },
+      "websites": [
+        "https://council.nyc.gov/public-advocate/",
+        "http://www.coreyjohnson.nyc/"
+      ],
+      "emails": [
+        "PAconstituenthelpdesk@council.nyc.gov"
+      ],
+      "socials": [
+        {
+          "official": 226045,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": null,
+          "sk": 178614,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-02 14:15:08.215933",
+          "id": 178614,
+          "identifier_value": "CoreyinNYC"
+        },
+        {
+          "official": 226045,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": null,
+          "sk": 178615,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-02 14:15:08.215933",
+          "id": 178615,
+          "identifier_value": "https://www.facebook.com/coreyinnyc/"
+        },
+        {
+          "official": 226045,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": null,
+          "sk": 178616,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-02 14:15:08.215933",
+          "id": 178616,
+          "identifier_value": "https://www.facebook.com/coreyinnyc/"
+        }
+      ]
+    },
+    {
+      "id": 219647,
+      "first_name": "Alexandria",
+      "last_name": "Ocasio-Cortez",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "14",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2019-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "https://ocasio-cortez.house.gov/sites/ocasio-cortez.house.gov/files/wysiwyg_uploaded/2018-11-30_fcm_0452re.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-3965",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "229 Cannon House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://ocasio-cortez.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205666,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205666,
+          "identifier_value": "https://www.facebook.com/Ocasio2018/"
+        },
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205667,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205667,
+          "identifier_value": "ocasio2018"
+        },
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205668,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205668,
+          "identifier_value": "ocasio2018_"
+        },
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205669,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205669,
+          "identifier_value": "180416"
+        },
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205670,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205670,
+          "identifier_value": "O000172"
+        },
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205671,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205671,
+          "identifier_value": "412804"
+        },
+        {
+          "official": 233555,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 205672,
+          "valid_from": "2019-01-03 00:00:00",
+          "last_update_date": "2019-02-01 14:54:00.847686",
+          "id": 205672,
+          "identifier_value": "https://www.facebook.com/repAOC/"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 1175,
+      "first_name": "J.",
+      "last_name": "Rivera",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "New York State Senate",
+          "type": "UPPER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "33",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2013-01-01 00:00:00",
+      "term_end": "2021-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Gustavo Rivera was elected to represent District 33 in the New York State Senator in November of 2010. The 33rd Senate District extends from the Northwest Bronx to areas of the East Bronx and includes the following neighborhoods: Kingsbridge Heights, East Tremont, Crotona Park, Fordham, Belmont, Van Nest, Claremont, High Bridge and Morris Park.  \\nSenator Gustavo is dedicated to changing the way business is done in the legislature for the better and is committed to making sure that the families of the 33rd Senate District have a voice in Albany. The first bill Senator Rivera introduced in the New York State Senate, S.382 addressed the need for greater government transparency and financial disclosure.  This bill, which proposed making it mandatory for public officials to disclose all sources of income they receive apart from their government salary, was included in Governor Cuomo’s ethics package that passed the legislature and was signed into law in 2011.\\nSince he took office in 2011, Senator Rivera has been focused on addressing issues of health inequity, as well as promoting better nutritional and exercise habits through his initiative, Bronx CAN. In January 2013, Senator Rivera was named the ranking member of the New York Senate’s Health Committee.",
+        "1975-11-19"
+      ],
+      "photo": "https://www.nysenate.gov/sites/default/files/styles/160x160/public/%2801-29-14%29%20Rivera-HS-%20009.jpg?itok=C9Q_AhW1",
+      "office_location": {
+        "county": "",
+        "postal_code": "12247",
+        "phone_2": "",
+        "phone_1": "(518) 455-3395",
+        "fax_1": "(518) 426-6858",
+        "city": "Albany",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "New York State Senate",
+        "address_2": "Legislative Office Building",
+        "address_3": "Room 408"
+      },
+      "websites": [
+        "http://www.nysenate.gov/senators/gustavo-rivera"
+      ],
+      "emails": [
+        "grivera@nysenate.gov"
+      ],
+      "socials": [
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149721,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149721,
+          "identifier_value": "NYSenatorRivera"
+        },
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149722,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149722,
+          "identifier_value": "http://www.nysenate.gov/senator/gustavo-rivera/content/feed"
+        },
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149723,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149723,
+          "identifier_value": "127819"
+        },
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149724,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149724,
+          "identifier_value": "https://www.facebook.com/Hon.Gustavo.Rivera/"
+        },
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149725,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149725,
+          "identifier_value": "https://www.facebook.com/Hon.Gustavo.Rivera/"
+        },
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149726,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149726,
+          "identifier_value": "https://www.linkedin.com/in/gustavo-rivera-75558a/"
+        },
+        {
+          "official": 215251,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 149727,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2018-11-13 19:46:39.107162",
+          "id": 149727,
+          "identifier_value": "https://www.facebook.com/Gustavo.Rivera.For.State.Senate/"
+        }
+      ]
+    },
+    {
+      "id": 16377,
+      "first_name": "Charles",
+      "last_name": "Schumer",
+      "nickname": "Chuck",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "NY",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "NY",
+          "city": "",
+          "state": "NY"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "SCHUMER, Charles Ellis (Chuck), a Senator and a Representative from New York; born in Brooklyn, N.Y., November 23, 1950; attended the public schools; graduated from Madison High School, Brooklyn 1967; A.B., Harvard University 1971; J.D., Harvard Law School 1974; admitted to the New York bar in 1975; served in the New York State assembly 1975-1980; elected as a Democrat to the Ninety-seventh and to the eight succeeding Congresses (January 3, 1981-January 3, 1999); was not a candidate in 1998 for reelection to the U.S. House of Representatives, but was elected as a Democrat to the United States Senate in 1998; reelected in 2004, 2010, and again in 2016 for the term ending January 3, 2023; chair, Democratic Senatorial Campaign Committee (2005-2008); chair, Democratic Policy and Communications Committee (2011-2017); chair, Joint Economic Committee (One Hundred Tenth and One Hundred Eleventh Congresses), Committee on Rules and Administration (One Hundred Eleventh to One Hundred Thirteenth Congresses); minority leader (2017-).",
+        "1950-11-23"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/S/S000148.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-6542",
+        "fax_1": "(202) 228-3027",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "322 Hart Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.schumer.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182136,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182136,
+          "identifier_value": "S000148"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182137,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182137,
+          "identifier_value": "N00001093"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182138,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182138,
+          "identifier_value": "26976"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182139,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182139,
+          "identifier_value": "300087"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182140,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182140,
+          "identifier_value": "S8NY00082"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182141,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182141,
+          "identifier_value": "chuckschumer"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182142,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182142,
+          "identifier_value": "SenatorSchumer"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182143,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182143,
+          "identifier_value": "senatorschumer"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182144,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182144,
+          "identifier_value": "SenSchumer"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182146,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182146,
+          "identifier_value": "https://www.facebook.com/senschumer/"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182147,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182147,
+          "identifier_value": "https://www.facebook.com/Ceschumer/"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182148,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182148,
+          "identifier_value": "chuckschumer"
+        },
+        {
+          "official": 226732,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 182149,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:28:18.465456",
+          "id": 182149,
+          "identifier_value": "ChuckSchumer"
+        }
+      ]
+    },
+    {
+      "id": 19691,
+      "first_name": "Scott",
+      "last_name": "Stringer",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Comptroller",
+        "state": "NY",
+        "city": "New York",
+        "chamber_details": {
+          "name": "New York City Comptroller",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "3 consecutive terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "NEW YORK",
+          "city": "New York",
+          "state": "NY"
+        }
+      },
+      "term_start": "2014-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Mr. Stringer was elected to the New York State Assembly in 1992, representing Manhattan’s Upper West Side for 13 years, and won election in 2006 as Manhattan Borough President. He was elected Comptroller on November 5, 2013.\\nAs Borough President, Mr. Stringer transformed the office into a watchdog of government waste and mismanagement, issuing more than 50 reports on issues ranging from the Metropolitan Transportation Authority’s deficient funding to the need for fundamental reform of the New York City Housing Authority.\\nAs a trustee of the New York City Employees Retirement System (NYCERS), Mr. Stringer has worked to protect and grow members’ pension dollars. He has promoted the integrity and professionalism of the pension fund and was one of the first to call for a ban on private placement agents. He has also called for more comprehensive risk assessment and management, and further diversification of pension investments to ensure the fund’s long term sustainability.\\nMr. Stringer has worked to create economic opportunity for New York’s middle class and those striving to get there. When Columbia, Fordham and New York Universities were looking to expand, he guided the process forward, protecting the essential character of surrounding neighborhoods while creating thousands of New York City jobs. In 2012, he released a blueprint on the future of New York City’s thriving tech economy, including recommendations to create entry-level middle class jobs and keep New York competitive on the world stage.\\nThroughout his career, Mr. Stringer has been a strong advocate for open government and community engagement. He implemented sweeping reforms to the appointment process for Manhattan Community Boards, and launched initiatives to promote greater transparency in the budget process, giving New Yorkers a stronger voice in how government spends their tax dollars.\\nA longtime champion of equal rights and opportunity for all New Yorkers, Mr. Stringer has fought hard for immigrant rights, speaking out on behalf of the DREAM Act and creating the first ever Immigrants Rights and Services Manual –published in English, Spanish, Chinese, Korean and Russian. He was one of the first co-sponsors of a 1995 bill in the state assembly to provide marriage equality, and passed landmark legislation protecting victims of Domestic Violence.\\nMr. Stringer was born and raised in Washington Heights, where he attended local public schools and graduated from John Jay College of Criminal Justice. He and his wife, Elyse, live with their two sons, Maxwell and Miles, on Manhattan’s Upper West Side.",
+        null
+      ],
+      "photo": "https://comptroller.nyc.gov/wp-content/uploads/2016/06/ScottStringer_HQ.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "10007",
+        "phone_2": "",
+        "phone_1": "(212) 669-3916",
+        "fax_1": "(212) 669-2707",
+        "city": "New York",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "1 Centre Street",
+        "address_2": "Room 517",
+        "address_3": ""
+      },
+      "websites": [
+        "https://comptroller.nyc.gov/"
+      ],
+      "emails": [
+        "action@comptroller.nyc.gov"
+      ],
+      "socials": [
+        {
+          "official": 190593,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 85866,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:50:53.033511",
+          "id": 85866,
+          "identifier_value": "https://www.facebook.com/scottstringernyc/"
+        },
+        {
+          "official": 190593,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 85867,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:50:53.033511",
+          "id": 85867,
+          "identifier_value": "https://www.facebook.com/scottstringernyc/"
+        },
+        {
+          "official": 190593,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 85868,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-08 18:50:53.033511",
+          "id": 85868,
+          "identifier_value": "scottmstringer"
+        }
+      ]
+    },
+    {
+      "id": 65725,
+      "first_name": "Ritchie",
+      "last_name": "Torres",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Council Member",
+        "state": "NY",
+        "city": "New York",
+        "chamber_details": {
+          "name": "New York City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "15",
+          "city": "New York",
+          "state": "NY"
+        }
+      },
+      "term_start": "2014-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Councilmember Ritchie Torres was elected to office in November 2013 to represent the communities of the Central Bronx. Ritchie is the first openly gay candidate to be elected to legislative office in the Bronx and the youngest member of the City Council.  \\n\\nA lifelong son of the Bronx, Ritchie was raised in a single-parent household, growing up and living most of his life in a NYCHA public housing development.  When Ritchie’s mother lost the only good job she ever had and precariously shifted from low-wage job to low-wage job, his family struggled to keep up and needed to rely on social safety net programs to survive.  His family’s hardship instilled in Ritchie a deep-seated commitment to serve New York’s low-income and working class communities.\\n\\nRitchie is a product of Bronx public schools, and got an early start in public service at the age of 16.  While attending Lehman High School he was selected to be the “Community Board District Manager For A Day” with James Vacca, who went on to became the local City Council Member.  Ritchie worked for Vacca’s first campaign in 2005 and by 2011 was named Council Member Vacca’s first Housing Director.\\n\\nAs Housing Director, Ritchie organized tenant associations in dilapidated buildings throughout the district, and rallied residents to fight for building improvements and rent reductions.  Ritchie pressured landlords to fix boilers so tenants could have heat on cold nights, and to seal leaky roofs to prevent water damage and mold in common areas and apartment units.  Ritchie knocked on thousands of doors in both private and NYCHA developments to personally conduct site inspections and document conditions, ensuring critical housing issues were promptly and adequately addressed.",
+        null
+      ],
+      "photo": "http://nyccouncillabs.wpengine.com/district-15/wp-content/uploads/sites/16/2016/05/councilmember-15.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "10007",
+        "phone_2": "",
+        "phone_1": "(212) 788-6966",
+        "fax_1": "(212) 788-8977",
+        "city": "New York",
+        "fax_2": "",
+        "state": "NY",
+        "address_1": "City Hall",
+        "address_2": "250 Broadway",
+        "address_3": "Suite 1759"
+      },
+      "websites": [
+        "https://council.nyc.gov/district-15/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 190144,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 22085,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-03 18:19:08.250784",
+          "id": 22085,
+          "identifier_value": "RitchieTorres"
+        },
+        {
+          "official": 190144,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 60444,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-03 18:19:08.250784",
+          "id": 60444,
+          "identifier_value": "https://www.facebook.com/CMRitchieTorres/"
+        },
+        {
+          "official": 190144,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 60445,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-03 18:19:08.250784",
+          "id": 60445,
+          "identifier_value": "https://www.facebook.com/CMRitchieTorres/"
+        },
+        {
+          "official": 190144,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 81879,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2018-01-03 18:19:08.250784",
+          "id": 81879,
+          "identifier_value": "https://www.facebook.com/ritchie.torres.9"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    }
+  ]
+}

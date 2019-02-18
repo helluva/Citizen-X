@@ -1,0 +1,1387 @@
+{
+  "number": 11,
+  "officials": [
+    {
+      "id": 54690,
+      "first_name": "London",
+      "last_name": "Breed",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "CA",
+        "city": "San Francisco",
+        "chamber_details": {
+          "name": "San Francisco Mayor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "SAN FRANCISCO",
+          "city": "San Francisco",
+          "state": "CA"
+        }
+      },
+      "term_start": "2018-07-11 00:00:00",
+      "term_end": "2021-01-08 00:00:00",
+      "party": "",
+      "bio": [
+        "London Breed was sworn in as the Supervisor for District 5 on January 8, 2013. The neighborhoods she represents include the Fillmore/Western Addition, North of the Panhandle, Lower Haight, Haight-Ashbury, Cole Valley, Inner Sunset, Hayes Valley, JapanTown and Alamo Square.\\n\\nLondon was raised by her grandmother in public housing in the Western Addition and now resides in the Lower Haight. London attended public school in San Francisco and graduated from Galileo High School. She earned her B.A. in Political Science from the University of California at Davis and later earned a Masters degree in Public Administration from the University of San Francisco.\\n",
+        null
+      ],
+      "photo": "https://sfmayor.org/sites/default/files/about-mayor-Breed-img-1.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "94102",
+        "phone_2": "",
+        "phone_1": "(415) 554-6141",
+        "fax_1": "(415) 554-6160",
+        "city": "San Francisco",
+        "fax_2": "",
+        "state": "CA",
+        "address_1": "City Hall, Room 200",
+        "address_2": "1 Dr. Carlton B. Goodlett Place",
+        "address_3": ""
+      },
+      "websites": [
+        "https://sfmayor.org/"
+      ],
+      "emails": [
+        "MayorLondonBreed@sfgov.org"
+      ],
+      "socials": [
+        {
+          "official": 227456,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-08 00:00:00",
+          "sk": 186088,
+          "valid_from": "2018-07-11 00:00:00",
+          "last_update_date": "2019-01-08 18:53:18.579567",
+          "id": 186088,
+          "identifier_value": "LondonBreed"
+        },
+        {
+          "official": 227456,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-08 00:00:00",
+          "sk": 186089,
+          "valid_from": "2018-07-11 00:00:00",
+          "last_update_date": "2019-01-08 18:53:18.579567",
+          "id": 186089,
+          "identifier_value": "londonbreed"
+        },
+        {
+          "official": 227456,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-08 00:00:00",
+          "sk": 186090,
+          "valid_from": "2018-07-11 00:00:00",
+          "last_update_date": "2019-01-08 18:53:18.579567",
+          "id": 186090,
+          "identifier_value": "UCjP1ahgzSOw_FmWEKLdkQ2Q"
+        },
+        {
+          "official": 227456,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-08 00:00:00",
+          "sk": 186091,
+          "valid_from": "2018-07-11 00:00:00",
+          "last_update_date": "2019-01-08 18:53:18.579567",
+          "id": 186091,
+          "identifier_value": "146454"
+        },
+        {
+          "official": 227456,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-08 00:00:00",
+          "sk": 186092,
+          "valid_from": "2018-07-11 00:00:00",
+          "last_update_date": "2019-01-08 18:53:18.579567",
+          "id": 186092,
+          "identifier_value": "https://www.facebook.com/london.breed"
+        },
+        {
+          "official": 227456,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-08 00:00:00",
+          "sk": 186093,
+          "valid_from": "2018-07-11 00:00:00",
+          "last_update_date": "2019-01-08 18:53:18.579567",
+          "id": 186093,
+          "identifier_value": "https://www.facebook.com/mayorlondonbreed/"
+        }
+      ]
+    },
+    {
+      "id": 16737,
+      "first_name": "David",
+      "last_name": "Chiu",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Assemblymember",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "California State Assembly",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "17",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2014-12-01 00:00:00",
+      "term_end": "2020-12-07 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "David Chiu was elected to the California State Assembly in November 2014.  He represents the 17th Assembly District, which encompasses eastern San Francisco.\\n\\nThe son of immigrant parents, David Chiu grew up in Boston and received his undergraduate, law and master’s in public policy degrees from Harvard University. David Chiu is married to Candace Chen. A third generation San Franciscan, Candace is a public interest lawyer who represents immigrant and foster care youth.",
+        "1970-04-02"
+      ],
+      "photo": "http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD17_Chiu_Portrait150_20141201.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "94249-0017",
+        "phone_2": "",
+        "phone_1": "(916) 319-2017",
+        "fax_1": "(916) 319-2117",
+        "city": "Sacramento",
+        "fax_2": "",
+        "state": "CA",
+        "address_1": "California State Capitol",
+        "address_2": "P.O. Box 942849",
+        "address_3": "Room 4112"
+      },
+      "websites": [
+        "http://asmdc.org/members/a17"
+      ],
+      "emails": [
+        "assemblymember.chiu@assembly.ca.gov"
+      ],
+      "socials": [
+        {
+          "official": 213174,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 145343,
+          "valid_from": "2014-12-01 00:00:00",
+          "last_update_date": "2018-11-08 19:57:06.187488",
+          "id": 145343,
+          "identifier_value": "https://www.facebook.com/davidchiu.sf"
+        },
+        {
+          "official": 213174,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 145344,
+          "valid_from": "2014-12-01 00:00:00",
+          "last_update_date": "2018-11-08 19:57:06.187488",
+          "id": 145344,
+          "identifier_value": "DavidChiu"
+        },
+        {
+          "official": 213174,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 145345,
+          "valid_from": "2014-12-01 00:00:00",
+          "last_update_date": "2018-11-08 19:57:06.187488",
+          "id": 145345,
+          "identifier_value": "https://www.linkedin.com/in/davidschiu/"
+        },
+        {
+          "official": 213174,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 145346,
+          "valid_from": "2014-12-01 00:00:00",
+          "last_update_date": "2018-11-08 19:57:06.187488",
+          "id": 145346,
+          "identifier_value": "112071"
+        },
+        {
+          "official": 213174,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 145347,
+          "valid_from": "2014-12-01 00:00:00",
+          "last_update_date": "2018-11-08 19:57:06.187488",
+          "id": 145347,
+          "identifier_value": "https://www.facebook.com/davidchiu.sf/"
+        },
+        {
+          "official": 213174,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 145348,
+          "valid_from": "2014-12-01 00:00:00",
+          "last_update_date": "2018-11-08 19:57:06.187488",
+          "id": 145348,
+          "identifier_value": "davidchiu.sf"
+        }
+      ]
+    },
+    {
+      "id": 7785,
+      "first_name": "Dianne",
+      "last_name": "Feinstein",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "CA",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2007-01-03 00:00:00",
+      "term_end": "2025-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "FEINSTEIN, Dianne, a Senator from California; born in San Francisco, Calif., June 22, 1933; attended the San Francisco public schools and graduated from the Convent of the Sacred Heart High School 1951; graduated, Stanford University 1955; member, California Women's Board of Terms and Parole 1960-1966; member, San Francisco Board of Supervisors 1970-1978, serving as president 1970-1971, 1974-1975, 1978; mayor of San Francisco 1978-1988; director, Bank of California 1988-1989; co-chair, San Francisco Education Fund's Permanent Fund 1988-1989; unsuccessful candidate for Governor of California 1990; elected in a special election on November 3, 1992, as a Democrat to the United States Senate to fill the term left vacant by the resignation of Pete Wilson; took office on November 4, 1992, and took the oath of office on November 10, 1992; reelected in 1994, 2000, 2006, 2012, and again in 2018 for the term ending January 3, 2025; chair, Committee on Rules and Administration (One Hundred Tenth Congress), Select Committee on Intelligence (One Hundred Eleventh to One Hundred Thirteenth Congresses).",
+        "1933-06-22"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "(202) 224-2501",
+        "phone_1": "(202) 224-3841",
+        "fax_1": "(202) 228-3954",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "331 Hart Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.feinstein.senate.gov/public/index.cfm/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180503,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180503,
+          "identifier_value": "F000062"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180504,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180504,
+          "identifier_value": "N00007364"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180505,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180505,
+          "identifier_value": "53273"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180506,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180506,
+          "identifier_value": "300043"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180507,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180507,
+          "identifier_value": "S0CA00199"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180508,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180508,
+          "identifier_value": "SenatorFeinstein"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180510,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180510,
+          "identifier_value": "http://www.feinstein.senate.gov/public/?a=rss.feed"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180511,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180511,
+          "identifier_value": "senfeinstein"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180512,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180512,
+          "identifier_value": "https://www.facebook.com/SenatorFeinstein/"
+        },
+        {
+          "official": 226571,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 180513,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:11:59.084461",
+          "id": 180513,
+          "identifier_value": "https://www.facebook.com/DianneFeinstein/"
+        }
+      ]
+    },
+    {
+      "id": 221604,
+      "first_name": "Matt",
+      "last_name": "Haney",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Supervisor",
+        "state": "CA",
+        "city": "San Francisco",
+        "chamber_details": {
+          "name": "San Francisco Board of Supervisors",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "COUNTY",
+          "id": "6",
+          "city": "San Francisco",
+          "state": "CA"
+        }
+      },
+      "term_start": "2019-01-08 00:00:00",
+      "term_end": "2023-01-08 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://sfbos.org/sites/default/files/matt_haney_landingpage.png",
+      "office_location": {
+        "county": "",
+        "postal_code": "94102-4689",
+        "phone_2": "",
+        "phone_1": "(415) 554-7970",
+        "fax_1": "(415) 554-7974",
+        "city": "San Francisco",
+        "fax_2": "",
+        "state": "CA",
+        "address_1": "City Hall",
+        "address_2": "1 Dr Carlton B. Goodlett Place",
+        "address_3": "Room 244"
+      },
+      "websites": [
+        "https://sfbos.org/supervisor-haney-district-6"
+      ],
+      "emails": [
+        "haneystaff@sfgov.org"
+      ],
+      "socials": [
+        {
+          "official": 232131,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-08 00:00:00",
+          "sk": 201324,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-28 15:01:18.520429",
+          "id": 201324,
+          "identifier_value": "https://www.facebook.com/mhaney1"
+        },
+        {
+          "official": 232131,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-08 00:00:00",
+          "sk": 201325,
+          "valid_from": "2019-01-08 00:00:00",
+          "last_update_date": "2019-01-28 15:01:18.520429",
+          "id": 201325,
+          "identifier_value": "https://www.facebook.com/MattHaneySF"
+        }
+      ]
+    },
+    {
+      "id": 135650,
+      "first_name": "Kamala",
+      "last_name": "Harris",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "CA",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2017-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "HARRIS, Kamala Devi, a Senator from California; born in Oakland, Calif., October 20, 1964; B.A., Howard University, 1986; J.D., University of California, Hastings College of the Law, 1989; admitted to the California bar in 1990; deputy district attorney, Alameda County, Calif., 1990-1998; managing attorney, San Francisco District Attorney’s Office; chief of the San Francisco City Attorney’s Division on Children and Families; district attorney of San Francisco 2004-2011; attorney general of California 2011-2016; elected as a Democrat to the United States Senate in 2016 for the term ending January 3, 2023.",
+        "1964-10-20"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/H/H001075.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3553",
+        "fax_1": "(202) 224-2200",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "112 Hart Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.harris.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180530,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180530,
+          "identifier_value": "https://www.facebook.com/SenatorKamalaHarris/"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180531,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180531,
+          "identifier_value": "SenKamalaHarris"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180532,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180532,
+          "identifier_value": "KamalaHarris"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180534,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180534,
+          "identifier_value": "kamalaharris"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180535,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180535,
+          "identifier_value": "UC0XBsJpPhOLg0k4x9ZwrWzw"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180536,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180536,
+          "identifier_value": "120012"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180537,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180537,
+          "identifier_value": "412678"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180538,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180538,
+          "identifier_value": "N00036915"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180539,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180539,
+          "identifier_value": "S6CA00584"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180540,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180540,
+          "identifier_value": "H001075"
+        },
+        {
+          "official": 226573,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180541,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:13:18.648860",
+          "id": 180541,
+          "identifier_value": "https://www.facebook.com/KamalaHarris/"
+        }
+      ]
+    },
+    {
+      "id": 220746,
+      "first_name": "Eleini",
+      "last_name": "Kounalakis",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "California Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "CA",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2019-01-07 00:00:00",
+      "term_end": "2023-01-02 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        null
+      ],
+      "photo": "https://ltg.ca.gov/wp-content/uploads/sites/247/2018/12/Eleni-Kounalakis.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "95814",
+        "phone_2": "",
+        "phone_1": "(916) 445-8994",
+        "fax_1": "",
+        "city": "Sacramento",
+        "fax_2": "",
+        "state": "CA",
+        "address_1": "State Capitol",
+        "address_2": "Suite 1114",
+        "address_3": ""
+      },
+      "websites": [
+        "https://ltg.ca.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 228410,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 190266,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-10 19:15:13.837316",
+          "id": 190266,
+          "identifier_value": "https://www.facebook.com/EleniForCA/"
+        },
+        {
+          "official": 228410,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 190267,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-10 19:15:13.837316",
+          "id": 190267,
+          "identifier_value": "EleniForCA"
+        },
+        {
+          "official": 228410,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 190268,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-10 19:15:13.837316",
+          "id": 190268,
+          "identifier_value": "UC-txGZXafZefgEQMa9A1eMw"
+        },
+        {
+          "official": 228410,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 190269,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-10 19:15:13.837316",
+          "id": 190269,
+          "identifier_value": "eleniforca"
+        }
+      ]
+    },
+    {
+      "id": 14884,
+      "first_name": "Gavin",
+      "last_name": "Newsom",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Governor",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "California Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "CA",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2019-01-07 00:00:00",
+      "term_end": "2023-01-02 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "As a member of the San Francisco Board of Supervisors, then as mayor of San Francisco and now as Lieutenant Governor of California, Newsom has been a political visionary on issues of equality, the environment, homelessness and healthcare. Policies he has initiated and implemented have been duplicated in cities across the nation.\\n\\nShortly after being elected Lt. Gov. in 2010, Newsom gathered the ideas of key stakeholders around the state to develop an economic growth and job creation strategy. This comprehensive economic blueprint, a top priority of his administration, ensures that California remains one of the top 10 economies in the world.\\n\\nSince holding public office as a member of the San Francisco Board of Supervisors, Newsom has advocated for and consistently supported quality public education for Californians. As Lt. Gov., he serves as University of California Regent and as Trustee for the California State University system and has fought to keep these institutions accessible to all. In 2012, he was the sole UC regent who voted against a tuition hike. In partnership with students, parents, teachers, administrators and the private sector, Newsom wants to preserve the state's internationally recognized public higher education system that produces the future leaders of America.",
+        null
+      ],
+      "photo": "",
+      "office_location": {
+        "county": "",
+        "postal_code": "95814",
+        "phone_2": "",
+        "phone_1": "(916) 445-2841",
+        "fax_1": "(916) 558-3160",
+        "city": "Sacramento",
+        "fax_2": "",
+        "state": "CA",
+        "address_1": "Governor Gavin Newsom",
+        "address_2": "c/o State Capitol",
+        "address_3": "Suite 1173"
+      },
+      "websites": [
+        "https://www.gov.ca.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 228083,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 188981,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-09 21:21:28.231383",
+          "id": 188981,
+          "identifier_value": "GavinNewsom"
+        },
+        {
+          "official": 228083,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 188983,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-09 21:21:28.231383",
+          "id": 188983,
+          "identifier_value": "https://www.facebook.com/GavinNewsom/"
+        },
+        {
+          "official": 228083,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-02 00:00:00",
+          "sk": 188984,
+          "valid_from": "2019-01-07 00:00:00",
+          "last_update_date": "2019-01-09 21:21:28.231383",
+          "id": 188984,
+          "identifier_value": "gavinnewsom"
+        }
+      ]
+    },
+    {
+      "id": 11015,
+      "first_name": "Nancy",
+      "last_name": "Pelosi",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "12",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2013-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "PELOSI, Nancy, (daughter of Thomas D'Alesandro, Jr.), a Representative from California; born Nancy D’Alesandro in Baltimore, Md., March 26, 1940; A.B., Trinity College, 1962; chair, California State Democratic Party, 1981-1983; finance chairman, Democratic Senatorial Campaign Committee, 1985-1986; elected as a Democrat to the One Hundredth Congress, by special election, to fill the vacancy caused by the death of United States Representative Sala Burton of California, and reelected to the fourteen succeeding Congresses (June 2, 1987-present); minority whip (One Hundred Seventh Congress); minority leader (One Hundred Eighth, One Hundred Ninth, and One Hundred Twelfth through One Hundred Fourteenth Congresses); Speaker of the House (One Hundred Tenth and One Hundred Eleventh Congresses).",
+        "1940-03-26"
+      ],
+      "photo": "https://pelosi.house.gov/sites/pelosi.house.gov/files/styles/congress_image_thumbnail/public/wysiwyg_uploaded/Pelosi-demlead.jpg?itok=HySQZXu7",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-4965",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "1236 Cannon House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "http://pelosi.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184324,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184324,
+          "identifier_value": "P000197"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184325,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184325,
+          "identifier_value": "N00007360"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184326,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184326,
+          "identifier_value": "26732"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184327,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184327,
+          "identifier_value": "400314"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184328,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184328,
+          "identifier_value": "H8CA05035"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184329,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184329,
+          "identifier_value": "nancypelosi"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184331,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184331,
+          "identifier_value": "http://pelosi.house.gov/rss.xml"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184332,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184332,
+          "identifier_value": "nancypelosi"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184334,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184334,
+          "identifier_value": "https://www.facebook.com/pelosiforcongress/"
+        },
+        {
+          "official": 227061,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 184335,
+          "valid_from": "2013-01-03 00:00:00",
+          "last_update_date": "2019-01-07 19:09:53.942309",
+          "id": 184335,
+          "identifier_value": "https://www.facebook.com/NancyPelosi/"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    },
+    {
+      "id": 4177,
+      "first_name": "Scott",
+      "last_name": "Wiener",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "CA",
+        "city": "",
+        "chamber_details": {
+          "name": "California Senate",
+          "type": "UPPER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "11",
+          "city": "",
+          "state": "CA"
+        }
+      },
+      "term_start": "2016-12-05 00:00:00",
+      "term_end": "2020-12-07 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Born in Philadelphia, Scott grew up in southern New Jersey, the son of small business owners, and attended public schools. He attended college at Duke University, studied in Chile on a Fulbright Scholarship, and received his law degree from Harvard Law School. After law school, Scott clerked on the Supreme Court of New Jersey.\\n\\nFor his work in the community, Scott has received awards from the Lawyers Committee for Civil Rights, the Bar Association of San Francisco, the Alice B. Toklas LGBT Democratic Club, and the Human Rights Campaign.\\n",
+        "1970-05-11"
+      ],
+      "photo": "http://senate.ca.gov/sites/senate.ca.gov/files/senator_photos/wiener.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "95814-4900",
+        "phone_2": "",
+        "phone_1": "(916) 651-4011",
+        "fax_1": "(916) 651-4911",
+        "city": "Sacramento",
+        "fax_2": "",
+        "state": "CA",
+        "address_1": "State Capitol",
+        "address_2": "Room 5100",
+        "address_3": ""
+      },
+      "websites": [
+        "http://sd11.senate.ca.gov/",
+        "http://www.scottwiener.com/"
+      ],
+      "emails": [
+        "Senator.Wiener@senate.ca.gov"
+      ],
+      "socials": [
+        {
+          "official": 223141,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 171170,
+          "valid_from": "2016-12-05 00:00:00",
+          "last_update_date": "2018-12-07 14:40:57.803071",
+          "id": 171170,
+          "identifier_value": "https://www.facebook.com/scottdwiener"
+        },
+        {
+          "official": 223141,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 171171,
+          "valid_from": "2016-12-05 00:00:00",
+          "last_update_date": "2018-12-07 14:40:57.803071",
+          "id": 171171,
+          "identifier_value": "scott_wiener"
+        },
+        {
+          "official": 223141,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 171172,
+          "valid_from": "2016-12-05 00:00:00",
+          "last_update_date": "2018-12-07 14:40:57.803071",
+          "id": 171172,
+          "identifier_value": "https://www.facebook.com/ScottWiener2/"
+        },
+        {
+          "official": 223141,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-12-07 00:00:00",
+          "sk": 171173,
+          "valid_from": "2016-12-05 00:00:00",
+          "last_update_date": "2018-12-07 14:40:57.803071",
+          "id": 171173,
+          "identifier_value": "https://www.linkedin.com/in/scott-wiener-936760/"
+        }
+      ]
+    }
+  ]
+}

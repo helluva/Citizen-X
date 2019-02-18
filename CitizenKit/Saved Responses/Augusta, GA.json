@@ -1,0 +1,1407 @@
+{
+  "number": 12,
+  "officials": [
+    {
+      "id": 86455,
+      "first_name": "Rick",
+      "last_name": "Allen",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "12",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2015-01-06 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "ALLEN, Richard Wayne, a Representative from Georgia; born in Augusta, Richmond County, Ga., November 7, 1951; B.S., Auburn University, Auburn, Ala., 1973; business owner; elected as a Republican to the One Hundred Fourteenth Congress (January 3, 2015-present).",
+        "1951-11-07"
+      ],
+      "photo": "https://allen.house.gov/UploadedPhotos/MediumResolution/949c137d-ff13-4c33-8a92-11a4f17263a6.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-2823",
+        "fax_1": "(202) 225-3377",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "426 Cannon House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://allen.house.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187190,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187190,
+          "identifier_value": "136062"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187191,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187191,
+          "identifier_value": "rickallen"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187193,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187193,
+          "identifier_value": "RepRickAllen"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187194,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187194,
+          "identifier_value": "UCZPoYXHFDAV17BGLMzGAmpg"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187196,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187196,
+          "identifier_value": "A000372"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187197,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187197,
+          "identifier_value": "412625"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187198,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187198,
+          "identifier_value": "H0GA02241"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187199,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187199,
+          "identifier_value": "N00033720"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187200,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187200,
+          "identifier_value": "Rep_RickAllen"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187201,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187201,
+          "identifier_value": "https://www.facebook.com/RickAllenGA"
+        },
+        {
+          "official": 227648,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 187202,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-09 03:02:36.972831",
+          "id": 187202,
+          "identifier_value": "https://www.facebook.com/CongressmanRickAllen"
+        }
+      ]
+    },
+    {
+      "id": 216344,
+      "first_name": "John",
+      "last_name": "Clarke",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Commissioner",
+        "state": "GA",
+        "city": "Augusta",
+        "chamber_details": {
+          "name": "Augusta Commission",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "No more than 2 consecutive terms",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "10",
+          "city": "Augusta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2019-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://www.augustaga.gov/ImageRepository/Document?documentID=11675",
+      "office_location": {
+        "county": "",
+        "postal_code": "30901",
+        "phone_2": "",
+        "phone_1": "(706) 821-1820",
+        "fax_1": "(706) 821-1838",
+        "city": "Augusta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "535 Telfair St.",
+        "address_2": "Suite 220",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.augustaga.gov/652/Augusta-Commission"
+      ],
+      "emails": [
+        "jclarke@augustaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 228841,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 191626,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-13 23:28:49.848695",
+          "id": 191626,
+          "identifier_value": "https://www.facebook.com/electjohn.clarke.5"
+        }
+      ]
+    },
+    {
+      "id": 8022,
+      "first_name": "Hardie",
+      "last_name": "Davis",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "GA",
+        "city": "Augusta",
+        "chamber_details": {
+          "name": "Augusta Mayor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "No more than 2 consecutive terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "AUGUSTA",
+          "city": "Augusta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2015-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "1968-12-05"
+      ],
+      "photo": "https://www.augustaga.gov/ImageRepository/Document?documentID=6034",
+      "office_location": {
+        "county": "",
+        "postal_code": "30901",
+        "phone_2": "",
+        "phone_1": "(706) 821-1831",
+        "fax_1": "(706) 821-1835",
+        "city": "Augusta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "535 Telfair St.",
+        "address_2": "Suite 200",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.augustaga.gov/2000/Mayor-Hardie-Davis-Jr"
+      ],
+      "emails": [
+        "mayordavis@augustaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 231034,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 197751,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2019-01-22 16:56:38.002474",
+          "id": 197751,
+          "identifier_value": "hardiedavis"
+        },
+        {
+          "official": 231034,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 197752,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2019-01-22 16:56:38.002474",
+          "id": 197752,
+          "identifier_value": "https://www.linkedin.com/in/hardiedavis/"
+        },
+        {
+          "official": 231034,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 197753,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2019-01-22 16:56:38.002474",
+          "id": 197753,
+          "identifier_value": "https://www.facebook.com/hardiedavisjrga/"
+        },
+        {
+          "official": 231034,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 197754,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2019-01-22 16:56:38.002474",
+          "id": 197754,
+          "identifier_value": "66319"
+        },
+        {
+          "official": 231034,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 197755,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2019-01-22 16:56:38.002474",
+          "id": 197755,
+          "identifier_value": "https://www.facebook.com/mayorhardiedavis/"
+        },
+        {
+          "official": 231034,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 197756,
+          "valid_from": "2015-01-01 00:00:00",
+          "last_update_date": "2019-01-22 16:56:38.002474",
+          "id": 197756,
+          "identifier_value": "https://www.facebook.com/hardiedavisjr"
+        }
+      ]
+    },
+    {
+      "id": 142264,
+      "first_name": "Mary",
+      "last_name": "Davis",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Commissioner",
+        "state": "GA",
+        "city": "Augusta",
+        "chamber_details": {
+          "name": "Augusta Commission",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "No more than 2 consecutive terms",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "3",
+          "city": "Augusta",
+          "state": "GA"
+        }
+      },
+      "term_start": "2013-01-01 00:00:00",
+      "term_end": "2021-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://www.augustaga.gov/ImageRepository/Document?documentID=4712",
+      "office_location": {
+        "county": "",
+        "postal_code": "30901",
+        "phone_2": "",
+        "phone_1": "(706) 821-1820",
+        "fax_1": "(706) 821-1838",
+        "city": "Augusta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "535 Telfair St.",
+        "address_2": "Suite 220",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.augustaga.gov/652/Augusta-Commission"
+      ],
+      "emails": [
+        "mfdavis@augustaga.gov"
+      ],
+      "socials": [
+        {
+          "official": 228844,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 191631,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2019-01-13 23:31:14.247854",
+          "id": 191631,
+          "identifier_value": "157513"
+        },
+        {
+          "official": 228844,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-01 00:00:00",
+          "sk": 191632,
+          "valid_from": "2013-01-01 00:00:00",
+          "last_update_date": "2019-01-13 23:31:14.247854",
+          "id": 191632,
+          "identifier_value": "https://www.facebook.com/mary.davis.56"
+        }
+      ]
+    },
+    {
+      "id": 214494,
+      "first_name": "Geoff",
+      "last_name": "Duncan",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2019-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Republican",
+      "bio": [
+        null
+      ],
+      "photo": "https://ltgov.georgia.gov/sites/ltgov.georgia.gov/files/styles/image_box/public/imagebox/Geoff%20Duncan.jpg?itok=i97O0yQK",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(404) 656-5030",
+        "fax_1": "(404) 656-6739",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Office of the Lieutenant Governor",
+        "address_2": "240 State Capitol",
+        "address_3": ""
+      },
+      "websites": [
+        "https://ltgov.georgia.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 230310,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195681,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:48:04.229359",
+          "id": 195681,
+          "identifier_value": "GeoffDuncanGA"
+        },
+        {
+          "official": 230310,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195682,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:48:04.229359",
+          "id": 195682,
+          "identifier_value": "https://www.facebook.com/geoffduncanforlg/"
+        },
+        {
+          "official": 230310,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195683,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:48:04.229359",
+          "id": 195683,
+          "identifier_value": "https://www.facebook.com/geoff.duncan.75"
+        }
+      ]
+    },
+    {
+      "id": 8172,
+      "first_name": "Johnny",
+      "last_name": "Isakson",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "ISAKSON, Johnny, a Senator and a Representative from Georgia; born in Atlanta, Fulton County, Ga., December 28, 1944; graduated from the University of Georgia, Athens, Ga., 1966; served in the Georgia Air National Guard 1966-1972; member of the Georgia state general assembly, 1976-1990; unsuccessful candidate for election as Governor of Georgia 1990; member of the Georgia state senate 1993-1996; unsuccessful candidate for election to the United States Senate in 1996; chair of the Georgia board of education 1996; elected as a Republican to the One Hundred Sixth Congress by special election to fill the vacancy created when United States Representative Newt Gingrich did not take his seat in the One Hundred Sixth Congress; reelected to the two succeeding Congresses (February 23, 1999-January 3, 2005); was not a candidate for reelection to the House of Representatives, but was elected to the United States Senate in 2004; reelected in 2010 and again in 2016 for the term ending January 3, 2023; chair, Committee on Veterans’ Affairs (One Hundred Fourteenth Congress), Select Committee on Ethics (One Hundred Fourteenth Congress).",
+        "1944-12-28"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/I/I000055.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3643",
+        "fax_1": "(202) 228-0724",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "131 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.isakson.senate.gov/public/index.cfm/home",
+        "http://www.johnnyisakson.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180759,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180759,
+          "identifier_value": "I000055"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180760,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180760,
+          "identifier_value": "N00002593"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180761,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180761,
+          "identifier_value": "1721"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180762,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180762,
+          "identifier_value": "400194"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180763,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180763,
+          "identifier_value": "S6GA00119"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180764,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180764,
+          "identifier_value": "SenatorIsakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180765,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180765,
+          "identifier_value": "SenatorIsakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180766,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180766,
+          "identifier_value": "senatorisakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180767,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180767,
+          "identifier_value": "johnnyisakson"
+        },
+        {
+          "official": 226592,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 180769,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 19:39:08.797720",
+          "id": 180769,
+          "identifier_value": "https://www.facebook.com/isakson/"
+        }
+      ]
+    },
+    {
+      "id": 84023,
+      "first_name": "Harold",
+      "last_name": "Jones",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia State Senate",
+          "type": "UPPER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "22",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2015-01-12 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "0001-08-01"
+      ],
+      "photo": "http://www.senate.ga.gov/SiteCollectionImages/Jones%20IIHarold851.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(404) 463-3942",
+        "fax_1": "",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "323-A Coverdell Legislative Office Building",
+        "address_2": "",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.senate.ga.gov/senators/en-US/member.aspx?Member=851&Session=27"
+      ],
+      "emails": [
+        "harold.jones@senate.ga.gov"
+      ],
+      "socials": [
+        {
+          "official": 232829,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203534,
+          "valid_from": "2015-01-12 00:00:00",
+          "last_update_date": "2019-01-29 18:31:13.722224",
+          "id": 203534,
+          "identifier_value": "UC6o0czV1nk0XUSdevfphjOw"
+        },
+        {
+          "official": 232829,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203535,
+          "valid_from": "2015-01-12 00:00:00",
+          "last_update_date": "2019-01-29 18:31:13.722224",
+          "id": 203535,
+          "identifier_value": "31433"
+        },
+        {
+          "official": 232829,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203536,
+          "valid_from": "2015-01-12 00:00:00",
+          "last_update_date": "2019-01-29 18:31:13.722224",
+          "id": 203536,
+          "identifier_value": "https://www.facebook.com/electharoldjones"
+        },
+        {
+          "official": 232829,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203537,
+          "valid_from": "2015-01-12 00:00:00",
+          "last_update_date": "2019-01-29 18:31:13.722224",
+          "id": 203537,
+          "identifier_value": "SenHaroldJones"
+        }
+      ]
+    },
+    {
+      "id": 220261,
+      "first_name": "Brian",
+      "last_name": "Kemp",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Governor",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2019-01-01 00:00:00",
+      "term_end": "2023-01-01 00:00:00",
+      "party": "Republican",
+      "bio": [
+        null
+      ],
+      "photo": "https://gov.georgia.gov/sites/gov.georgia.gov/files/styles/profile_thumbnail/public/profile/brian-kemp-cropped.jpg?itok=b8ven4Ow",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(800) 436-7442",
+        "fax_1": "(404) 463-5269",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "Office of the Governor Brian Kemp",
+        "address_2": "203 State Capitol",
+        "address_3": ""
+      },
+      "websites": [
+        "https://gov.georgia.gov/"
+      ],
+      "emails": [
+        "kempscheduling@georgia.gov"
+      ],
+      "socials": [
+        {
+          "official": 230306,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195672,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:45:12.454416",
+          "id": 195672,
+          "identifier_value": "https://www.facebook.com/BrianKempGA/"
+        },
+        {
+          "official": 230306,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2023-01-01 00:00:00",
+          "sk": 195673,
+          "valid_from": "2019-01-01 00:00:00",
+          "last_update_date": "2019-01-17 19:45:12.454416",
+          "id": 195673,
+          "identifier_value": "https://www.facebook.com/brianpkemp"
+        }
+      ]
+    },
+    {
+      "id": 138288,
+      "first_name": "Mark",
+      "last_name": "Newton",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "Georgia House of Representatives",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "123",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2017-01-09 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "A medical doctor, veteran, small business owner, and proud father, Dr. Mark Newton has a heart for serving others. After service in the Army Medical Corps and further training at MCG, for over fifteen years, Dr. Newton has served as the Chairman and Medical Director of the Emergency Department at Doctor’s Hospital in Augusta. He is also the Founder and CEO of MedNow Urgent Care Centers, which has three locations in Richmond and Columbia counties. Dr. Newton is married to his college sweetheart, Joni, and they are proud parents of four wonderful children.",
+        null
+      ],
+      "photo": "http://www.house.ga.gov/SiteCollectionImages/NewtonMark4902.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "30334",
+        "phone_2": "",
+        "phone_1": "(404) 656-0254",
+        "fax_1": "",
+        "city": "Atlanta",
+        "fax_2": "",
+        "state": "GA",
+        "address_1": "601-H Coverdell Legislative Office Building",
+        "address_2": "18 Capitol Square SW",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=4902&Session=27"
+      ],
+      "emails": [
+        "mark.newton@house.ga.gov"
+      ],
+      "socials": [
+        {
+          "official": 231927,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 200667,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2019-01-25 16:01:42.697014",
+          "id": 200667,
+          "identifier_value": "https://www.facebook.com/DrMarkNewton/"
+        },
+        {
+          "official": 231927,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 200668,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2019-01-25 16:01:42.697014",
+          "id": 200668,
+          "identifier_value": "https://www.linkedin.com/in/w-mark-newton-3aa45b79/"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 81814,
+      "first_name": "David",
+      "last_name": "Perdue",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "GA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "GA",
+          "city": "",
+          "state": "GA"
+        }
+      },
+      "term_start": "2015-01-06 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "PERDUE, David Alfred, Jr., a Senator from Georgia; born in Macon, Bibb County, Ga., December 10, 1949; B.S., Georgia Institute of Technology, 1972; M.S., Georgia Institute of Technology, 1976; management consultant; company executive; elected as a Republican to the United States Senate in 2014 for the term ending January 3, 2021.",
+        "1949-12-10"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/P/P000612.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3521",
+        "fax_1": "(202) 228-1031",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "455 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.perdue.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180784,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180784,
+          "identifier_value": "412666"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180786,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180786,
+          "identifier_value": "sendavidperdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180787,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180787,
+          "identifier_value": "https://www.facebook.com/SenatorDavidPerdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180788,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180788,
+          "identifier_value": "UCXHsrkPP4TAm0s0qB1C31Lw"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180789,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180789,
+          "identifier_value": "senatordavidperdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180790,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180790,
+          "identifier_value": "sendavidperdue"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180791,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180791,
+          "identifier_value": "N00035516"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180792,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180792,
+          "identifier_value": "S4GA11285"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180793,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180793,
+          "identifier_value": "P000612"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180794,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180794,
+          "identifier_value": "151330"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180795,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180795,
+          "identifier_value": "https://www.facebook.com/perduesenate"
+        },
+        {
+          "official": 226594,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 180796,
+          "valid_from": "2015-01-06 00:00:00",
+          "last_update_date": "2019-01-04 19:40:24.161904",
+          "id": 180796,
+          "identifier_value": "perduesenate"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    }
+  ]
+}

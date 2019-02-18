@@ -1,0 +1,1989 @@
+{
+  "number": 16,
+  "officials": [
+    {
+      "id": 3917,
+      "first_name": "Sally",
+      "last_name": "Bagshaw",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Councilmember",
+        "state": "WA",
+        "city": "Seattle",
+        "chamber_details": {
+          "name": "Seattle City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "7",
+          "city": "Seattle",
+          "state": "WA"
+        }
+      },
+      "term_start": "2016-01-01 00:00:00",
+      "term_end": "2020-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Councilmember Sally Bagshaw was first elected to the City Council in 2009.\\n\\nSally raised two sons, is a certified pilot, and is a proud first-time grandmother. She and her husband, Brad, live in downtown Seattle.",
+        null
+      ],
+      "photo": "http://www.seattle.gov/Images/Council/Members/Bagshaw/bagshaw_thumb.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98104",
+        "phone_2": "(206) 684-8888",
+        "phone_1": "(206) 684-8801",
+        "fax_1": "(206) 684-8587",
+        "city": "Seattle",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Seattle City Hall",
+        "address_2": "600 Fourth Avenue",
+        "address_3": "2nd Floor"
+      },
+      "websites": [
+        "http://www.seattle.gov/council/bagshaw/",
+        "http://bagshaw.seattle.gov/"
+      ],
+      "emails": [
+        "sally.bagshaw@seattle.gov"
+      ],
+      "socials": [
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140838,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140838,
+          "identifier_value": "http://bagshaw.seattle.gov/feed/"
+        },
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140839,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140839,
+          "identifier_value": "sallybagshaw"
+        },
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140840,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140840,
+          "identifier_value": "councilmemberbagshaw"
+        },
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140841,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140841,
+          "identifier_value": "https://www.facebook.com/sally.bagshaw.5"
+        },
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140843,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140843,
+          "identifier_value": "https://www.facebook.com/cmbagshaw/"
+        },
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140844,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140844,
+          "identifier_value": "122409"
+        },
+        {
+          "official": 211005,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 140845,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:31:17.252836",
+          "id": 140845,
+          "identifier_value": "https://www.linkedin.com/in/sally-bagshaw-85840710/"
+        }
+      ]
+    },
+    {
+      "id": 14765,
+      "first_name": "Maria",
+      "last_name": "Cantwell",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "WA",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2007-01-03 00:00:00",
+      "term_end": "2025-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "CANTWELL, Maria E., a Senator and a Representative from Washington; born in Indianapolis, Ind., October 13, 1958; attended public schools in Indianapolis; B.A., Miami University of Ohio 1980; pursued an academic course at the Miami University European Center, Luxembourg; public relations consultant; Washington State representative 1987-1993; elected as a Democrat to the 103rd Congress (January 3, 1993-January 3, 1995); unsuccessful candidate for reelection to the 104th Congress; elected as a Democrat to the U.S. Senate on November 7, 2000, for the term commencing January 3, 2001; reelected in 2006 and again in 2012 for the term ending January 3, 2019; chair, Committee on Indian Affairs (One Hundred Thirteenth Congress [January 3, 2013-February 12, 2014]), Committee on Small Business and Entrepreneurship (One Hundred Thirteenth Congress [February 12, 2014-January 3, 2015]).",
+        "1958-10-13"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/C/C000127.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "",
+        "phone_1": "(202) 224-3441",
+        "fax_1": "(202) 228-0514",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "511 Hart Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.cantwell.senate.gov/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181860,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181860,
+          "identifier_value": "C000127"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181861,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181861,
+          "identifier_value": "N00007836"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181862,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181862,
+          "identifier_value": "27122"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181863,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181863,
+          "identifier_value": "300018"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181864,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181864,
+          "identifier_value": "S8WA00194"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181865,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181865,
+          "identifier_value": "SenatorCantwell"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181866,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181866,
+          "identifier_value": "mariacantwell"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181868,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181868,
+          "identifier_value": "SenatorCantwell"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181869,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181869,
+          "identifier_value": "https://www.facebook.com/senatorcantwell/"
+        },
+        {
+          "official": 226704,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2025-01-03 00:00:00",
+          "sk": 181870,
+          "valid_from": "2007-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:16:06.244076",
+          "id": 181870,
+          "identifier_value": "https://www.facebook.com/mariacantwell/"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "first_name": "Frank",
+      "last_name": "Chopp",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "Washington House",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "43",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2013-01-14 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Frank was born and raised in Bremerton; his father worked in the shipyard and his mom worked in the school cafeteria. He graduated with honors from the University of Washington in 1975, and started his career as a community organizer with a passion for social justice.\\n\\nHe worked as a director for the Cascade Community Center, the Pike Market Senior Center, and the North Community Service Center before becoming the Executive Director of the Fremont Public Association. Now known as Solid Ground, the FPA provided one of Seattle’s then most economically-devastated neighborhoods with an emergency food bank, a clothing bank, and an employment program. It has since relocated to the Wallingford area and offers 30 different programs and services that help more than 60,000 households each year.\\n\\nFrank was elected to the House of Representatives in 1994 and became co-Speaker of the House in 1999. He began serving as the only Speaker in 2002. As Speaker, Frank has committed himself to policies that reflect his community-organizer values – a strong public education system, health care for every child, good-paying jobs, and protecting the safety net.",
+        "1953-05-13"
+      ],
+      "photo": "http://app.leg.wa.gov/assets/Images/MemberThumbnails/House/chopp.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98504-0600",
+        "phone_2": "(800) 562-6000",
+        "phone_1": "(360) 786-7920",
+        "fax_1": "",
+        "city": "Olympia",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Washington House of Representatives",
+        "address_2": "339C Legislative Building",
+        "address_3": "PO Box 40600"
+      },
+      "websites": [
+        "https://housedemocrats.wa.gov/chopp/",
+        "http://leg.wa.gov/house/representatives/Pages/default.aspx#chopp"
+      ],
+      "emails": [
+        "frank.chopp@leg.wa.gov"
+      ],
+      "socials": [
+        {
+          "official": 232695,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203123,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2019-01-29 16:02:32.446954",
+          "id": 203123,
+          "identifier_value": "3172"
+        }
+      ]
+    },
+    {
+      "id": 1379,
+      "first_name": "Dow",
+      "last_name": "Constantine",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "County Executive",
+        "state": "WA",
+        "city": "King County",
+        "chamber_details": {
+          "name": "King County Executive",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "COUNTY",
+          "id": "KING COUNTY",
+          "city": "King County",
+          "state": "WA"
+        }
+      },
+      "term_start": "2011-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://www.kingcounty.gov/~/media/elected/executive/constantine/news/headshots/Dow_headshot_text.ashx?la=en",
+      "office_location": {
+        "county": "",
+        "postal_code": "98104",
+        "phone_2": "",
+        "phone_1": "(206) 263-9600",
+        "fax_1": "(206) 296-0194",
+        "city": "Seattle",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "King County Chinook Building",
+        "address_2": "401 5th Ave. Suite 800",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.kingcounty.gov/elected/executive/constantine.aspx"
+      ],
+      "emails": [
+        "kcexec@kingcounty.gov"
+      ],
+      "socials": [
+        {
+          "official": 205798,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 131027,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-08-09 17:50:58.924499",
+          "id": 131027,
+          "identifier_value": "kcexec"
+        },
+        {
+          "official": 205798,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 131028,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-08-09 17:50:58.924499",
+          "id": 131028,
+          "identifier_value": "https://www.facebook.com/dowconstantine"
+        },
+        {
+          "official": 205798,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 131029,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-08-09 17:50:58.924499",
+          "id": 131029,
+          "identifier_value": "117115665@N05"
+        },
+        {
+          "official": 205798,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 131030,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-08-09 17:50:58.924499",
+          "id": 131030,
+          "identifier_value": "https://www.facebook.com/ExecutiveConstantine"
+        },
+        {
+          "official": 205798,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 131031,
+          "valid_from": "2011-01-01 00:00:00",
+          "last_update_date": "2018-08-09 17:50:58.924499",
+          "id": 131031,
+          "identifier_value": "https://www.facebook.com/ExecutiveConstantine"
+        }
+      ]
+    },
+    {
+      "id": 182274,
+      "first_name": "Jenny",
+      "last_name": "Durkan",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Mayor",
+        "state": "WA",
+        "city": "Seattle",
+        "chamber_details": {
+          "name": "Seattle Mayor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "LOCAL_EXEC",
+          "subtype": "CITY",
+          "id": "SEATTLE",
+          "city": "Seattle",
+          "state": "WA"
+        }
+      },
+      "term_start": "2017-11-28 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Jenny A. Durkan is the 56th Mayor of Seattle and the first woman to lead the City in nearly a century.\\n\\nPrior to becoming Mayor, Durkan was a civic leader and nationally-recognized attorney. From 2009 to 2014, she served as the U.S. Attorney for the Western District of Washington, becoming the first openly gay U.S. Attorney in our country’s history.\\n\\nDurkan, one of eight children, was raised in Seattle.  She graduated from the University of Notre Dame, taught school and coached girls basketball in a Yupik fishing village in Alaska, and then earned her J.D. at the University of Washington School of Law. She and her partner, Dana, have two sons.",
+        null
+      ],
+      "photo": "",
+      "office_location": {
+        "county": "",
+        "postal_code": "98104",
+        "phone_2": "",
+        "phone_1": "(206) 684-4000",
+        "fax_1": "",
+        "city": "Seattle",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "600 4th Ave",
+        "address_2": "7th Floor",
+        "address_3": "P.O. Box 94749"
+      },
+      "websites": [
+        "http://www.seattle.gov/mayor"
+      ],
+      "emails": [
+        "jenny.durkan@seattle.gov"
+      ],
+      "socials": [
+        {
+          "official": 210148,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 138279,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-10-19 17:01:47.967713",
+          "id": 138279,
+          "identifier_value": "https://www.facebook.com/mayorjennydurkan"
+        },
+        {
+          "official": 210148,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 138280,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-10-19 17:01:47.967713",
+          "id": 138280,
+          "identifier_value": "https://www.facebook.com/mayorjennydurkan"
+        },
+        {
+          "official": 210148,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 138281,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-10-19 17:01:47.967713",
+          "id": 138281,
+          "identifier_value": "mayorjenny"
+        },
+        {
+          "official": 210148,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 138282,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-10-19 17:01:47.967713",
+          "id": 138282,
+          "identifier_value": "http://durkan.seattle.gov/feed/"
+        },
+        {
+          "official": 210148,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 138283,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-10-19 17:01:47.967713",
+          "id": 138283,
+          "identifier_value": "https://www.facebook.com/JennyDurkan/"
+        }
+      ]
+    },
+    {
+      "id": 121278,
+      "first_name": "Lorena",
+      "last_name": "González",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Councilmember",
+        "state": "WA",
+        "city": "Seattle",
+        "chamber_details": {
+          "name": "Seattle City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Seattle",
+          "state": "WA"
+        }
+      },
+      "term_start": "2016-01-01 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Born and raised in Washington's lower Yakima Valley to a Spanish-speaking migrant farmworker family, Councilmember González earned her first paycheck at the age of 8, alongside her parents and five siblings. She relied on scholarships and worked 3 jobs to attend community college and later Washington State University. She moved to Seattle in 2002 to attend Seattle University Law School, where she graduated with honors in 2005.",
+        null
+      ],
+      "photo": "http://www.seattle.gov/Images/Council/Members/Gonzalez/gonzalez_thumb.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98104",
+        "phone_2": "(206) 684-8888",
+        "phone_1": "(206) 684-8802",
+        "fax_1": "(206) 684-8587",
+        "city": "Seattle",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Seattle City Hall",
+        "address_2": "600 Fourth Avenue",
+        "address_3": "2nd Floor"
+      },
+      "websites": [
+        "http://www.seattle.gov/council/gonzalez/"
+      ],
+      "emails": [
+        "Lorena.Gonzalez@seattle.gov"
+      ],
+      "socials": [
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140857,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140857,
+          "identifier_value": "MLorenaGonzalez"
+        },
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140858,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140858,
+          "identifier_value": "https://www.linkedin.com/in/m-lorena-gonzalez-22187521"
+        },
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140859,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140859,
+          "identifier_value": "http://gonzalez.seattle.gov/feed"
+        },
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140860,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140860,
+          "identifier_value": "https://www.facebook.com/ElectLorenaGonzalez"
+        },
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140861,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140861,
+          "identifier_value": "https://www.facebook.com/cmlorenagonzalez/"
+        },
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140862,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140862,
+          "identifier_value": "https://www.facebook.com/cmlorenagonzalez/"
+        },
+        {
+          "official": 211010,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140863,
+          "valid_from": "2016-01-01 00:00:00",
+          "last_update_date": "2018-11-05 18:54:13.150391",
+          "id": 140863,
+          "identifier_value": "CMLGonzalez"
+        }
+      ]
+    },
+    {
+      "id": 31613,
+      "first_name": "Cyrus",
+      "last_name": "Habib",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Lieutenant Governor",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "Washington Lieutenant Governor",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "WA",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2017-01-09 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Lieutenant Governor Habib was born in Baltimore, Maryland, and moved with his family to Washington state at the age of eight. He grew up in east King County and graduated from the Bellevue International School before attending Columbia University, Oxford University as a Rhodes Scholar, and Yale Law School.\\n\\nAfter receiving his law degree, Lieutenant Governor Habib returned to Washington state to practice law at Perkins Coie, the region’s largest law firm, where he helped startup technology companies raise venture capital funds and license their software.\\n\\nBefore being elected as Washington state’s 16th Lieutenant Governor in 2016, Cyrus Habib represented east King County in the Washington state Senate, where he served as Democratic Whip and a member of the Democratic leadership team.",
+        "1981-08-22"
+      ],
+      "photo": "http://www.ltgov.wa.gov/wp-content/uploads/2017/01/Senator-Habib-2015_CROPPED-225x300.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98504-0400",
+        "phone_2": "",
+        "phone_1": "(360) 786-7700",
+        "fax_1": "(360) 786-7749",
+        "city": "Olympia",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Office of the Lieutenant Governor",
+        "address_2": "PO Box 40400",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.ltgov.wa.gov/",
+        "http://cyrushabib.com/"
+      ],
+      "emails": [
+        "ltgov@ltgov.wa.gov"
+      ],
+      "socials": [
+        {
+          "official": 197754,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 104395,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2018-04-27 15:51:41.373176",
+          "id": 104395,
+          "identifier_value": "cyrushabib"
+        },
+        {
+          "official": 197754,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 104396,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2018-04-27 15:51:41.373176",
+          "id": 104396,
+          "identifier_value": "140181"
+        },
+        {
+          "official": 197754,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 104398,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2018-04-27 15:51:41.373176",
+          "id": 104398,
+          "identifier_value": "https://www.facebook.com/Lt-Governor-Cyrus-Habib-347384975292728/"
+        },
+        {
+          "official": 197754,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 104399,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2018-04-27 15:51:41.373176",
+          "id": 104399,
+          "identifier_value": "waltgov"
+        },
+        {
+          "official": 197754,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 104400,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2018-04-27 15:51:41.373176",
+          "id": 104400,
+          "identifier_value": "https://www.facebook.com/cyrus.habib"
+        }
+      ]
+    },
+    {
+      "id": 23800,
+      "first_name": "Jay",
+      "last_name": "Inslee",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Governor",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "Washington Governor",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "STATE_EXEC",
+          "subtype": "STATE",
+          "id": "WA",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2013-01-14 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Jay Inslee is a fifth-generation Washingtonian who grew up in the Seattle area. His father, Frank, was a high school teacher and coach. His mother worked as a sales clerk at Sears & Roebuck. Jay worked his way through college and graduated from the University of Washington with a degree in economics before earning his law degree at Willamette University. He and his wife, Trudi, then moved to Selah where Jay worked as a prosecutor and they raised their three sons.\\n\\nJay first became involved in public service in 1985 when he and Trudi helped lead the effort to build a new public high school in Selah. Motivated to fight against proposed funding cuts for rural schools, Jay went on to represent the 14th Legislative District in the state House of Representatives. He continued serving communities in the Yakima Valley when he was elected to Congress in 1992. The Inslees later moved back to the Puget Sound area where Jay was elected to Congress in 1998, serving until 2012.\\n\\nJay and Trudi are proud grandparents of three. Besides writing and illustrating books for his grandchildren and sketching scenes from around Washington, Jay is an avid cyclist and charter member of Hoopaholics.\\n\\nDuring his time in Congress, Jay became known as a forward-thinking leader, especially on issues of clean energy and the environment. He co-wrote a book, \"Apollo's Fire: Igniting America's Clean-Energy Economy,\" about the job-creating potential of the clean tech industry. As governor, Jay's top priority is growing Washington's innovative industries such as clean energy, IT and life sciences, and strengthening existing industries such as aerospace, agriculture, maritime and military. Since 2013, Washington has experienced a seven-year low in unemployment rates, record exports and notable growth in Washington’s key industries.",
+        "1951-02-09"
+      ],
+      "photo": "http://www.governor.wa.gov/sites/default/files/images/720px-for-web_0.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98504-0002",
+        "phone_2": "(800) 833-6388",
+        "phone_1": "(360) 902-4111",
+        "fax_1": "(360) 753-4110",
+        "city": "Olympia",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Governor Jay Inslee",
+        "address_2": "Office of the Governor",
+        "address_3": "PO Box 40002"
+      },
+      "websites": [
+        "http://www.governor.wa.gov/"
+      ],
+      "emails": [
+        "Governor.JayInslee@governor.wa.gov"
+      ],
+      "socials": [
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "FLICKR",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 9205,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 9205,
+          "identifier_value": "govinslee"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 9206,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 9206,
+          "identifier_value": "GovInslee"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 35857,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 35857,
+          "identifier_value": "govinslee"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 52592,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 52592,
+          "identifier_value": "https://www.facebook.com/WaStateGov/"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 52593,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 52593,
+          "identifier_value": "http://www.governor.wa.gov/rss/news"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 61924,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 61924,
+          "identifier_value": "UCJhWBqWVdVnPro7tx2t7j3w"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 65553,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 65553,
+          "identifier_value": "27125"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 76853,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 76853,
+          "identifier_value": "https://www.facebook.com/jayinslee/"
+        },
+        {
+          "official": 179069,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 77288,
+          "valid_from": "2013-01-14 00:00:00",
+          "last_update_date": "2017-09-19 20:46:00.012515",
+          "id": 77288,
+          "identifier_value": "https://www.facebook.com/WaStateGov/"
+        }
+      ]
+    },
+    {
+      "id": 85059,
+      "first_name": "Pramila",
+      "last_name": "Jayapal",
+      "nickname": "",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Representative",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States House of Representatives",
+          "type": "LOWER",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_LOWER",
+          "subtype": "LOWER",
+          "id": "7",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2017-01-03 00:00:00",
+      "term_end": "2021-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "JAYAPAL, Pramila, a Representative from Washington; born in Chennai, Tamil Nadu, India, September 21, 1965; A.B., Georgetown University, Washington, D.C., 1986; M.B.A., Northwestern University, Evanston, Ill., 1990; financial analyst; member of the Washington state senate, 2015-2016; elected as a Democrat to the One Hundred Fifteenth Congress (January 3, 2017-present).",
+        "1965-11-21"
+      ],
+      "photo": "https://jayapal.house.gov/sites/jayapal.house.gov/files/wysiwyg_uploaded/Official%20Photo_2017.03.10%20-%20Copy.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20515",
+        "phone_2": "",
+        "phone_1": "(202) 225-3106",
+        "fax_1": "(202) 225-6197",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States House of Representatives",
+        "address_2": "319 Cannon House Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "https://jayapal.house.gov/",
+        "http://www.pramilaforcongress.com/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164074,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164074,
+          "identifier_value": "PramilaJayapal"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164075,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164075,
+          "identifier_value": "https://www.facebook.com/pramila.jayapal/"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164076,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164076,
+          "identifier_value": "UCMnbmouxS9x95erN4NlBjDw"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164077,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164077,
+          "identifier_value": "RepJayapal"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164078,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164078,
+          "identifier_value": "UCmyD0_-2Oowkfwc_Raghclw"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164079,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164079,
+          "identifier_value": "repjayapal"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164080,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164080,
+          "identifier_value": "https://www.facebook.com/RepJayapal/"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164081,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164081,
+          "identifier_value": "https://jayapal.house.gov/rss.xml"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164082,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164082,
+          "identifier_value": "https://www.linkedin.com/in/pramila-jayapal-80b7488/"
+        },
+        {
+          "official": 219809,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-03 00:00:00",
+          "sk": 164083,
+          "valid_from": "2017-01-03 00:00:00",
+          "last_update_date": "2018-11-16 23:32:02.049810",
+          "id": 164083,
+          "identifier_value": "https://www.facebook.com/pramila.jayapal1"
+        }
+      ]
+    },
+    {
+      "id": 141387,
+      "first_name": "Nicole",
+      "last_name": "Macri",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Representative",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "Washington House",
+          "type": "LOWER",
+          "term_length": "2 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_LOWER",
+          "subtype": "LOWER",
+          "id": "43",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2017-01-09 00:00:00",
+      "term_end": "2021-01-11 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Nicole Macri is a longtime resident of Capitol Hill with more than 20 years of experience championing progressive causes on issues around affordable housing, homelessness, human services, and mental health. She has developed and managed housing projects, implemented social and health services programs, helped create policy directives, and led advocacy and community outreach efforts.  Her work has delivered results for people experiencing homelessness, mental illness, chemical dependency, and for victims of abuse.\\n\\nNicole was elected to the state House of Representatives by the people of the 43rd legislative district in 2016 and took her oath of office on January 9, 2017.\\n\\nShe is a nationally recognized leader in practical and effective strategies that end the homelessness of people living with serious disabilities. Outside the Legislature, Nicole is the Deputy Director for the Downtown Emergency Service Center (DESC) in Seattle, where she has worked since 2002. She also serves as President of the Board of Directors of the Washington Low Income Housing Alliance, working to ensure all Washington residents have the opportunity to live in safe, healthy, affordable homes in thriving communities.\\n\\nShe has championed Seattle’s Housing Levy, and was appointed by the City Council to serve successive terms as a member of the Housing Levy Oversight Committee. As a member, it is Nicole’s responsibility to monitor the progress of the $145 million Housing Levy approved by voters to achieve its goals with proper fiscal and accountability controls in place. In 2014, she received an Emerging Leader Award from the Housing Development Consortium of Seattle/King County for her outstanding work in the field of affordable housing.\\n\\nNicole was born in Brooklyn, NY, and moved to New Jersey when she was 11 years old. Both her parents grew up living in public housing, and strongly believed in the importance of public education as the pathway for their kids’ future success. Nicole attended Rutgers University, where she met her partner Deb Cayz, and was the first woman in her family to graduate from college. She earned her Master of Public Administration at the University of Washington, and a Certificate in Executive Leadership at Seattle University’s Albers School of Business. Inspired by the natural beauty and progressive values of the Northwest, Nicole and Deb moved to Seattle in 1999, and have lived on Capitol Hill for more than a decade.",
+        null
+      ],
+      "photo": "http://app.leg.wa.gov/assets/Images/MemberThumbnails/House/macri.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98504-0600",
+        "phone_2": "(800) 562-6000",
+        "phone_1": "(360) 786-7826",
+        "fax_1": "",
+        "city": "Olympia",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Washington House of Representatives",
+        "address_2": "311 John L. O'Brien Building",
+        "address_3": "PO Box 40600"
+      },
+      "websites": [
+        "https://housedemocrats.wa.gov/macri/",
+        "http://leg.wa.gov/house/representatives/Pages/default.aspx#macri"
+      ],
+      "emails": [
+        "Nicole.Macri@leg.wa.gov"
+      ],
+      "socials": [
+        {
+          "official": 232696,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203125,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2019-01-29 16:02:59.766481",
+          "id": 203125,
+          "identifier_value": "https://www.facebook.com/votenicolemacri/"
+        },
+        {
+          "official": 232696,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203126,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2019-01-29 16:02:59.766481",
+          "id": 203126,
+          "identifier_value": "https://www.linkedin.com/in/nicolemacri/"
+        },
+        {
+          "official": 232696,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203127,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2019-01-29 16:02:59.766481",
+          "id": 203127,
+          "identifier_value": "votenicolemacri"
+        },
+        {
+          "official": 232696,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-11 00:00:00",
+          "sk": 203128,
+          "valid_from": "2017-01-09 00:00:00",
+          "last_update_date": "2019-01-29 16:02:59.766481",
+          "id": 203128,
+          "identifier_value": "171054"
+        }
+      ]
+    },
+    {
+      "id": 12648,
+      "first_name": "Joe",
+      "last_name": "McDermott",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "County Councilmember",
+        "state": "WA",
+        "city": "King",
+        "chamber_details": {
+          "name": "King County Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "COUNTY",
+          "id": "8",
+          "city": "King",
+          "state": "WA"
+        }
+      },
+      "term_start": "2001-01-01 00:00:00",
+      "term_end": "2020-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        null
+      ],
+      "photo": "https://www.kingcounty.gov/~/media/McDermott/images/2015/McDermott.ashx?la=en",
+      "office_location": {
+        "county": "",
+        "postal_code": "98104",
+        "phone_2": "(206) 477-1000",
+        "phone_1": "(206) 296-1008",
+        "fax_1": "(206) 296-0198",
+        "city": "Seattle",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "516 Third Avenue",
+        "address_2": "Room 1200",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.kingcounty.gov/council/mcdermott.aspx"
+      ],
+      "emails": [
+        "joe.mcdermott@kingcounty.gov"
+      ],
+      "socials": [
+        {
+          "official": 205806,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 131058,
+          "valid_from": "2001-01-01 00:00:00",
+          "last_update_date": "2018-08-09 18:14:16.520419",
+          "id": 131058,
+          "identifier_value": "https://www.linkedin.com/in/joe-mcdermott-ba21385"
+        },
+        {
+          "official": 205806,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 131059,
+          "valid_from": "2001-01-01 00:00:00",
+          "last_update_date": "2018-08-09 18:14:16.520419",
+          "id": 131059,
+          "identifier_value": "https://www.facebook.com/JoeMcDermott8"
+        },
+        {
+          "official": 205806,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 131060,
+          "valid_from": "2001-01-01 00:00:00",
+          "last_update_date": "2018-08-09 18:14:16.520419",
+          "id": 131060,
+          "identifier_value": "https://www.facebook.com/joe.mcdermott.54922"
+        },
+        {
+          "official": 205806,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 131061,
+          "valid_from": "2001-01-01 00:00:00",
+          "last_update_date": "2018-08-09 18:14:16.520419",
+          "id": 131061,
+          "identifier_value": "joemcdermottwa"
+        },
+        {
+          "official": 205806,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 131062,
+          "valid_from": "2001-01-01 00:00:00",
+          "last_update_date": "2018-08-09 18:14:16.520419",
+          "id": 131062,
+          "identifier_value": "https://www.facebook.com/Joe-McDermott-for-King-County-Council-District-8-130294793669904/"
+        },
+        {
+          "official": 205806,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2020-01-01 00:00:00",
+          "sk": 131063,
+          "valid_from": "2001-01-01 00:00:00",
+          "last_update_date": "2018-08-09 18:14:16.520419",
+          "id": 131063,
+          "identifier_value": "https://www.facebook.com/JoeMcDermott8"
+        }
+      ]
+    },
+    {
+      "id": 182279,
+      "first_name": "Teresa",
+      "last_name": "Mosqueda",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Councilmember",
+        "state": "WA",
+        "city": "Seattle",
+        "chamber_details": {
+          "name": "Seattle City Council",
+          "type": "LOWER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "LOCAL",
+          "subtype": "CITY",
+          "id": "At Large",
+          "city": "Seattle",
+          "state": "WA"
+        }
+      },
+      "term_start": "2017-11-28 00:00:00",
+      "term_end": "2022-01-01 00:00:00",
+      "party": "",
+      "bio": [
+        "Teresa Mosqueda is a third-generation Mexican-American, and comes to Seattle City Council following a long career effectively advocating for working families. Her calling for public service began as a child, where she learned first-hand what it means to stand up for the most vulnerable, and to fight for transformational change from her parents.",
+        null
+      ],
+      "photo": "http://www.seattle.gov/images/Council/Members/Mosqueda/Teresa-Mosqueda_225x225.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98104",
+        "phone_2": "(206) 684-8888",
+        "phone_1": "(206) 684-8806",
+        "fax_1": "(206) 684-8587",
+        "city": "Seattle",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Seattle City Hall",
+        "address_2": "600 Fourth Avenue",
+        "address_3": "2nd Floor"
+      },
+      "websites": [
+        "http://www.seattle.gov/council/mosqueda"
+      ],
+      "emails": [
+        "teresa.mosqueda@seattle.gov"
+      ],
+      "socials": [
+        {
+          "official": 211009,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140853,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-11-05 18:51:19.662598",
+          "id": 140853,
+          "identifier_value": "teresacmosqueda"
+        },
+        {
+          "official": 211009,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140854,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-11-05 18:51:19.662598",
+          "id": 140854,
+          "identifier_value": "https://www.facebook.com/TeresaMosquedaforSeattle/"
+        },
+        {
+          "official": 211009,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140855,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-11-05 18:51:19.662598",
+          "id": 140855,
+          "identifier_value": "https://www.facebook.com/CMTMosqueda/"
+        },
+        {
+          "official": 211009,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2022-01-01 00:00:00",
+          "sk": 140856,
+          "valid_from": "2017-11-28 00:00:00",
+          "last_update_date": "2018-11-05 18:51:19.662598",
+          "id": 140856,
+          "identifier_value": "cmtmosqueda"
+        }
+      ]
+    },
+    {
+      "id": 17569,
+      "first_name": "Patty",
+      "last_name": "Murray",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "United States Senate",
+          "type": "UPPER",
+          "term_length": "6 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "NATIONAL_UPPER",
+          "subtype": "UPPER",
+          "id": "WA",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2011-01-03 00:00:00",
+      "term_end": "2023-01-03 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "MURRAY, Patty, a Senator from Washington; born in Seattle, King County, Wash., October 11, 1950; graduated, Washington State University 1972; education volunteer 1977-1984; instructor, Shoreline Community College, Shoreline, Wash., 1984-1987; citizen lobbyist for environmental and educational issues 1983-1988; member, board of directors, Shoreline School District 1985-1989, serving as president and legislative representative for two terms; member, Washington state senate 1988-1992, Democratic whip 1990-1992; elected as a Democrat to the United States Senate in 1992; reelected in 1998, 2004, 2010, and again in 2016 for the term ending January 3, 2023; chairwoman, Democratic Senatorial Campaign Committee (2001-2003, 2011-2013), Committee on Veterans Affairs (One Hundred Twelfth Congress), Committee on the Budget (One Hundred Thirteenth Congress); Democratic Conference secretary (2007-2017); assistant Democratic leader (2017-).",
+        "1950-10-11"
+      ],
+      "photo": "http://bioguide.congress.gov/bioguide/photo/M/M001111.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20510",
+        "phone_2": "(866) 481-9186",
+        "phone_1": "(202) 224-2621",
+        "fax_1": "(202) 224-0238",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "United States Senate",
+        "address_2": "154 Russell Senate Office Building",
+        "address_3": ""
+      },
+      "websites": [
+        "http://www.murray.senate.gov/public/"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "BIOGUIDE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181933,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181933,
+          "identifier_value": "M001111"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "CRP",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181934,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181934,
+          "identifier_value": "N00007876"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181935,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181935,
+          "identifier_value": "53358"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "GOVTRACK",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181936,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181936,
+          "identifier_value": "300076"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "FEC",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181937,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181937,
+          "identifier_value": "S2WA00189"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181938,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181938,
+          "identifier_value": "SenatorPattyMurray"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181939,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181939,
+          "identifier_value": "pattymurray"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "RSS",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181942,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181942,
+          "identifier_value": "http://www.murray.senate.gov/public/?a=RSS.Feed"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181943,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181943,
+          "identifier_value": "MurrayCampaign"
+        },
+        {
+          "official": 226712,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2023-01-03 00:00:00",
+          "sk": 181944,
+          "valid_from": "2011-01-03 00:00:00",
+          "last_update_date": "2019-01-04 21:19:17.581044",
+          "id": 181944,
+          "identifier_value": "https://www.facebook.com/pattymurray"
+        }
+      ]
+    },
+    {
+      "id": 5566,
+      "first_name": "Jamie",
+      "last_name": "Pedersen",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "Senator",
+        "state": "WA",
+        "city": "",
+        "chamber_details": {
+          "name": "Washington State Senate",
+          "type": "UPPER",
+          "term_length": "4 years",
+          "term_limit": "",
+          "election_frequency": "2 years"
+        },
+        "district": {
+          "type": "STATE_UPPER",
+          "subtype": "UPPER",
+          "id": "43",
+          "city": "",
+          "state": "WA"
+        }
+      },
+      "term_start": "2014-01-01 00:00:00",
+      "term_end": "2023-01-09 00:00:00",
+      "party": "Democrat",
+      "bio": [
+        "Jamie was elected to the House of Representatives in 2006 and was appointed to the Senate in December 2013 and elected in 2014. He serves as the ranking member on the Law & Justice Committee and also serves on the Transportation Committee and the Financial Institutions & Insurance Committee.  In the House, he served as chair of the House Judiciary Committee. During his tenure in the House, he also served on the House Appropriations Committee, the Appropriations Subcommittee on General Government, the Higher Education Committee, the Health Care & Wellness Committee, the Business & Financial Services Committee, and the Capital Budget Committee. Jamie serves on the Legislative Ethics Board and the Office of Civil Legal Aid Oversight Committee and is a commissioner in the National Conference of Commissioners of Uniform State Laws.",
+        "1968-09-09"
+      ],
+      "photo": "http://app.leg.wa.gov/assets/Images/MemberThumbnails/Senate/pedersen.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "98504-0443",
+        "phone_2": "(800) 562-6000",
+        "phone_1": "(360) 786-7628",
+        "fax_1": "",
+        "city": "Olympia",
+        "fax_2": "",
+        "state": "WA",
+        "address_1": "Washington State Senate",
+        "address_2": "235 John A. Cherberg Building",
+        "address_3": "P.O. Box 40443"
+      },
+      "websites": [
+        "http://sdc.wastateleg.org/Pedersen/"
+      ],
+      "emails": [
+        "jamie.pedersen@leg.wa.gov"
+      ],
+      "socials": [
+        {
+          "official": 233323,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 205011,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2019-01-31 15:40:51.534584",
+          "id": 205011,
+          "identifier_value": "66760"
+        },
+        {
+          "official": 233323,
+          "version": 1,
+          "identifier_type": "LINKEDIN",
+          "valid_to": "2023-01-09 00:00:00",
+          "sk": 205012,
+          "valid_from": "2014-01-01 00:00:00",
+          "last_update_date": "2019-01-31 15:40:51.534584",
+          "id": 205012,
+          "identifier_value": "https://www.linkedin.com/in/jamie-pedersen-6a007853/"
+        }
+      ]
+    },
+    {
+      "id": 23792,
+      "first_name": "Michael",
+      "last_name": "Pence",
+      "nickname": "Mike",
+      "salutation": "Honorable",
+      "office_details": {
+        "position": "Vice President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "Vice President of the United States",
+          "type": "EXEC",
+          "term_length": "",
+          "term_limit": "",
+          "election_frequency": ""
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Michael R. Pence was born in Columbus, Indiana, on June 7, 1959, one of six children born to Edward and Nancy Pence. As a young boy he had a front row seat to the American Dream. After his grandfather immigrated to the United States when he was 17, his family settled in the Midwest. The future Vice President watched his Mom and Dad build everything that matters – a family, a business, and a good name. Sitting at the feet of his mother and his father, who started a successful convenience store business in their small Indiana town, he was raised to believe in the importance of hard work, faith, and family.\\n\\nIn 1981, Vice President Pence set off for Hanover College, earning his bachelor’s degree in history. While there, he renewed his Christian faith which remains the driving force in his life. He later he attended Indiana University School of Law and met the love of his life, Second Lady Karen Pence.\\n\\nAfter graduating, Vice President Pence practiced law, led the Indiana Policy Review Foundation, and began hosting The Mike Pence Show, a syndicated talk radio show and a weekly television public affairs program in Indiana. Along the way he became the proud father to three children, Michael, Charlotte, and Audrey.\\n\\nGrowing up in Indiana, surrounded by good, hardworking Hoosiers, Vice President Pence always knew that he needed to give back to the state and the country that had given him so much. In 2000, he launched a successful bid for his local congressional seat, entering the United States House of Representatives at the age of 40.\\n\\nThe people of East-Central Indiana elected Vice President Pence six times to represent them in Congress. On Capitol Hill he established himself as a champion of limited government, fiscal responsibility, economic development, educational opportunity, and the U.S. Constitution. His colleagues quickly recognized his leadership ability and unanimously elected him to serve as Chairman of the House Republican Study Committee and House Republican Conference Chairman. In this role, the Vice President helped make government smaller and more effective, reduce spending, and return power to state and local governments.\\n\\nIn 2013, Vice President Pence left the nation’s capital when Hoosiers elected him the 50th Governor of Indiana. He brought the same limited government and low tax philosophy to the Indiana Statehouse. As Governor, he enacted the largest income tax cut in Indiana history, lowering individual income tax rates, the business personal property tax, and the corporate income tax in order to strengthen the State’s competitive edge and attract new investment and good-paying jobs. Due to his relentless focus on jobs, the state’s unemployment rate fell by half during his four years in office, and at the end of his term, more Hoosiers were working than at any point in the state’s 200-year history.\\n\\nAs Governor of Indiana, Vice President Pence increased school funding, expanded school choice, and created the first state-funded Pre-K plan in Indiana history. He made career and technical education a priority in every high school. Under Vice President Pence’s leadership, Indiana, known as “The Crossroads of America,” invested more than $800 million in new money for roads and bridges across the state. Despite the record tax cuts and new investments in roads and schools, the state remained fiscally responsible, as the Vice President worked with members of the Indiana General Assembly to pass two honestly balanced budgets that left the state with strong reserves and AAA credit ratings that were the envy of the nation.\\n\\nIt was Indiana’s success story, Vice President Pence’s record of legislative and executive experience, and his strong family values that prompted President Donald Trump to select Mike Pence as his running mate in July 2016. The American people elected President Donald Trump and Vice President Pence on November 8, 2016. President Donald Trump and Vice President Pence entered office on January 20, 2017.\\n\\nVice President Mike Pence remains grateful for the grace of God, the love and support of his family, and the blessings of liberty that are every American’s birthright. He looks forward to working with the American people as together they seek to Make America Great Again.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Avenue NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/vice-president-pence"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119753,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119753,
+          "identifier_value": "VP"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119754,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119754,
+          "identifier_value": "vp"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119755,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119755,
+          "identifier_value": "mike_pence"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119756,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119756,
+          "identifier_value": "https://www.facebook.com/mikepence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119757,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119757,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119758,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119758,
+          "identifier_value": "https://www.facebook.com/VicePresidentPence/"
+        },
+        {
+          "official": 201581,
+          "version": 1,
+          "identifier_type": "VOTESMART",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119759,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:38.268124",
+          "id": 119759,
+          "identifier_value": "34024"
+        }
+      ]
+    },
+    {
+      "id": 137193,
+      "first_name": "Donald",
+      "last_name": "Trump",
+      "nickname": "",
+      "salutation": "",
+      "office_details": {
+        "position": "President",
+        "state": "",
+        "city": "",
+        "chamber_details": {
+          "name": "President of the United States",
+          "type": "EXEC",
+          "term_length": "4 years",
+          "term_limit": "2 terms",
+          "election_frequency": "4 years"
+        },
+        "district": {
+          "type": "NATIONAL_EXEC",
+          "subtype": "NATION",
+          "id": "UNITED STATES",
+          "city": "",
+          "state": ""
+        }
+      },
+      "term_start": "2017-01-20 00:00:00",
+      "term_end": "2021-01-20 00:00:00",
+      "party": "Republican",
+      "bio": [
+        "Donald J. Trump is the very definition of the American success story. Throughout his life he has continually set the standards of business and entrepreneurial excellence, especially with his interests in real estate, sports, and entertainment. Likewise, his entry into politics and public service resulted in the Presidential victory in, miraculously, his first ever run for office.\\n\\nAfter graduating from the Wharton School of Finance, Mr. Trump followed in his father’s footsteps as a real estate developer, and he entered the world of real estate development in New York. The Trump signature soon became synonymous with the most prestigious of addresses in Manhattan and subsequently throughout the world. An accomplished author, Mr. Trump has authored over fourteen bestsellers and his first book, The Art of the Deal, in addition to being the #1 book of the year, is considered a business classic.\\n\\nMr. Trump announced his candidacy on June 16, 2015, and after seventeen Republican contenders suspended their campaigns, he accepted the Republican nomination for President of the United States in July of 2016. Mr. Trump won the election on November 8 of 2016 in the largest electoral college landslide for a Republican in 28 years. He won over 2,600 counties nationwide, the most since President Reagan in 1984. Additionally, he won over 62 million votes in the popular vote, the highest all-time for a Republican nominee. He also won 306 electoral votes, the most for a Republican since George H.W. Bush in 1988. Millions of Americans rallied behind his message of rebuilding our country and disrupting the status quo—this was a truly national victory and a historic movement.\\n\\nDonald J. Trump campaigned in places he knew Republicans have had difficulty winning—Flint, Michigan, charter schools in inner-city Cleveland, and Hispanic churches in Florida—because he wanted to bring his message of economic empowerment to all Americans. Millions of new Republicans trusted Mr. Trump with their vote because of his focus on delivering prosperity through better trade deals, and as a result there were healthy margins of victory in newly red areas. It is clear that President Trump’s win is one that brought Americans of all backgrounds together, and he is ready to deliver results for the nation on day one and every day of his tenure.\\n\\nPresident Trump has been married to his wife, Melania, for twelve years and they are parents to their son, Barron.  Additionally, Mr. Trump has four adult children, Don Jr., Ivanka, Eric and Tiffany, and eight grandchildren.",
+        null
+      ],
+      "photo": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+      "office_location": {
+        "county": "",
+        "postal_code": "20500",
+        "phone_2": "202-456-1414",
+        "phone_1": "202-456-1111",
+        "fax_1": "",
+        "city": "Washington",
+        "fax_2": "",
+        "state": "DC",
+        "address_1": "The White House",
+        "address_2": "1600 Pennsylvania Ave NW",
+        "address_3": ""
+      },
+      "websites": [
+        "https://www.whitehouse.gov/administration/president-trump"
+      ],
+      "emails": [],
+      "socials": [
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119744,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119744,
+          "identifier_value": "POTUS"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "INSTAGRAM",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119745,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119745,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119746,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119746,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "YOUTUBE",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119747,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119747,
+          "identifier_value": "whitehouse"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "TWITTER",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119748,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119748,
+          "identifier_value": "realDonaldTrump"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119749,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119749,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119750,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119750,
+          "identifier_value": "https://www.facebook.com/POTUS/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-CAMPAIGN",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119751,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119751,
+          "identifier_value": "https://www.facebook.com/DonaldTrump/"
+        },
+        {
+          "official": 201580,
+          "version": 1,
+          "identifier_type": "FACEBOOK-OFFICIAL",
+          "valid_to": "2021-01-20 00:00:00",
+          "sk": 119752,
+          "valid_from": "2017-01-20 00:00:00",
+          "last_update_date": "2018-05-25 18:32:23.107622",
+          "id": 119752,
+          "identifier_value": "https://www.facebook.com/whitehouse"
+        }
+      ]
+    }
+  ]
+}
