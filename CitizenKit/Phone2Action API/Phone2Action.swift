@@ -12,6 +12,7 @@ public enum Phone2Action {
     
     private static let endpointURL = URL(string: "")!
     
+    /// This was a temporary endpoint that only existed during TreeHacks. It's not live anymore.
     public static func fetchLegislators(for address: String) -> Promise<[Legislator]> {
         let promise = Promise<[Legislator]>()
         
@@ -54,6 +55,26 @@ public enum Phone2Action {
         }.resume()
         
         return promise
+    }
+    
+    /// Loads legislators from Phone2Action json responses that I saved before they shut down the API
+    public static func loadLocalLegislators(for city: String) -> Promise<[Legislator]> {
+        do {
+            guard let bundle = Bundle(identifier: "com.cliffpanos.Citizen-X.CitizenKit"),
+                let localUrl = bundle.url(forResource: city.replacingOccurrences(of: ",", with: ""), withExtension: "json") else
+            {
+                return Promise(value: [])
+            }
+            
+            return Promise(value:
+                try LegislatorsResponse.preferredDecoder.decode(
+                    LegislatorsResponse.self,
+                    from: try Data(contentsOf: localUrl))
+                .officials.map(Legislator.init(from:)))
+            
+        } catch {
+            return Promise(value: [])
+        }
     }
     
 }

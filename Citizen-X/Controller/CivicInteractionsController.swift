@@ -50,7 +50,7 @@ class CivicInteractionsController {
             shareableUrl: nil,
             responseContent: LocationViewContent(location: location)))
         
-        Phone2Action.fetchLegislators(for: city).then { legislators in
+        Phone2Action.loadLocalLegislators(for: city).then { legislators in
             self.allLegislators = legislators
             print("Updated legislators for \(city)")
             NotificationCenter.default.post(name: .interactionsControllerDidFetchNewLegislators, object: city)
